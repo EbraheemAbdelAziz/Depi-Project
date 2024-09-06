@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProjectModels.Models
+namespace TravelGuide.Entiteis.Models
 {
     public class Hotel
     {
@@ -22,9 +17,6 @@ namespace ProjectModels.Models
         [MaxLength(50)]
         public string Email { get; set; }
         public int Rating { get; set; }     // Rate from 1 to 5
-
-
-       
-
+        
     }
 }
