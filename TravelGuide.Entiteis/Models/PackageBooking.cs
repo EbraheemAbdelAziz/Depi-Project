@@ -8,31 +8,21 @@ using System.Threading.Tasks;
 
 namespace TravelGuide.Entiteis.Models
 {
-    public class PackageBooking
+    public class PackageBooking : Booking
     {
         [Key]
-        public int BookingId { get; set; }
-
+        public int BookingId {  get; set; }
         [Required]
         public int PackageId { get; set; }
-
-        [Required]
-        public int UserId { get; set; }
-
-        [Required]
-        public DateTime BookingDate { get; set; }
 
         [Required]
         public int NumberOfGuests { get; set; }
 
         [Required]
-        public decimal TotalPrice { get; set; }
 
         // Foreign key relationships
         [ForeignKey("PackageId")]
-        public virtual TravelPackages TravelPackage { get; set; }
+        public virtual TravelPackage TravelPackage { get; set; }
 
-        [ForeignKey("UserId")]
-        public virtual User User { get; set; }
     }
 }

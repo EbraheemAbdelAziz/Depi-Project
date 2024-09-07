@@ -4122,19 +4122,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL 5480\\.nuget\\packages\\": {}
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL 5480\\source\\repos\\TravelGuide\\TravelGuide\\TravelGuide.csproj",
+      "projectUniqueName": "D:\\Dot Net\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
       "projectName": "TravelGuide",
-      "projectPath": "C:\\Users\\DELL 5480\\source\\repos\\TravelGuide\\TravelGuide\\TravelGuide.csproj",
-      "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL 5480\\source\\repos\\TravelGuide\\TravelGuide\\obj\\",
+      "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "D:\\Dot Net\\Depi-Project\\TravelGuide\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL 5480\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4149,8 +4149,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL 5480\\source\\repos\\TravelGuide\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
-              "projectPath": "C:\\Users\\DELL 5480\\source\\repos\\TravelGuide\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
+            "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+              "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
             }
           }
         }

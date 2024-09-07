@@ -6,23 +6,16 @@ namespace TravelGuide.Entiteis.Models
 {
     public class FlightBooking : Booking
     {
-        public FlightBooking(int flightId, Flight? flight, int seatNumber, string flightClass,
-                             int bookingId, DateTime bookingDate, int userId,
-                             double totalPrice, bool bookingStatus)
-                             : base(bookingId, bookingDate, userId, totalPrice, bookingStatus)
-        {
-            FlightId = flightId;
-            this.flight = flight;
-            SeatNumber = seatNumber;
-            Class = flightClass;
-        }
-
-        [ForeignKey(nameof(flight))]
+        [Key]
+        public int BookingId { get; set; }
+        [ForeignKey(nameof(Flight))]
         public int FlightId { get; set; }
-        public Flight? flight { get; set; }
+        public Flight? Flight { get; set; }
+        [MaxLength(20)]
         public int SeatNumber { get; set; }
 
         [MaxLength(20)]
-        public String Class { get; set; }
+        public string Class { get; set; }
+
     }
 }

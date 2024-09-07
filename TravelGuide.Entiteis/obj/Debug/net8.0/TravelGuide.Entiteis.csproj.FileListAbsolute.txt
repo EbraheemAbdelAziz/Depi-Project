@@ -1,0 +1,12 @@
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.deps.json
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.dll
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.pdb
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.AssemblyInfoInputs.cache
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.AssemblyInfo.cs
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.CoreCompileInputs.cache
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.sourcelink.json
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.dll
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\refint\TravelGuide.Entiteis.dll
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.pdb
+D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\ref\TravelGuide.Entiteis.dll

@@ -10,7 +10,7 @@ namespace TravelGuide.Entiteis.Models
     public class User
     {
         [Key]
-        public int UserId;
+        public int UserId { get; set; }
 
         [MaxLength(50)]
         public string FirstName { get; set; }
