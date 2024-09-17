@@ -16,6 +16,7 @@ namespace TravelGuide.Entiteis.Models
         public string PhoneNumber { get; set; }
         [MaxLength(50)]
         public string Email { get; set; }
+        [Range(1, 5, ErrorMessage = "Rating must be between 1 and 5.")]
         public int Rating { get; set; }     // Rate from 1 to 5
         
     }
