@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TravelGuide.Entiteis\TravelGuide.Entiteis.csproj" />
+    <ProjectReference Include="..\TravelGuide.Repositories\TravelGuide.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

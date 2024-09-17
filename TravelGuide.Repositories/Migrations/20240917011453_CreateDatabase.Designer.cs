@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PointOfSales.Models;
+using TravelGuide.Context;
 
 #nullable disable
 
-namespace TravelGuide.Migrations
+namespace TravelGuide.Repositories.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    [Migration("20240907021454_CreateDatabase")]
+    [Migration("20240917011453_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />
@@ -93,14 +93,9 @@ namespace TravelGuide.Migrations
                     b.Property<double>("TotalPrice")
                         .HasColumnType("float");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("BookingId");
 
                     b.HasIndex("FlightId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("FlightBookings");
                 });
@@ -146,6 +141,37 @@ namespace TravelGuide.Migrations
                     b.ToTable("Hotels");
                 });
 
+            modelBuilder.Entity("TravelGuide.Entiteis.Models.Location", b =>
+                {
+                    b.Property<int>("LocationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LocationId"));
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasMaxLength(70)
+                        .HasColumnType("nvarchar(70)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LocationName")
+                        .IsRequired()
+                        .HasMaxLength(70)
+                        .HasColumnType("nvarchar(70)");
+
+                    b.HasKey("LocationId");
+
+                    b.ToTable("Locations");
+                });
+
             modelBuilder.Entity("TravelGuide.Entiteis.Models.PackageBooking", b =>
                 {
                     b.Property<int>("BookingId")
@@ -169,16 +195,45 @@ namespace TravelGuide.Migrations
                     b.Property<double>("TotalPrice")
                         .HasColumnType("float");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("BookingId");
 
                     b.HasIndex("PackageId");
 
-                    b.HasIndex("UserId");
-
                     b.ToTable("PackageBookings");
+                });
+
+            modelBuilder.Entity("TravelGuide.Entiteis.Models.Payment", b =>
+                {
+                    b.Property<int>("PaymentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Currency")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Method")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("PaymentId");
+
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("TravelGuide.Entiteis.Models.Room", b =>
@@ -245,16 +300,11 @@ namespace TravelGuide.Migrations
                     b.Property<double>("TotalPrice")
                         .HasColumnType("float");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("BookingId");
 
                     b.HasIndex("HotelId");
 
                     b.HasIndex("RoomId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("RoomBookings");
                 });
@@ -309,72 +359,6 @@ namespace TravelGuide.Migrations
                     b.ToTable("TravelPackages");
                 });
 
-            modelBuilder.Entity("TravelGuide.Entiteis.Models.User", b =>
-                {
-                    b.Property<int>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<DateTime>("DOB")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Gender")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
-
-                    b.Property<string>("HotelName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Nationality")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Passsword")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("Token")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("UserType")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.HasKey("UserId");
-
-                    b.ToTable("Users");
-                });
-
             modelBuilder.Entity("TravelGuide.Entiteis.Models.WatchlistItem", b =>
                 {
                     b.Property<int>("WatchlistItemId")
@@ -391,12 +375,7 @@ namespace TravelGuide.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("WatchlistItemId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("WatchlistItems");
                 });
@@ -409,15 +388,7 @@ namespace TravelGuide.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TravelGuide.Entiteis.Models.User", "user")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Flight");
-
-                    b.Navigation("user");
                 });
 
             modelBuilder.Entity("TravelGuide.Entiteis.Models.PackageBooking", b =>
@@ -428,15 +399,7 @@ namespace TravelGuide.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TravelGuide.Entiteis.Models.User", "user")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("TravelPackage");
-
-                    b.Navigation("user");
                 });
 
             modelBuilder.Entity("TravelGuide.Entiteis.Models.Room", b =>
@@ -464,38 +427,14 @@ namespace TravelGuide.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TravelGuide.Entiteis.Models.User", "user")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Hotel");
 
                     b.Navigation("Room");
-
-                    b.Navigation("user");
-                });
-
-            modelBuilder.Entity("TravelGuide.Entiteis.Models.WatchlistItem", b =>
-                {
-                    b.HasOne("TravelGuide.Entiteis.Models.User", "User")
-                        .WithMany("WatchlistItems")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("TravelGuide.Entiteis.Models.TravelPackage", b =>
                 {
                     b.Navigation("PackageBookings");
-                });
-
-            modelBuilder.Entity("TravelGuide.Entiteis.Models.User", b =>
-                {
-                    b.Navigation("WatchlistItems");
                 });
 #pragma warning restore 612, 618
         }

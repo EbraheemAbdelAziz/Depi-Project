@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TravelGuide.Entiteis.Models;
 
-namespace PointOfSales.Models
+namespace TravelGuide.Context
 {
     public class MyDbContext : DbContext
     {
@@ -10,7 +10,7 @@ namespace PointOfSales.Models
             
         }
 
-        public DbSet<User> Users { get; set; }
+        //public DbSet<User> Users { get; set; }
         public DbSet<WatchlistItem> WatchlistItems { get; set; }
         public DbSet<Hotel> Hotels {  get; set; }
         public DbSet<Room> Rooms { get; set; }
@@ -18,7 +18,8 @@ namespace PointOfSales.Models
         public DbSet<TravelPackage> TravelPackages { get; set; }
         public DbSet<RoomBooking> RoomBookings { get; set; }
         public DbSet<FlightBooking> FlightBookings { get; set; }
-
+        public DbSet<Location> Locations { get; set; }
+        public DbSet<Payment> Payments { get; set; }
         public DbSet<PackageBooking> PackageBookings { get; set; }
 
 

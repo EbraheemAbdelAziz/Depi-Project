@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using PointOfSales.Models;
+using TravelGuide.Context;
+using TravelGuide.Repositories.Emplimintations;
+using TravelGuide.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<MyDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 
 
 var app = builder.Build();

@@ -137,3 +137,7 @@ D:\Dot Net\Depi-Project\TravelGuide\obj\Debug\net8.0\refint\TravelGuide.dll
 D:\Dot Net\Depi-Project\TravelGuide\obj\Debug\net8.0\TravelGuide.pdb
 D:\Dot Net\Depi-Project\TravelGuide\obj\Debug\net8.0\TravelGuide.genruntimeconfig.cache
 D:\Dot Net\Depi-Project\TravelGuide\obj\Debug\net8.0\ref\TravelGuide.dll
+D:\Dot Net\Depi-Project\TravelGuide\bin\Debug\net8.0\Microsoft.AspNetCore.WebUtilities.dll
+D:\Dot Net\Depi-Project\TravelGuide\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
+D:\Dot Net\Depi-Project\TravelGuide\bin\Debug\net8.0\TravelGuide.Repositories.dll
+D:\Dot Net\Depi-Project\TravelGuide\bin\Debug\net8.0\TravelGuide.Repositories.pdb

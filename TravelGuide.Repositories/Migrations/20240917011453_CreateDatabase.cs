@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace TravelGuide.Migrations
+namespace TravelGuide.Repositories.Migrations
 {
     /// <inheritdoc />
     public partial class CreateDatabase : Migration
@@ -48,6 +48,39 @@ namespace TravelGuide.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Locations",
+                columns: table => new
+                {
+                    LocationId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LocationName = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    Country = table.Column<string>(type: "nvarchar(70)", maxLength: 70, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Locations", x => x.LocationId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Payments",
+                columns: table => new
+                {
+                    PaymentId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Amount = table.Column<double>(type: "float", nullable: false),
+                    Currency = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Method = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    PaymentDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Payments", x => x.PaymentId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "TravelPackages",
                 columns: table => new
                 {
@@ -70,26 +103,41 @@ namespace TravelGuide.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Users",
+                name: "WatchlistItems",
                 columns: table => new
                 {
-                    UserId = table.Column<int>(type: "int", nullable: false)
+                    WatchlistItemId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    FirstName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Passsword = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Nationality = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    HotelName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    DOB = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Gender = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
-                    UserType = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    Token = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
+                    ItemID = table.Column<int>(type: "int", nullable: false),
+                    ItemType = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Users", x => x.UserId);
+                    table.PrimaryKey("PK_WatchlistItems", x => x.WatchlistItemId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "FlightBookings",
+                columns: table => new
+                {
+                    BookingId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FlightId = table.Column<int>(type: "int", nullable: false),
+                    SeatNumber = table.Column<int>(type: "int", maxLength: 20, nullable: false),
+                    Class = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    BookingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    TotalPrice = table.Column<double>(type: "float", nullable: false),
+                    BookingStatus = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_FlightBookings", x => x.BookingId);
+                    table.ForeignKey(
+                        name: "FK_FlightBookings_Flights_FlightId",
+                        column: x => x.FlightId,
+                        principalTable: "Flights",
+                        principalColumn: "FlightId",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -117,37 +165,6 @@ namespace TravelGuide.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "FlightBookings",
-                columns: table => new
-                {
-                    BookingId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    FlightId = table.Column<int>(type: "int", nullable: false),
-                    SeatNumber = table.Column<int>(type: "int", maxLength: 20, nullable: false),
-                    Class = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    BookingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    TotalPrice = table.Column<double>(type: "float", nullable: false),
-                    BookingStatus = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_FlightBookings", x => x.BookingId);
-                    table.ForeignKey(
-                        name: "FK_FlightBookings_Flights_FlightId",
-                        column: x => x.FlightId,
-                        principalTable: "Flights",
-                        principalColumn: "FlightId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_FlightBookings_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "UserId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "PackageBookings",
                 columns: table => new
                 {
@@ -156,7 +173,6 @@ namespace TravelGuide.Migrations
                     PackageId = table.Column<int>(type: "int", nullable: false),
                     NumberOfGuests = table.Column<int>(type: "int", nullable: false),
                     BookingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
                     TotalPrice = table.Column<double>(type: "float", nullable: false),
                     BookingStatus = table.Column<bool>(type: "bit", nullable: false)
                 },
@@ -168,33 +184,6 @@ namespace TravelGuide.Migrations
                         column: x => x.PackageId,
                         principalTable: "TravelPackages",
                         principalColumn: "PackageId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_PackageBookings_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "UserId",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "WatchlistItems",
-                columns: table => new
-                {
-                    WatchlistItemId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    ItemID = table.Column<int>(type: "int", nullable: false),
-                    ItemType = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_WatchlistItems", x => x.WatchlistItemId);
-                    table.ForeignKey(
-                        name: "FK_WatchlistItems_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -209,7 +198,6 @@ namespace TravelGuide.Migrations
                     ChickInDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ChickOutDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BookingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
                     TotalPrice = table.Column<double>(type: "float", nullable: false),
                     BookingStatus = table.Column<bool>(type: "bit", nullable: false)
                 },
@@ -221,18 +209,12 @@ namespace TravelGuide.Migrations
                         column: x => x.HotelId,
                         principalTable: "Hotels",
                         principalColumn: "HotelId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
                         name: "FK_RoomBookings_Rooms_RoomId",
                         column: x => x.RoomId,
                         principalTable: "Rooms",
                         principalColumn: "RoomId",
-                        onDelete: ReferentialAction.NoAction);
-                    table.ForeignKey(
-                        name: "FK_RoomBookings_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -242,19 +224,9 @@ namespace TravelGuide.Migrations
                 column: "FlightId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_FlightBookings_UserId",
-                table: "FlightBookings",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_PackageBookings_PackageId",
                 table: "PackageBookings",
                 column: "PackageId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_PackageBookings_UserId",
-                table: "PackageBookings",
-                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_RoomBookings_HotelId",
@@ -267,19 +239,9 @@ namespace TravelGuide.Migrations
                 column: "RoomId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RoomBookings_UserId",
-                table: "RoomBookings",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Rooms_hotelId",
                 table: "Rooms",
                 column: "hotelId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_WatchlistItems_UserId",
-                table: "WatchlistItems",
-                column: "UserId");
         }
 
         /// <inheritdoc />
@@ -289,7 +251,13 @@ namespace TravelGuide.Migrations
                 name: "FlightBookings");
 
             migrationBuilder.DropTable(
+                name: "Locations");
+
+            migrationBuilder.DropTable(
                 name: "PackageBookings");
+
+            migrationBuilder.DropTable(
+                name: "Payments");
 
             migrationBuilder.DropTable(
                 name: "RoomBookings");
@@ -305,9 +273,6 @@ namespace TravelGuide.Migrations
 
             migrationBuilder.DropTable(
                 name: "Rooms");
-
-            migrationBuilder.DropTable(
-                name: "Users");
 
             migrationBuilder.DropTable(
                 name: "Hotels");

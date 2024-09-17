@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelGuide", "TravelGuide\TravelGuide.csproj", "{D442FC7D-A5D1-4DA9-AE0F-0420E016B04C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelGuide", "TravelGuide\TravelGuide.csproj", "{D442FC7D-A5D1-4DA9-AE0F-0420E016B04C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelGuide.Entiteis", "TravelGuide.Entiteis\TravelGuide.Entiteis.csproj", "{E535B2BE-47D8-4530-81E9-1EB963AC83F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelGuide.Entiteis", "TravelGuide.Entiteis\TravelGuide.Entiteis.csproj", "{E535B2BE-47D8-4530-81E9-1EB963AC83F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelGuide.Repositories", "TravelGuide.Repositories\TravelGuide.Repositories.csproj", "{B97D2E84-9127-4EB4-86F2-94F62C2F4B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E535B2BE-47D8-4530-81E9-1EB963AC83F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E535B2BE-47D8-4530-81E9-1EB963AC83F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E535B2BE-47D8-4530-81E9-1EB963AC83F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97D2E84-9127-4EB4-86F2-94F62C2F4B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97D2E84-9127-4EB4-86F2-94F62C2F4B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97D2E84-9127-4EB4-86F2-94F62C2F4B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97D2E84-9127-4EB4-86F2-94F62C2F4B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
