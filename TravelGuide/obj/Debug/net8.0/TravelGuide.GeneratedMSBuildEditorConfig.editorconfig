@@ -17,119 +17,159 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TravelGuide
 build_property.RootNamespace = TravelGuide
-build_property.ProjectDir = C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide\
+build_property.ProjectDir = C:\Users\Mohamed\Source\Repos\Depi-Project1\TravelGuide\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide
+build_property.MSBuildProjectDirectory = C:\Users\Mohamed\Source\Repos\Depi-Project1\TravelGuide
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/FlightBooking/DeleteFlightBooking.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/FlightBooking/DeleteFlightBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xEZWxldGVGbGlnaHRCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/FlightBooking/EditFlightBooking.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/FlightBooking/EditFlightBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xFZGl0RmxpZ2h0Qm9va2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/FlightBooking/FlightBookingDetails.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/FlightBooking/FlightBookingDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xGbGlnaHRCb29raW5nRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/FlightBooking/listFlightBookings.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/FlightBooking/listFlightBookings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xsaXN0RmxpZ2h0Qm9va2luZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/FlightBooking/NewFlightBooking.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/FlightBooking/NewFlightBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0Qm9va2luZ1xOZXdGbGlnaHRCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Flight/DeleteFlight.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Flight/DeleteFlight.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XERlbGV0ZUZsaWdodC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Flight/EditFlight.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Flight/EditFlight.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEVkaXRGbGlnaHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Flight/FlightDetails.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Flight/FlightDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEZsaWdodERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Flight/FlightsList.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Flight/FlightsList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XEZsaWdodHNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Flight/NewFlight.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Flight/NewFlight.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0XE5ld0ZsaWdodC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Home/Index.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Home/Privacy.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Hotels/DeleteHotel.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Hotels/DeleteHotel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXERlbGV0ZUhvdGVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Hotels/EditHotel.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Hotels/EditHotel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEVkaXRIb3RlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Hotels/HotelDetails.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Hotels/HotelDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEhvdGVsRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Hotels/HotelsList.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Hotels/HotelsList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXEhvdGVsc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Hotels/NewHotel.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Hotels/NewHotel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXE5ld0hvdGVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Rooms/DeleteRoom.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/PackageBooking/DeletePackageBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZUJvb2tpbmdcRGVsZXRlUGFja2FnZUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/PackageBooking/EditPackageBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZUJvb2tpbmdcRWRpdFBhY2thZ2VCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/PackageBooking/listPackageBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZUJvb2tpbmdcbGlzdFBhY2thZ2VCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/PackageBooking/NewPackageBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZUJvb2tpbmdcTmV3UGFja2FnZUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/PackageBooking/PackageBookingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZUJvb2tpbmdcUGFja2FnZUJvb2tpbmdEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/DeleteRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Rooms/EditRoom.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/EditRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRWRpdFJvb20uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Rooms/NewRoom.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/NewRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcTmV3Um9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Rooms/RoomDetails.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/RoomDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcUm9vbURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Rooms/RoomsList.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/RoomsList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcUm9vbXNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Shared/Error.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/_ViewImports.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/TravelPackages/DeleteTravelPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcRGVsZXRlVHJhdmVsUGFja2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/TravelPackages/EditTravelPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcRWRpdFRyYXZlbFBhY2thZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/TravelPackages/NewTravelPackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcTmV3VHJhdmVsUGFja2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/TravelPackages/TravelPackageDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcVHJhdmVsUGFja2FnZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/TravelPackages/TravelPackageList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcVHJhdmVsUGFja2FnZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/_ViewStart.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL 5480/Source/Repos/Depi-Project/TravelGuide/Views/Shared/_Layout.cshtml]
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qso4s2br5z
