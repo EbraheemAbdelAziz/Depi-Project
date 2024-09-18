@@ -7,7 +7,7 @@ namespace TravelGuide.Controllers
 {
     public class WatchlistItemController : Controller
     {
-        IBaseRepository<WatchlistItem> _WatchlistItem;
+        private readonly IBaseRepository<WatchlistItem> _WatchlistItem;
 
         public WatchlistItemController(IBaseRepository<WatchlistItem> watchlistItem)
         {
@@ -17,15 +17,15 @@ namespace TravelGuide.Controllers
         // GET: WatchlistItemController
         public async Task<ActionResult> Index()
         {
-            var WatchList = await _WatchlistItem.GetAll();
-            return View("WatchlistList", WatchList);
+            var watchList = await _WatchlistItem.GetAll();
+            return View("WatchlistList", watchList);
         }
 
         // GET: WatchlistItemController/Details/5
         public async Task<ActionResult> Details(int id)
         {
-            var WatchList = await _WatchlistItem.GetById(id);
-            return View("WatchlistDetails", WatchList);
+            var watchList = await _WatchlistItem.GetById(id);
+            return View("WatchlistDetails", watchList);
         }
 
         // GET: WatchlistItemController/Create
