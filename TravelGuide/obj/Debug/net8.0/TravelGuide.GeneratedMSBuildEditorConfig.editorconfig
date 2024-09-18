@@ -126,6 +126,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcTmV3Um9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/NewWatchlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcTmV3V2F0Y2hsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/Rooms/RoomDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcUm9vbURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -160,6 +164,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/TravelPackages/TravelPackageList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhdmVsUGFja2FnZXNcVHJhdmVsUGFja2FnZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/WatchlistItem/DeleteWatchlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hsaXN0SXRlbVxEZWxldGVXYXRjaGxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/WatchlistItem/EditWatchlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hsaXN0SXRlbVxFZGl0V2F0Y2hsaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/WatchlistItem/NewWatchlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hsaXN0SXRlbVxOZXdXYXRjaGxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/WatchlistItem/WatchlistDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hsaXN0SXRlbVxXYXRjaGxpc3REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/WatchlistItem/WatchlistList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2F0Y2hsaXN0SXRlbVxXYXRjaGxpc3RMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Mohamed/Source/Repos/Depi-Project1/TravelGuide/Views/_ViewImports.cshtml]
