@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DELL 5480\\.nuget\\packages\\": {}
+    "C:\\Users\\El-Wattaneya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+      "projectUniqueName": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
       "projectName": "TravelGuide.Entiteis",
-      "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
-      "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
+      "projectPath": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+      "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide.Entiteis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL 5480\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
