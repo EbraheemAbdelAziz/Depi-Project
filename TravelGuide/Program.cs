@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TravelGuide.Context;
-using TravelGuide.Repositories.Emplimintations;
+using TravelGuide.Repositories.Implementation;
 using TravelGuide.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -11,7 +11,6 @@ namespace TravelGuide.Entiteis.Models
         [ForeignKey(nameof(Flight))]
         public int FlightId { get; set; }
         public Flight? Flight { get; set; }
-        [MaxLength(20)]
         public int SeatNumber { get; set; }
 
         [MaxLength(20)]
