@@ -1,248 +1,664 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelGuide.bundle.scp.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelGuide.bundle.scp.css",
       "PackagePath": "staticwebassets\\TravelGuide.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\css\\site.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\favicon.ico",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\js\\site.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\V2\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\_media.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\_media.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_border-radius.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_border-radius.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_reset-text.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_reset-text.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_screen-reader.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_text-hide.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_text-hide.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_visibility.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_visibility.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "PackagePath": "staticwebassets\\login\\css\\bootstrap\\utilities\\_stretched-link.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\style.css",
+      "PackagePath": "staticwebassets\\login\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\login\\images\\bg.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\login\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\login\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\main.js",
+      "PackagePath": "staticwebassets\\login\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\popper.js",
+      "PackagePath": "staticwebassets\\login\\js\\popper.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\login\\scss\\style.scss"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelGuide.Microsoft.AspNetCore.StaticWebAssets.props",

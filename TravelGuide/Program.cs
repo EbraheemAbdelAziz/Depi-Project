@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TravelGuide.Context;
+using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Implementation;
 using TravelGuide.Repositories.Interfaces;
 
@@ -9,8 +11,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<MyDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
-builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+//builder.Logging.ClearProviders();
+//builder.Logging.AddConsole();
 
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredLength = 3;
+    opt.Password.RequiredUniqueChars = 0;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequireDigit = false;
+    opt.Password.RequireLowercase = false;
+    opt.Password.RequireUppercase = false;
+    opt.SignIn.RequireConfirmedEmail = false;
+}).AddEntityFrameworkStores<MyDbContext>().AddDefaultTokenProviders();
+builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+builder.Services.AddScoped<IUploadFile, UploadFile>();
 
 var app = builder.Build();
 
