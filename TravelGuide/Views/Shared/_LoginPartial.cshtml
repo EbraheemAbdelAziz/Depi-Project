@@ -5,16 +5,14 @@
     <ul class="navbar-nav">
     @if (_signInManager.IsSignedIn(User))
     {
-        <li class="nav-item">
-            <h4>Hello, @User.Identity.Name</h4>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="btn btn-danger">Logout</a>
+
+        <li class="nav-item ml-2">
+            <a asp-action ="Logout" asp-controller="Account" class="btn btn-danger">Logout</a>
         </li>
     }else
     {
         <li class="nav-item ">
-            <a href="#" class="btn btn-primary">Login</a>
+            <a asp-action="Login" asp-controller="Account" class="btn btn-primary ">Login</a>
         </li>
         <li class="nav-item">
             <a asp-action="Register" asp-controller="Account" class="btn btn-outline-primary mx-1">Sign up</a>

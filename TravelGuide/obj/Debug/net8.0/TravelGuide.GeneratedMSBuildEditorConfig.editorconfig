@@ -142,6 +142,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZUJvb2tpbmdcUGFja2FnZUJvb2tpbmdEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Dot Net/Depi-Project/TravelGuide/Views/Payment/DeletePayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxEZWxldGVQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/Payment/EditPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxFZGl0UGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/Payment/NewPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxOZXdQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/Payment/PaymentDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/Payment/PaymentsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50c0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/RoomBooking/DeleteRoomBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbUJvb2tpbmdcRGVsZXRlUm9vbUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/RoomBooking/EditRoomBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbUJvb2tpbmdcRWRpdFJvb21Cb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/RoomBooking/NewRoomBooking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbUJvb2tpbmdcTmV3Um9vbUJvb2tpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/RoomBooking/RoomBookingDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbUJvb2tpbmdcUm9vbUJvb2tpbmdEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dot Net/Depi-Project/TravelGuide/Views/RoomBooking/RoomsBookingList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbUJvb2tpbmdcUm9vbXNCb29raW5nTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Dot Net/Depi-Project/TravelGuide/Views/Rooms/DeleteRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -23,72 +23,87 @@ namespace TravelGuide.Controllers
         }
 
         // GET: PaymentController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            return View();
+            var payment = _payment.GetById(id);
+            return View("paymentDetails", payment);
         }
 
         // GET: PaymentController/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
-            return View();
+            return View("NewPayment");
         }
 
         // POST: PaymentController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(Payment payment)
         {
             try
             {
+                await _payment.AddItem(payment);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
-            }
+				return View("NewPayment");
+			}
         }
 
         // GET: PaymentController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(int id)
         {
-            return View();
+            var payment = await _payment.GetById(id);
+            if (payment == null)
+            {
+				return RedirectToAction(nameof(Index));
+			}
+            return View("EditPayment", payment);
         }
 
         // POST: PaymentController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(int id, Payment payment)
         {
             try
             {
+                await _payment.UpdateItem(payment);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
-            }
+				return View("EditPayment", payment);
+			}
         }
 
         // GET: PaymentController/Delete/5
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            return View();
+			var payment = await _payment.GetById(id);
+			if (payment == null)
+			{
+				return RedirectToAction(nameof(Index));
+			}
+			return View("DeletePayment", payment);
         }
 
         // POST: PaymentController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(int id, IFormCollection collection)
         {
             try
             {
+                await _payment.DeleteItem(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
-            }
+                return View("DeletePayment");
+
+			}
         }
     }
 }

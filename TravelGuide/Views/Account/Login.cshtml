@@ -1,1 +1,42 @@
-﻿
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_RegisterAndLoginLayout";
+}
+<div class="row justify-content-center">
+	<div class="col-md-6 text-center ">
+		<h2 class="heading-section">Sign in</h2>
+	</div>
+</div>
+<div class="row justify-content-center">
+	<div class="col-md-6 col-lg-4">
+		<div class="login-wrap p-0">
+			<h3 class="text-center">Ready to enjoy with your life?'</h3>
+			<form asp-action="Login" method="post" class="signin-form">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<input asp-for="Username" class="form-control" placeholder="Enter your Username">
+					<span asp-validation-for="Username" class=""></span>
+				</div>
+				<div class="form-group">
+					<input id="password-field1" asp-for="Password" class="form-control" placeholder="Enter your Password">
+					<span asp-validation-for="Password" class=" "></span>
+				</div>
+				<div class="form-group">
+					<input asp-for="Remmeberme" class="ml-2 mr-2"/>
+					<label asp-for="Remmeberme" class=""></label>
+					<span asp-validation-for="Remmeberme" class=" "></span>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="form-control btn btn-primary submit ">Login</button>
+				</div>
+			</form>
+			<a asp-action="Register" asp-controller="Account" class="">You don't' have an acount ?</a>
+		</div>
+	</div>
+</div>
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

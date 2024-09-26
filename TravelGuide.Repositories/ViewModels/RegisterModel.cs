@@ -4,7 +4,7 @@ namespace TravelGuide.Repositories.ViewModels
 {
     public class RegisterModel
     {
-        [Required(ErrorMessage ="Email is reqired")]
+        [Required(ErrorMessage ="Username is reqired")]
         [StringLength(256)]
         [Display(Name ="User Name")]
         public string Username { get; set; }
@@ -16,7 +16,8 @@ namespace TravelGuide.Repositories.ViewModels
         [DataType(DataType.Password)]
         [Display(Name = "Password")]
         public string Password { get; set; }
-        [Compare("Password",ErrorMessage = "Dosen't match the password")]
+		[Required(ErrorMessage = "Confirm Password is reqired")]
+		[Compare("Password",ErrorMessage = "Dosen't match the password")]
         public string ConfirmPassword { get; set; }
 
 
