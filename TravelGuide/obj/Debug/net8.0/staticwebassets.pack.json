@@ -661,6 +661,1022 @@
       "PackagePath": "staticwebassets\\login\\scss\\style.scss"
     },
     {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\main.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\normalize.min.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\css\\normalize.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\img\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\img\\logo.png",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\index.html",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\index.html"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\custom.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shAutoloader.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAS3.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushBash.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCpp.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCss.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDiff.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushErlang.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJScript.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJava.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPerl.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPhp.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPlain.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPython.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushRuby.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSass.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushScala.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSql.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushVb.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushXml.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shCore.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shCore.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shLegacy.js",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shLegacy.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCore.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCore.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDefault.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDjango.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEclipse.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEmacs.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMidnight.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreRDark.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDefault.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDjango.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEclipse.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEmacs.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMidnight.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeRDark.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\contact_process.php",
+      "PackagePath": "staticwebassets\\template\\contact_process.php"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\animate.css",
+      "PackagePath": "staticwebassets\\template\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\aos.css",
+      "PackagePath": "staticwebassets\\template\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\template\\css\\flaticon.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\gijgo.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\gijgo.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\template\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\template\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\slick.css",
+      "PackagePath": "staticwebassets\\template\\css\\slick.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\style.css",
+      "PackagePath": "staticwebassets\\template\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\style.map",
+      "PackagePath": "staticwebassets\\template\\css\\style.map"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\swiper.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\template\\css\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\template\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\gijgo-material.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\gijgo-material.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\gijgo-material.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\gijgo-material.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\about_img.png",
+      "PackagePath": "staticwebassets\\template\\img\\about_img.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\banner_bg.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner_bg.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\author.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\blog_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\blog_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\blog_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\blog_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\learn_about_bg.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\learn_about_bg.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\slide_thumb_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\slide_thumb_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\breadcrumb.png",
+      "PackagePath": "staticwebassets\\template\\img\\breadcrumb.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\comment\\comment_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\comment\\comment_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\comment\\comment_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\a.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\a.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\a2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\a2.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\event_bg.png",
+      "PackagePath": "staticwebassets\\template\\img\\event_bg.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\faq_bg.png",
+      "PackagePath": "staticwebassets\\template\\img\\faq_bg.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\template\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_5.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_5.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_6.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_6.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_overlay.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_overlay.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_5.png",
+      "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_5.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\left.svg",
+      "PackagePath": "staticwebassets\\template\\img\\icon\\left.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\play.svg",
+      "PackagePath": "staticwebassets\\template\\img\\icon\\play.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\quate.svg",
+      "PackagePath": "staticwebassets\\template\\img\\icon\\quate.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\right.svg",
+      "PackagePath": "staticwebassets\\template\\img\\icon\\right.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\ind\\industries_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\ind\\industries_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\ind\\industries_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\logo.png",
+      "PackagePath": "staticwebassets\\template\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\next.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\preview.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\right-arrow.svg",
+      "PackagePath": "staticwebassets\\template\\img\\right-arrow.svg"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\services_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\services_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\services_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\services_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\single_place_1.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\single_place_2.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\single_place_3.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\single_place_4.png"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\aos.js",
+      "PackagePath": "staticwebassets\\template\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\contact.js",
+      "PackagePath": "staticwebassets\\template\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\custom.js",
+      "PackagePath": "staticwebassets\\template\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\gijgo.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery-1.12.1.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery-1.12.1.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.form.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\template\\js\\mail-script.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\masonry.pkgd.js",
+      "PackagePath": "staticwebassets\\template\\js\\masonry.pkgd.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\particles.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\particles.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\swiper.min.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\swiper_custom.js",
+      "PackagePath": "staticwebassets\\template\\js\\swiper_custom.js"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_Professional.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_Professional.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_about.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_about.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_banner.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_banner.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_best_services.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_best_services.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_blog.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_blog_part.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_blog_part.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_booking.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_booking.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_button.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_button.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_category_post.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_category_post.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_client_review.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_client_review.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_common.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_common.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_contact.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_copyright_part.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_copyright_part.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_elements.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_elements.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_event_part.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_event_part.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_extends.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_extends.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_faq_part.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_faq_part.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_footer.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_hotel&rasturant.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_hotel&rasturant.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_hotel_list.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_hotel_list.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_menu.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_menu.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_our_gallery.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_our_gallery.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_portfolio.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_portfolio.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_post_style.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_post_style.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_project_details.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_project_details.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_service.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_service.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_single_blog.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_single_blog.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_social_connect_part.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_social_connect_part.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_sub_menu.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_sub_menu.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_subscribe_area.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_subscribe_area.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_team.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_team.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_top_place.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_top_place.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_tour_details_content.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_tour_details_content.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_variables.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\template\\sass\\style.scss"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelGuide.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
