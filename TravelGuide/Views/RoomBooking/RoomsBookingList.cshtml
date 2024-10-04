@@ -5,69 +5,75 @@
     Layout = "_templateLayout";
 
 }
+<div class="container">
+    <div class="row align-items-center ">
+        <div class="col-lg-12">
 
-<h1>RoomsBookingList</h1>
+            <h1>RoomsBookingList</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Room)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Hotel)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ChickInDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ChickOutDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.BookingDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalPrice)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.BookingStatus)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Room.RoomType)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Hotel.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ChickInDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ChickOutDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BookingDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BookingStatus)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            <p>
+                <a asp-action="Create">Create New</a>
+            </p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Room.RoomNumber)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Hotel.HotelName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ChickInDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ChickOutDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.BookingDate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.TotalPrice)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.BookingStatus)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+            @foreach (var item in Model) {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Room.RoomNumber)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Hotel.HotelName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChickInDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ChickOutDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BookingDate)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TotalPrice)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BookingStatus)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
