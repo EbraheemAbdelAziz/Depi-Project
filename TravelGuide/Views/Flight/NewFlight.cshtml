@@ -6,13 +6,13 @@
 
 }
 
-<h1>NewFlight</h1>
+@* <h1>NewFlight</h1>
 
 <h4>Flight</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Airline" class="control-label"></label>
@@ -45,6 +45,15 @@
                 <span asp-validation-for="DestinationCountry" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="@Model.ImageFile" class="control-label"></label>
+                <div class="custom-file">
+                    <input asp-for="@Model.ImageFile" class="form-control" onchange="loadFile(event)" />
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img id="output" style="width:100%" />
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
@@ -54,7 +63,104 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+ *@
+
+
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Create Flight</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Create" enctype="multipart/form-data" id="contactForm">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Airline" name="Airline" id="Airline" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Airline'" placeholder='Enter the Airline'>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="ArivalAirport" name="ArivalAirport" id="ArivalAirport" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Arrival Airport'" placeholder='Enter the Arrival Airport'>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="DepartureTime" name="DepartureTime" id="DepartureTime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the DepartureTime'" placeholder='Enter the Departure Time'>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="ArrivalTime" name="ArrivalTime" id="ArrivalTime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Arrival Time'" placeholder='Enter the Arrival Time'>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="DestinationCity" name="DestinationCity" id="DestinationCity" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination City'" placeholder='Enter the Destination City'>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="DestinationCountry" name="DestinationCountry" id="DestinationCountry" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the Destination Country'>
+                    </div>
+                </div>
+                <div class="col-12">
+                   
+                    <div class="form-group mb-3">
+                        <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" />
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="form-group mb-3 text-right">
+                <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+@* style for the file input *@
+<style>
+    .file-upload {
+        display: inline-block; 
+        width: 100%;
+        padding: 5px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+        .file-upload:focus {
+            border-color: #fe5c24; 
+            outline: none; 
+        }
+
+        .file-upload::-webkit-file-upload-button {
+            display: none; 
+        }
+
+        .file-upload::before {
+            content: 'Choose File'; 
+            display: inline-block; 
+            padding: 10px 12px; 
+            border: 1px solid #fe5c24; 
+            border-radius: 5px; 
+            background-color: #fe5c24; 
+            color: white; 
+            cursor: pointer; 
+            transition: background-color 0.3s, border 0.3s;
+            margin-right: 5px;
+        }
+
+        .file-upload:hover::before {
+            background-color: #fe5c24;
+            border-color: #fe5c24;
+        }
+
+
+</style>

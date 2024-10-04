@@ -5,13 +5,18 @@ using TravelGuide.Repositories.Interfaces;
 
 namespace TravelGuide.Controllers
 {
+    /// <summary>
+    /// ////Image part need to be tested
+    /// </summary>
     public class FlightController : Controller
     {
         private readonly IBaseRepository<Flight> _flight;
+        private IUploadFile _uploadFile;
 
-        public FlightController(IBaseRepository<Flight> flight)
+        public FlightController(IBaseRepository<Flight> flight, IUploadFile uploadFile)
         {
             _flight = flight;
+            _uploadFile = uploadFile;
         }
 
         // GET: FlightController
@@ -41,6 +46,12 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                if (flight.ImageFile != null)
+                {
+                    //~/template/img/
+                    string FileName = await _uploadFile.UploadFileAsync("\\template\\img\\", flight.ImageFile);
+                    flight.FlightImage = FileName;
+                }
                 await _flight.AddItem(flight);
                 return RedirectToAction(nameof(Index));
             }
@@ -68,6 +79,12 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                if (flight.ImageFile != null)
+                {
+                    //~/template/img/
+                    string FileName = await _uploadFile.UploadFileAsync("\\template\\img\\", flight.ImageFile);
+                    flight.FlightImage = FileName;
+                }
                 await _flight.UpdateItem(flight);
                 return RedirectToAction(nameof(Index));
             }

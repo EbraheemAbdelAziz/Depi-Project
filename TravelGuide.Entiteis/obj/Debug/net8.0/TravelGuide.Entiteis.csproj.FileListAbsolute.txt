@@ -35,3 +35,4 @@ C:\Users\El-Wattaneya\source\repos\Depi-Project\V2\TravelGuide.Entiteis\obj\Debu
 C:\Users\El-Wattaneya\source\repos\Depi-Project\V2\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.pdb
 C:\Users\El-Wattaneya\source\repos\Depi-Project\V2\TravelGuide.Entiteis\obj\Debug\net8.0\ref\TravelGuide.Entiteis.dll
 D:\Dot Net\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.AssemblyReference.cache
+C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.AssemblyReference.cache

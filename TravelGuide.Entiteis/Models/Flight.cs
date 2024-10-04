@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TravelGuide.Entiteis.Models
 {
@@ -17,6 +19,9 @@ namespace TravelGuide.Entiteis.Models
         [MaxLength(50)]
         public string DestinationCountry { get; set; }
 
+        public string? FlightImage { get; set; }
+        [NotMapped]
+        public IFormFile? ImageFile { get; set; }
 
     }
 }
