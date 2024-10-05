@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using TravelGuide.Context;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Implementation;
@@ -10,7 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<MyDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddDbContext<MyDbContext>(opt => 
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
+    //idk what it's doing but it fixed the error :)
+    opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+
+});
 //builder.Logging.ClearProviders();
 //builder.Logging.AddConsole();
 

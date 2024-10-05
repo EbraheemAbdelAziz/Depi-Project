@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "avLcfwqmQco=",
+  "dgSpecHash": "ao3ihKvoitY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL 5480\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL 5480\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

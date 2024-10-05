@@ -1,60 +1,132 @@
 ﻿@model TravelGuide.Entiteis.Models.Flight
-
 @{
     ViewData["Title"] = "EditFlight";
     Layout = "_templateLayout";
 }
 
-<h1>EditFlight</h1>
-
-<h4>Flight</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Flight</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" enctype="multipart/form-data" id="contactForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="FlightId" />
-            <div class="form-group">
-                <label asp-for="Airline" class="control-label"></label>
-                <input asp-for="Airline" class="form-control" />
-                <span asp-validation-for="Airline" class="text-danger"></span>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="hidden" asp-for="FlightId" />
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Airline" name="Airline" id="Airline" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Airline'" placeholder='Enter the Airline'>
+                        <span asp-validation-for="Airline" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="ArivalAirport" name="ArivalAirport" id="ArivalAirport" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Arrival Airport'" placeholder='Enter the Arrival Airport'>
+                        <span asp-validation-for="ArivalAirport" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="DepartureTime" name="DepartureTime" id="DepartureTime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the DepartureTime'" placeholder='Enter the Departure Time'>
+                        <span asp-validation-for="DepartureTime" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="ArrivalTime" name="ArrivalTime" id="ArrivalTime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Arrival Time'" placeholder='Enter the Arrival Time'>
+                        <span asp-validation-for="ArrivalTime" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="DestinationCity" name="DestinationCity" id="DestinationCity" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination City'" placeholder='Enter the Destination City'>
+                        <span asp-validation-for="DestinationCity" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="DestinationCountry" name="DestinationCountry" id="DestinationCountry" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the Destination Country'>
+                        <span asp-validation-for="DestinationCountry" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group mb-3">
+                        <div class="custom-file-upload">
+                            <label for="file-upload" class="file-upload-label">Choose File</label>
+                            <span id="file-name" class="file-name">
+                                @* Display the current file name if exists *@
+                                @if (Model != null && !string.IsNullOrEmpty(Model.FlightImage))
+                                {
+                                    @System.IO.Path.GetFileName(Model.FlightImage).Substring(System.IO.Path.GetFileName(Model.FlightImage).IndexOf('_') + 1)
+                                    ;
+                                }
+                            </span>
+                            <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" onchange="updateFileName(this)" />
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
-            <div class="form-group">
-                <label asp-for="ArivalAirport" class="control-label"></label>
-                <input asp-for="ArivalAirport" class="form-control" />
-                <span asp-validation-for="ArivalAirport" class="text-danger"></span>
+            <div class="form-group mb-3 text-right flex flex-row">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "Flight")'" style="background-color:#162b45;">Cancel</button>
+
+                <button type="submit" value="Edit" class="button button-contactForm btn_1">Edit</button>
             </div>
-            <div class="form-group">
-                <label asp-for="DepartureTime" class="control-label"></label>
-                <input asp-for="DepartureTime" class="form-control" />
-                <span asp-validation-for="DepartureTime" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ArrivalTime" class="control-label"></label>
-                <input asp-for="ArrivalTime" class="form-control" />
-                <span asp-validation-for="ArrivalTime" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DestinationCity" class="control-label"></label>
-                <input asp-for="DestinationCity" class="form-control" />
-                <span asp-validation-for="DestinationCity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DestinationCountry" class="control-label"></label>
-                <input asp-for="DestinationCountry" class="form-control" />
-                <span asp-validation-for="DestinationCountry" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+
         </form>
     </div>
+
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function updateFileName(input) {
+            var fileName = input.files[0].name;
+            document.getElementById('file-name').textContent = fileName;
+        }
+    </script>
+
+
 }
+@* style for the file input *@
+<style>
+    .custom-file-upload {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+    .file-upload-label {
+        background-color: #fe5c24;
+        color: white;
+        padding: 10px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 5px;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+        .file-upload-label:hover {
+            background-color: #e54c1f;
+        }
+
+    .file-name {
+        flex-grow: 1;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .file-upload {
+        display: none;
+    }
+</style>
+

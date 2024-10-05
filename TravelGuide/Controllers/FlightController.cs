@@ -5,9 +5,6 @@ using TravelGuide.Repositories.Interfaces;
 
 namespace TravelGuide.Controllers
 {
-    /// <summary>
-    /// ////Image part need to be tested
-    /// </summary>
     public class FlightController : Controller
     {
         private readonly IBaseRepository<Flight> _flight;
@@ -69,6 +66,7 @@ namespace TravelGuide.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
+
             return View("EditFlight",flight);
         }
 
@@ -79,20 +77,25 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                var existingFlight = await _flight.GetById(id);
                 if (flight.ImageFile != null)
                 {
-                    //~/template/img/
-                    string FileName = await _uploadFile.UploadFileAsync("\\template\\img\\", flight.ImageFile);
-                    flight.FlightImage = FileName;
+                    string fileName = await _uploadFile.UploadFileAsync("\\template\\img\\", flight.ImageFile);
+                    flight.FlightImage = fileName;
+                }
+                else
+                {
+                    flight.FlightImage = existingFlight.FlightImage;
                 }
                 await _flight.UpdateItem(flight);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View("EditFlight");
+                return View("EditFlight", flight);
             }
         }
+
 
         // GET: FlightController/Delete/5
         public async Task<ActionResult> Delete(int id)

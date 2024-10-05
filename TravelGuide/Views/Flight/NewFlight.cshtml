@@ -6,66 +6,6 @@
 
 }
 
-@* <h1>NewFlight</h1>
-
-<h4>Flight</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Airline" class="control-label"></label>
-                <input asp-for="Airline" class="form-control" />
-                <span asp-validation-for="Airline" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ArivalAirport" class="control-label"></label>
-                <input asp-for="ArivalAirport" class="form-control" />
-                <span asp-validation-for="ArivalAirport" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DepartureTime" class="control-label"></label>
-                <input asp-for="DepartureTime" class="form-control" />
-                <span asp-validation-for="DepartureTime" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ArrivalTime" class="control-label"></label>
-                <input asp-for="ArrivalTime" class="form-control" />
-                <span asp-validation-for="ArrivalTime" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DestinationCity" class="control-label"></label>
-                <input asp-for="DestinationCity" class="form-control" />
-                <span asp-validation-for="DestinationCity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DestinationCountry" class="control-label"></label>
-                <input asp-for="DestinationCountry" class="form-control" />
-                <span asp-validation-for="DestinationCountry" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="@Model.ImageFile" class="control-label"></label>
-                <div class="custom-file">
-                    <input asp-for="@Model.ImageFile" class="form-control" onchange="loadFile(event)" />
-                </div>
-            </div>
-            <div class="col-md-3">
-                <img id="output" style="width:100%" />
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
- *@
-
-
 <div class="row">
     <div class="col-12">
         <h2 class="contact-title text-center m-5 text-italic">Create Flight</h2>

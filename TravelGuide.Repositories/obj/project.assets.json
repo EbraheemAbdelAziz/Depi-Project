@@ -5634,9 +5634,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
       "projectName": "TravelGuide.Repositories",
-      "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+      "projectPath": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
       "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\obj\\",
       "projectStyle": "PackageReference",
@@ -5656,8 +5656,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
-              "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
+            "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+              "projectPath": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
             }
           }
         }
