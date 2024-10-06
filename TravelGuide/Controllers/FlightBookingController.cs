@@ -73,6 +73,14 @@ namespace TravelGuide.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var flightBooking = await _flightBooking.GetById(id);
+            var flightBookings = await _flightBooking.GetAll();
+            var reservedSeats = flightBookings
+                .Where(fb => fb.FlightId == flightBooking.FlightId)
+                .Select(fb => fb.SeatNumber)
+                .ToList();
+            reservedSeats.Append(flightBooking.SeatNumber);
+            var availableSeats = Enumerable.Range(1, 30).Except(reservedSeats).ToList();
+            ViewBag.AvailableSeats = new SelectList(availableSeats);
             return View("EditFlightBooking", flightBooking);
         }
 
@@ -95,8 +103,7 @@ namespace TravelGuide.Controllers
         // GET: FlightBookingController/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            var flightBooking = await _flightBooking.GetById(id)
-               ;  // Eagerly load the Flight entity
+            var flightBooking = await _flightBooking.GetById(id) ;  
 
             return View("DeleteFlightBooking", flightBooking);
         }

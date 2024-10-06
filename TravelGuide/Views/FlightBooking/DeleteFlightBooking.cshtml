@@ -6,54 +6,53 @@
 
 }
 
-<h1>DeleteFlightBooking</h1>
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Flight Booking</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Delete">
+            <div class="row">
+                <input asp-for="BookingId" class="form-control" hidden />
+                <input asp-for="FlightId" class="form-control" hidden />
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="SeatNumber" class="control-label"></label>
+                        <select asp-for="SeatNumber" class="form-control" disabled>
+                            <option value="@Model.SeatNumber" selected>@Model.SeatNumber</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Class" class="control-label"></label>
+                        <select asp-for="Class" class="form-control" disabled>
+                            <option value="@Model.Class" selected>@Model.Class</option>
+                            @if (Model.Class != "Economy")
+                            {
+                                <option value="Economy">Economy</option>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>FlightBooking</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Flight)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Flight.Airline)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SeatNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SeatNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Class)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Class)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.BookingDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.BookingDate)
-        </dd>
-@*         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TotalPrice)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TotalPrice)
-        </dd> *@
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.BookingStatus)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.BookingStatus)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="BookingId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+                            }
+                            else
+                            {
+                                <option value="First Class">First Class</option>
+                            }
+
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="BookingDate" name="BookingDate" id="BookingDate" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the DepartureTime'" placeholder='Enter the Booking Date' disabled>
+                        <span asp-validation-for="BookingDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <input class="form-check-input" asp-for="BookingStatus" hidden />
+            </div>
+            <div class="form-group mb-3 text-right">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "FlightBooking")'" style="background-color:#162b45;">Cancel</button>
+                <button type="submit" value="Delete" class="button button-contactForm btn_1">Delete</button>
+            </div>
+        </form>
+    </div>
 </div>

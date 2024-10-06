@@ -1,59 +1,61 @@
 ﻿@model TravelGuide.Entiteis.Models.FlightBooking
 
 @{
-    ViewData["Title"] = "EditFlightBooking";
+    ViewData["Title"] = "Edit Flight Booking";
     Layout = "_templateLayout";
-
 }
 
-<h1>EditFlightBooking</h1>
-
-<h4>FlightBooking</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="BookingId" />
-            <div class="form-group">
-                <label asp-for="FlightId" class="control-label"></label>
-                <input asp-for="FlightId" class="form-control" asp-items="ViewBag.FlightId"></input>
-                <span asp-validation-for="FlightId" class="text-danger"></span>
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Flight Booking</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" method="post" id="contactForm">
+            <div class="row">
+                <input asp-for="BookingId" class="form-control" hidden /> 
+                <input asp-for="FlightId" class="form-control" hidden />
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="SeatNumber" class="control-label"></label>
+                        <select asp-for="SeatNumber" class="form-control" asp-items="ViewBag.AvailableSeats">
+                            <option value="@Model.SeatNumber" selected>@Model.SeatNumber</option>
+                        </select>
+                        <span asp-validation-for="SeatNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Class" class="control-label"></label>
+                        <select asp-for="Class" class="form-control">
+                            <option value="@Model.Class" selected>@Model.Class</option>
+                            @if(Model.Class != "Economy")
+                            {
+                                <option value="Economy">Economy</option>
+
+                            }
+                            else
+                            {
+                                <option value="First Class" >First Class</option>
+                            }
+
+                        </select>
+                        <span asp-validation-for="Class" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="BookingDate" name="BookingDate" id="BookingDate" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the DepartureTime'" placeholder='Enter the Booking Date'>
+                        <span asp-validation-for="BookingDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <input class="form-check-input" asp-for="BookingStatus" hidden />
             </div>
-            <div class="form-group">
-                <label asp-for="SeatNumber" class="control-label"></label>
-                <input asp-for="SeatNumber" class="form-control" />
-                <span asp-validation-for="SeatNumber" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Class" class="control-label"></label>
-                <input asp-for="Class" class="form-control" />
-                <span asp-validation-for="Class" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="BookingDate" class="control-label"></label>
-                <input asp-for="BookingDate" class="form-control" />
-                <span asp-validation-for="BookingDate" class="text-danger"></span>
-            </div>
-@*             <div class="form-group">
-                <label asp-for="TotalPrice" class="control-label"></label>
-                <input asp-for="TotalPrice" class="form-control" />
-                <span asp-validation-for="TotalPrice" class="text-danger"></span>
-            </div> *@
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="BookingStatus" /> @Html.DisplayNameFor(model => model.BookingStatus)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group mb-3 text-right">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "FlightBooking")'" style="background-color:#162b45;">Cancel</button>
+                <button type="submit" value="Edit" class="button button-contactForm btn_1">Edit</button>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
