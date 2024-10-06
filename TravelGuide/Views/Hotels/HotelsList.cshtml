@@ -1,73 +1,61 @@
-﻿@model IEnumerable<TravelGuide.Entiteis.Models.Hotel>
+@model IEnumerable<TravelGuide.Entiteis.Models.Hotel>
 
 @{
     ViewData["Title"] = "HotelsList";
     Layout = "_templateLayout";
 
 }
+<body>
+    <section class="hotel_list section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section_tittle text-center">
+                        <h2>Hotels</h2>
+                        <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
+                        <div class="m-auto text-center">
+                            <a asp-action="Create" asp-controller="Hotels"
+                               style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px; ">
+                                Add New Hotel
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<h1>HotelsList</h1>
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single_ihotel_list">
+                        <img src="@item.HotelImage" alt="NoImage" width="100%">
+                        
+                        <div class="hotel_text_iner">
+                            <h3>@item.HotelName</h3>
+                            <h5>@item.City</h5><br />
+                            <h5>@item.Address</h5><br />
+                            <h5>
+                                @item.Rating
+                                @*<a href="#"><i class="fas fa-star"></i></a>*@
+                            </h5>
+                        </div>
+                        <div class="m-auto">
+                            <div class="form-group mb-3">
+                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Details" asp-route-Id="@item.HotelId">Contacts</a>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.HotelId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.HotelName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.City)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rating)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.HotelId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HotelName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.City)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PhoneNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Rating)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.HotelId }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.HotelId }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.HotelId })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Index" asp-controller="Rooms">Room</a>
+
+                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@item.HotelId">Edit</a>
+
+                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.HotelId">Delete</a>
+                            </div>
+                        </div>
+
+          
+                             
+                    </div>
+                </div>
+            }
+
+</section>
+</body>
+
