@@ -18,6 +18,7 @@ namespace TravelGuide.Entiteis.Models
         public string DestinationCity { get; set; }
         [MaxLength(50)]
         public string DestinationCountry { get; set; }
+        public Double TotalPrice { set; get; }
 
         public string? FlightImage { get; set; }
         [NotMapped]

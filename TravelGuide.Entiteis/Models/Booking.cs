@@ -7,7 +7,7 @@
         //[ForeignKey(nameof(user))] 
         //public int UserId { set; get; }
         //public User? user { set; get; }
-        public Double TotalPrice { set; get; }
+        //public Double TotalPrice { set; get; }
         public bool BookingStatus { set; get; }
     }
 }

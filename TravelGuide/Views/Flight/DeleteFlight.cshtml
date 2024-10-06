@@ -50,6 +50,12 @@
                         <span asp-validation-for="DestinationCountry" class="text-danger"></span>
                     </div>
                 </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="TotalPrice" name="TotalPrice" id="TotalPrice" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the flight Price'>
+                        <span asp-validation-for="TotalPrice" class="text-danger"></span>
+                    </div>
+                </div>
                 <div class="col-12">
                     <div class="form-group mb-3">
                         <div class="custom-file-upload">
