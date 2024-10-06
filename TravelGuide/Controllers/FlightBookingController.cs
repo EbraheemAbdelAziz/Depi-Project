@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
 using System.Threading.Tasks;
 using TravelGuide.Repositories.Interfaces;
-using Microsoft.EntityFrameworkCore;
 using TravelGuide.Entiteis.Models;
 
 namespace TravelGuide.Controllers
@@ -11,24 +11,33 @@ namespace TravelGuide.Controllers
     public class FlightBookingController : Controller
     {
         private readonly IBaseRepository<FlightBooking> _flightBooking;
+        private readonly UserManager<AppUser> _userManager;
 
-        public FlightBookingController(IBaseRepository<FlightBooking> flightBooking, IBaseRepository<Flight> flight)
+        public FlightBookingController(IBaseRepository<FlightBooking> flightBooking, UserManager<AppUser> userManager)
         {
             _flightBooking = flightBooking;
-          
+            _userManager = userManager;
         }
 
         // GET: FlightBookingController
         public async Task<IActionResult> Index()
         {
-            var flightBookings = await _flightBooking.GetAll(null, new[] { "Flight" }); ;
+            var currentUser = await _userManager.GetUserAsync(User); 
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+
+            var flightBookings = await _flightBooking.GetAll(fb => fb.UserId == currentUser.Id, new[] { "Flight" }); 
             return View("listFlightBookings", flightBookings);
         }
 
         // GET: FlightBookingController/Details/5
         public async Task<IActionResult> Details(int id)
         {
-            var flightBooking = await _flightBooking.GetById(id); 
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) 
+                return RedirectToAction("Login", "Account");
+
+            var flightBooking = await _flightBooking.GetById(id);
 
             return View("FlightBookingDetails", flightBooking);
         }
@@ -36,17 +45,17 @@ namespace TravelGuide.Controllers
         // GET: FlightBookingController/Create
         public async Task<IActionResult> Create(int FlightId)
         {
-            //var flight = await _flight.GetById(FlightId);
-            var flightBookings = await _flightBooking.GetAll();
-            var reservedSeats = flightBookings
-                .Where(fb => fb.FlightId == FlightId)
-                .Select(fb => fb.SeatNumber)
-                .ToList();
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return RedirectToAction("Login", "Account");
+
+            var flightBookings = await _flightBooking.GetAll(fb => fb.FlightId == FlightId);
+            var reservedSeats = flightBookings.Select(fb => fb.SeatNumber).ToList();
             var availableSeats = Enumerable.Range(1, 30).Except(reservedSeats).ToList();
+
             var flightBooking = new FlightBooking
             {
                 FlightId = FlightId,
-                //Flight = flight
+                UserId = currentUser.Id 
             };
 
             ViewBag.AvailableSeats = new SelectList(availableSeats);
@@ -60,6 +69,10 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
+
+                flightBooking.UserId = currentUser.Id;
                 await _flightBooking.AddItem(flightBooking);
                 return RedirectToAction(nameof(Index));
             }
@@ -72,15 +85,11 @@ namespace TravelGuide.Controllers
         // GET: FlightBookingController/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return RedirectToAction("Login", "Account");
+
             var flightBooking = await _flightBooking.GetById(id);
-            var flightBookings = await _flightBooking.GetAll();
-            var reservedSeats = flightBookings
-                .Where(fb => fb.FlightId == flightBooking.FlightId)
-                .Select(fb => fb.SeatNumber)
-                .ToList();
-            reservedSeats.Append(flightBooking.SeatNumber);
-            var availableSeats = Enumerable.Range(1, 30).Except(reservedSeats).ToList();
-            ViewBag.AvailableSeats = new SelectList(availableSeats);
+
             return View("EditFlightBooking", flightBooking);
         }
 
@@ -91,6 +100,7 @@ namespace TravelGuide.Controllers
         {
             try
             {
+
                 await _flightBooking.UpdateItem(flightBooking);
                 return RedirectToAction(nameof(Index));
             }
@@ -103,7 +113,11 @@ namespace TravelGuide.Controllers
         // GET: FlightBookingController/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            var flightBooking = await _flightBooking.GetById(id) ;  
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+
+            var flightBooking = await _flightBooking.GetById(id);
 
             return View("DeleteFlightBooking", flightBooking);
         }
@@ -114,7 +128,8 @@ namespace TravelGuide.Controllers
         public async Task<IActionResult> Delete(int id, FlightBooking flightBooking)
         {
             try
-            {
+            { 
+
                 await _flightBooking.DeleteItem(id);
                 return RedirectToAction(nameof(Index));
             }
