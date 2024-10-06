@@ -1,4 +1,4 @@
-﻿@model TravelGuide.Entiteis.Models.Room
+@model TravelGuide.Entiteis.Models.Room
 
 @{
     ViewData["Title"] = "EditRoom";
@@ -6,60 +6,75 @@
 
 }
 
-<h1>Edit Room</h1>
-
-<h4>Room</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Room</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" enctype="multipart/form-data" id="contactForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="RoomId" class="control-label"></label>
-                <input asp-for="RoomId" class="form-control" />
-                <span asp-validation-for="RoomId" class="text-danger"></span>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="hidden" asp-for="RoomId" />
+                    <div class="form-group">
+                        <label asp-for="hotelId" class="control-label"></label>
+                        <input asp-for="hotelId" class="form-control" />
+                        <span asp-validation-for="hotelId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="RoomNumber" class="control-label"></label>
+                        <input asp-for="RoomNumber" class="form-control" />
+                        <span asp-validation-for="RoomNumber" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="RoomType" class="control-label"></label>
+                        <input asp-for="RoomType" class="form-control" />
+                        <span asp-validation-for="RoomType" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="Capacity" class="control-label"></label>
+                        <input asp-for="Capacity" class="form-control" />
+                        <span asp-validation-for="Capacity" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="PricePerNight" class="control-label"></label>
+                        <input asp-for="PricePerNight" class="form-control" />
+                        <span asp-validation-for="PricePerNight" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="Availability" /> @Html.DisplayNameFor(model => model.Availability)
+                        </label>
+                    </div>
+                </div>
+
             </div>
-            <div class="form-group">
-                <label asp-for="hotelId" class="control-label"></label>
-                <input asp-for="hotelId" class="form-control" />
-                <span asp-validation-for="hotelId" class="text-danger"></span>
+            <div class="m-auto">
+                <div class="form-group mb-3 text-right">
+                    <button type="submit" value="Save" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Save</button>
+                    <button type="button" onclick="window.location.href='@Url.Action("Index", "Rooms")'" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Cancel</button>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="RoomNumber" class="control-label"></label>
-                <input asp-for="RoomNumber" class="form-control" />
-                <span asp-validation-for="RoomNumber" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RoomType" class="control-label"></label>
-                <input asp-for="RoomType" class="form-control" />
-                <span asp-validation-for="RoomType" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Capacity" class="control-label"></label>
-                <input asp-for="Capacity" class="form-control" />
-                <span asp-validation-for="Capacity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PricePerNight" class="control-label"></label>
-                <input asp-for="PricePerNight" class="form-control" />
-                <span asp-validation-for="PricePerNight" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Availability" /> @Html.DisplayNameFor(model => model.Availability)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
+
         </form>
     </div>
+
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+
