@@ -1,47 +1,62 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using TravelGuide.Entiteis.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Linq;
+using System.Threading.Tasks;
 using TravelGuide.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using TravelGuide.Entiteis.Models;
 
 namespace TravelGuide.Controllers
 {
     public class FlightBookingController : Controller
     {
-        IBaseRepository<FlightBooking> _flightBooking;
+        private readonly IBaseRepository<FlightBooking> _flightBooking;
 
-        public FlightBookingController(IBaseRepository<FlightBooking> flightBooking)
+        public FlightBookingController(IBaseRepository<FlightBooking> flightBooking, IBaseRepository<Flight> flight)
         {
             _flightBooking = flightBooking;
+          
         }
 
         // GET: FlightBookingController
-        public async Task<ActionResult> Index()
+        public async Task<IActionResult> Index()
         {
-            var flightBookings = await _flightBooking.GetAll();
-            return View("listFlightBookings",flightBookings);
+            var flightBookings = await _flightBooking.GetAll(null, new[] { "Flight" }); ;
+            return View("listFlightBookings", flightBookings);
         }
 
         // GET: FlightBookingController/Details/5
-        public async Task<ActionResult> Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var flightBooking = await _flightBooking.GetById(id);
-            return View("FlightBookingDetails",flightBooking);
+            var flightBooking = await _flightBooking.GetById(id); 
+
+            return View("FlightBookingDetails", flightBooking);
         }
 
         // GET: FlightBookingController/Create
         public async Task<IActionResult> Create(int FlightId)
         {
+            //var flight = await _flight.GetById(FlightId);
+            var flightBookings = await _flightBooking.GetAll();
+            var reservedSeats = flightBookings
+                .Where(fb => fb.FlightId == FlightId)
+                .Select(fb => fb.SeatNumber)
+                .ToList();
+            var availableSeats = Enumerable.Range(1, 30).Except(reservedSeats).ToList();
             var flightBooking = new FlightBooking
             {
-                FlightId = FlightId
+                FlightId = FlightId,
+                //Flight = flight
             };
-            return View("NewFlightBooking",flightBooking);
+
+            ViewBag.AvailableSeats = new SelectList(availableSeats);
+            return View("NewFlightBooking", flightBooking);
         }
 
         // POST: FlightBookingController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(FlightBooking flightBooking)
+        public async Task<IActionResult> Create(FlightBooking flightBooking)
         {
             try
             {
@@ -55,16 +70,16 @@ namespace TravelGuide.Controllers
         }
 
         // GET: FlightBookingController/Edit/5
-        public async Task<ActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
             var flightBooking = await _flightBooking.GetById(id);
-            return View("EditFlightBooking",flightBooking);
+            return View("EditFlightBooking", flightBooking);
         }
 
         // POST: FlightBookingController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(int id, FlightBooking flightBooking)
+        public async Task<IActionResult> Edit(int id, FlightBooking flightBooking)
         {
             try
             {
@@ -78,16 +93,18 @@ namespace TravelGuide.Controllers
         }
 
         // GET: FlightBookingController/Delete/5
-        public async Task<ActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var flightBooking = await _flightBooking.GetById(id);
-            return View("DeleteFlightBooking",flightBooking);
+            var flightBooking = await _flightBooking.GetById(id)
+               ;  // Eagerly load the Flight entity
+
+            return View("DeleteFlightBooking", flightBooking);
         }
 
         // POST: FlightBookingController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Delete(int id, FlightBooking flightBooking)
+        public async Task<IActionResult> Delete(int id, FlightBooking flightBooking)
         {
             try
             {

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TravelGuide.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
       "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -1771,6 +1775,38 @@
     {
       "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\style.scss",
       "PackagePath": "staticwebassets\\template\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelGuide.Microsoft.AspNetCore.StaticWebAssets.props",
