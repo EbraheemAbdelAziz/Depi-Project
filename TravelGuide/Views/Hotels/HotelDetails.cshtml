@@ -1,62 +1,66 @@
-﻿@model TravelGuide.Entiteis.Models.Hotel
+@model TravelGuide.Entiteis.Models.Hotel
 
 @{
     ViewData["Title"] = "HotelDetails";
     Layout = "_templateLayout";
-
 }
 
-<h1>Hotel Details</h1>
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Hotel Details</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <div class="form-contact contact_form">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="HotelName">Hotel Name</label>
+                        <p class="form-control">@Model.HotelName</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="City">City</label>
+                        <p class="form-control">@Model.City</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Address">Address</label>
+                        <p class="form-control">@Model.Address</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="PhoneNumber">Phone Number</label>
+                        <p class="form-control">@Model.PhoneNumber</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <p class="form-control">@Model.Email</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Rating</label>
+                        <p class="form-control">@Model.Rating</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-auto">
+                <div class="form-group mb-3 text-right">
+                    <a href="@Url.Action("Index")" class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;">Cancel</a>
+                </div>
+            </div>
 
-<div>
-    <h4>Hotel</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HotelId)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HotelId)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HotelName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.HotelName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.City)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.City)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PhoneNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PhoneNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Rating)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Rating)
-        </dd>
-    </dl>
+        </div>
+    </div>
 </div>
-<div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
-</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
