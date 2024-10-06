@@ -29,9 +29,13 @@ namespace TravelGuide.Controllers
         }
 
         // GET: FlightBookingController/Create
-        public async Task<ActionResult> Create()
+        public async Task<IActionResult> Create(int FlightId)
         {
-            return View("NewFlightBooking");
+            var flightBooking = new FlightBooking
+            {
+                FlightId = FlightId
+            };
+            return View("NewFlightBooking",flightBooking);
         }
 
         // POST: FlightBookingController/Create

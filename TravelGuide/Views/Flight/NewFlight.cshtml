@@ -16,42 +16,50 @@
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="Airline" name="Airline" id="Airline" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Airline'" placeholder='Enter the Airline'>
+                        <span asp-validation-for="Airline" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="ArivalAirport" name="ArivalAirport" id="ArivalAirport" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Arrival Airport'" placeholder='Enter the Arrival Airport'>
+                        <span asp-validation-for="ArivalAirport" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="DepartureTime" name="DepartureTime" id="DepartureTime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the DepartureTime'" placeholder='Enter the Departure Time'>
+                        <span asp-validation-for="DepartureTime" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="ArrivalTime" name="ArrivalTime" id="ArrivalTime" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Arrival Time'" placeholder='Enter the Arrival Time'>
+                        <span asp-validation-for="ArrivalTime" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="DestinationCity" name="DestinationCity" id="DestinationCity" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination City'" placeholder='Enter the Destination City'>
+                        <span asp-validation-for="DestinationCity" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="DestinationCountry" name="DestinationCountry" id="DestinationCountry" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the Destination Country'>
+                        <span asp-validation-for="DestinationCountry" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="TotalPrice" name="TotalPrice" id="TotalPrice" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the flight Price'>
+                        <span asp-validation-for="TotalPrice" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-12">
                    
                     <div class="form-group mb-3">
                         <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" />
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
                     </div>
 
 

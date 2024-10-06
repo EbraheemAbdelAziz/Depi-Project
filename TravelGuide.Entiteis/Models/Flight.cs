@@ -22,6 +22,7 @@ namespace TravelGuide.Entiteis.Models
 
         public string? FlightImage { get; set; }
         [NotMapped]
+        [Required(ErrorMessage = "Please upload an image for the flight.")]
         public IFormFile? ImageFile { get; set; }
 
     }

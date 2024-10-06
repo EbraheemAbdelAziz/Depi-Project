@@ -37,16 +37,16 @@
                                 <div class="hover_text_iner">
                                     <div class="flex-column">
                                         @* will be displayed for the user only *@
-                                        <a  class="place_btn" asp-action="Create" asp-controller="FlightBooking">Book</a>
+                                    <a class="place_btn" asp-action="Create" asp-controller="FlightBooking" asp-route-FlightId="@item.FlightId">Book</a>
                                         @* Will be displayed for the admin only *@
                                         <a  class="place_btn" asp-action="Edit" asp-route-Id="@item.FlightId">Edit</a>
                                         <a class="place_btn" asp-action="Delete" asp-route-Id="@item.FlightId">Delete</a>
                                     </div>
-                                    <h3>@item.DestinationCity</h3>
+                                <h3>@item.DestinationCity - @item.TotalPrice $</h3>
                                     <p>@item.DestinationCountry</p>
                                     <p>@item.Airline, @item.ArivalAirport</p>
                                     <p>@item.DepartureTime - @item.ArrivalTime</p>
-                                    <p>@item.TotalPrice $</p>
+                                   
                                 </div>
 
                             </div>
