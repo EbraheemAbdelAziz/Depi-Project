@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
@@ -9,9 +9,11 @@ namespace TravelGuide.Controllers
     {
         // GET: HotelsController
         private IBaseRepository<Hotel> _hotel;
-        public HotelsController(IBaseRepository<Hotel> hotel)
+        private IUploadFile _uploadFile;
+        public HotelsController(IBaseRepository<Hotel> hotel, IUploadFile uploadFile)
         {
             _hotel = hotel;
+            _uploadFile = uploadFile;
         }
         // GET: RoomsController
         public async Task<ActionResult> Index()
@@ -40,8 +42,12 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                if (hotel.ImageFile != null)
+                {
+                    string FileName = await _uploadFile.UploadFileAsync("\\Images\\HotelsImages\\", hotel.ImageFile);
+                    hotel.HotelImage = FileName;
+                }
                 var HotelTest = _hotel.GetAll().Result.Any(c => c.HotelName == hotel.HotelName);
-
                 if (HotelTest)
                 {
                     ViewBag.ExistsError = "Hotel Name already exists";
