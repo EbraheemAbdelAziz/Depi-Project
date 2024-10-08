@@ -89,6 +89,11 @@ namespace TravelGuide.Controllers
             if (currentUser == null) return RedirectToAction("Login", "Account");
 
             var flightBooking = await _flightBooking.GetById(id);
+            var flightBookings = await _flightBooking.GetAll(fb => fb.FlightId == flightBooking.FlightId);
+            var reservedSeats = flightBookings.Select(fb => fb.SeatNumber).ToList();
+            reservedSeats.Add(flightBooking.SeatNumber);
+            var availableSeats = Enumerable.Range(1, 30).Except(reservedSeats).ToList();
+            ViewBag.AvailableSeats = new SelectList(availableSeats);
 
             return View("EditFlightBooking", flightBooking);
         }
@@ -100,6 +105,10 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
+
+                flightBooking.UserId = currentUser.Id; 
 
                 await _flightBooking.UpdateItem(flightBooking);
                 return RedirectToAction(nameof(Index));
@@ -128,8 +137,9 @@ namespace TravelGuide.Controllers
         public async Task<IActionResult> Delete(int id, FlightBooking flightBooking)
         {
             try
-            { 
-
+            {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
                 await _flightBooking.DeleteItem(id);
                 return RedirectToAction(nameof(Index));
             }
@@ -138,5 +148,6 @@ namespace TravelGuide.Controllers
                 return View("DeleteFlightBooking");
             }
         }
-    }
-}
+
+            }
+        }

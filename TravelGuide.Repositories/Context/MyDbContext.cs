@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Emit;
 using TravelGuide.Entiteis.Models;
 
 namespace TravelGuide.Context
@@ -62,10 +63,15 @@ namespace TravelGuide.Context
 				{
 					RoleId = "540fa4db-060f-4f1b-b60a-dd199bfe4111",
 					UserId = "62fe5285-fd68-4711-ae93-673787f4ac66"
-				}
+                }
 			);
+            builder.Entity<Payment>()
+			.HasOne(p => p.FlightBooking)
+			.WithMany()
+			.HasForeignKey(p => p.FlightBookingId)
+			.OnDelete(DeleteBehavior.Cascade);
 
-		}
+        }
 		public DbSet<WatchlistItem> WatchlistItems { get; set; }
         public DbSet<Hotel> Hotels {  get; set; }
         public DbSet<Room> Rooms { get; set; }
