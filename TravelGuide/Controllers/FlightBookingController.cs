@@ -73,8 +73,8 @@ namespace TravelGuide.Controllers
                 if (currentUser == null) return RedirectToAction("Login", "Account");
 
                 flightBooking.UserId = currentUser.Id;
-                await _flightBooking.AddItem(flightBooking);
-                return RedirectToAction(nameof(Index));
+                var flightBookingObj = await _flightBooking.AddItem(flightBooking);
+                return RedirectToAction("Create", "Payment", new { type = "flightBooking" , BookingId = flightBookingObj.BookingId });
             }
             catch
             {

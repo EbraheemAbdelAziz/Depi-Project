@@ -258,15 +258,15 @@ namespace TravelGuide.Repositories.Migrations
                         {
                             Id = "62fe5285-fd68-4711-ae93-673787f4ac66",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7861443d-12d8-441f-b5c2-7c4d09421c4d",
+                            ConcurrencyStamp = "29590e81-c593-42c2-b6ce-ac5b8e822ae9",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPwcJPJUNFfBVpFNS6vB/RAWn24AQUV/5SmHUBJ5nur/DaFivRgOE+9FFjNp1jXdjw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENLdkgAXhGZJWzk6zmre3l3RJj8QJ8TUA5lhKgCW6VDaV3iiZKMHE6Hyl0p/ygCyQw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d7c597d1-b671-45b9-8efd-3c19a9774a38",
+                            SecurityStamp = "0161b3a6-1a66-4eb3-a6d8-8b06f8775341",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         },
@@ -274,15 +274,15 @@ namespace TravelGuide.Repositories.Migrations
                         {
                             Id = "62fe5285-fd68-4711-ae93-673787f4a111",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "10bcff1d-2de8-44c7-b98d-2604a15788da",
+                            ConcurrencyStamp = "5fb72523-d293-479a-be35-8151b94b3f12",
                             Email = "user@user.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@USER.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAijC4bgGriwknMH9hUX/LAzgOUcqjEtrCGoFi9Qu5g4DkEjHE/52Ju6ZQAI3oddUw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAs+VKadK0H+tYcTmyQuSi8lTHEvpjA0mQezw3A2HP0rkaoYzkKKGWolvPFmkwFUVQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "303a6a43-ed77-4956-9a8c-155c4e72ffe9",
+                            SecurityStamp = "80ef0e94-9a9a-4d9f-b37a-bb7e18390a1f",
                             TwoFactorEnabled = false,
                             UserName = "user"
                         });
@@ -394,6 +394,10 @@ namespace TravelGuide.Repositories.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("HotelImage")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("HotelName")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -491,20 +495,31 @@ namespace TravelGuide.Repositories.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<int?>("FlightBookingId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Method")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<DateTime>("PaymentDate")
+                    b.Property<int?>("PackageBookingId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("PaymentDate")
+                        .HasMaxLength(50)
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                    b.Property<int?>("RoomBookingId")
+                        .HasColumnType("int");
 
                     b.HasKey("PaymentId");
+
+                    b.HasIndex("FlightBookingId");
+
+                    b.HasIndex("PackageBookingId");
+
+                    b.HasIndex("RoomBookingId");
 
                     b.ToTable("Payments");
                 });
@@ -743,6 +758,27 @@ namespace TravelGuide.Repositories.Migrations
                     b.Navigation("TravelPackage");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("TravelGuide.Entiteis.Models.Payment", b =>
+                {
+                    b.HasOne("TravelGuide.Entiteis.Models.FlightBooking", "FlightBooking")
+                        .WithMany()
+                        .HasForeignKey("FlightBookingId");
+
+                    b.HasOne("TravelGuide.Entiteis.Models.PackageBooking", "PackageBooking")
+                        .WithMany()
+                        .HasForeignKey("PackageBookingId");
+
+                    b.HasOne("TravelGuide.Entiteis.Models.RoomBooking", "RoomBooking")
+                        .WithMany()
+                        .HasForeignKey("RoomBookingId");
+
+                    b.Navigation("FlightBooking");
+
+                    b.Navigation("PackageBooking");
+
+                    b.Navigation("RoomBooking");
                 });
 
             modelBuilder.Entity("TravelGuide.Entiteis.Models.Room", b =>

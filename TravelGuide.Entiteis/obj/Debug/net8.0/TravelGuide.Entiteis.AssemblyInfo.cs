@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelGuide.Entiteis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e66368d4c2de3e600bb73063a1e188f7406dcff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c78de21b5bc90592bf999cb58d88b175d5c09d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelGuide.Entiteis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelGuide.Entiteis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

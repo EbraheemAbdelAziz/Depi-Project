@@ -6,50 +6,81 @@
 
 }
 
-<h1>Edit Payment</h1>
-
-<h4>Payment</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="PaymentId" />
-            <div class="form-group">
-                <label asp-for="Amount" class="control-label"></label>
-                <input asp-for="Amount" class="form-control" />
-                <span asp-validation-for="Amount" class="text-danger"></span>
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Payment</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" enctype="multipart/form-data" id="contactForm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                </div>
+                <input type="hidden" asp-for="PaymentId" />
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Amount" class="control-label"></label>
+                        <input class="form-control" asp-for="Amount" name="Amount" id="Amount" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Amount'" placeholder='Enter the Amount'>
+                        <span asp-validation-for="Amount" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Currency" class="control-label"></label>
+                        <select asp-for="Currency" class="form-control" asp-items="@(new SelectList(Model.CurrencyList))">
+                            <option value="-1">Select a Currency</option>
+                        </select>
+                        <span asp-validation-for="Currency" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Method" class="control-label"></label>
+                        <select asp-for="Method" class="form-control" asp-items="@(new SelectList(Model.MethodsList))">
+                            <option value="-1">Select a Method</option>
+                        </select>
+                        <span asp-validation-for="Method" class="text-danger"></span>
+                    </div>
+                </div>
+                @{
+                    if (Model.FlightBookingId != null)
+                    {
+                        <div class="form-group">
+                            <label asp-for="FlightBookingId" class="control-label" hidden></label>
+                            <input asp-for="FlightBookingId" class="form-control" hidden />
+                            <span asp-validation-for="FlightBookingId" class="text-danger" hidden></span>
+                        </div>
+                    }
+                    if (Model.RoomBookingId != null)
+                    {
+                        <div class="form-group">
+                            <label asp-for="RoomBookingId" class="control-label" hidden></label>
+                            <input asp-for="RoomBookingId" class="form-control" hidden />
+                            <span asp-validation-for="RoomBookingId" class="text-danger" hidden></span>
+                        </div>
+                    }
+                    if (Model.PackageBookingId != null)
+                    {
+                        <div class="form-group">
+                            <label asp-for="PackageBookingId" class="control-label" hidden></label>
+                            <input asp-for="PackageBookingId" class="form-control" hidden />
+                            <span asp-validation-for="PackageBookingId" class="text-danger" hidden></span>
+                        </div>
+                    }
+                }
             </div>
-            <div class="form-group">
-                <label asp-for="Currency" class="control-label"></label>
-                <input asp-for="Currency" class="form-control" />
-                <span asp-validation-for="Currency" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Method" class="control-label"></label>
-                <input asp-for="Method" class="form-control" />
-                <span asp-validation-for="Method" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PaymentDate" class="control-label"></label>
-                <input asp-for="PaymentDate" class="form-control" />
-                <span asp-validation-for="PaymentDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="row">
+                <div class="form-group mb-3 mr-3 text-right">
+                    <button type="submit" value="Save" class="genric-btn primary radius">Save</button>
+                </div>
+                <div class="form-group mb-3 text-right">
+                    <a asp-action="Index" class="genric-btn danger radius">Cancel</a>
+                </div>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

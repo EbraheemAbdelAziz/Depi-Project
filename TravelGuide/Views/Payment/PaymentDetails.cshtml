@@ -31,16 +31,29 @@
             @Html.DisplayFor(model => model.Method)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.PaymentDate)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PaymentDate)
+        </dd>
+        <dt class="col-sm-2">
+            Booking type
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                if (Model.FlightBookingId != null)
+                {
+                    @Html.DisplayNameFor(model => model.FlightBooking)
+                }
+                if (Model.RoomBookingId != null)
+                {
+                    @Html.DisplayNameFor(model => model.RoomBooking)
+                }
+                if (Model.PackageBookingId != null)
+                {
+                    @Html.DisplayNameFor(model => model.PackageBooking)
+                }
+            }
         </dd>
     </dl>
 </div>

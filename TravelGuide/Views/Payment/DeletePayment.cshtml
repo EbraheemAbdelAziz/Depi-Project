@@ -6,48 +6,76 @@
 
 }
 
-<h1>Delete Payment</h1>
-
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Payment</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Amount)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Amount)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Currency)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Currency)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Method)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Method)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PaymentDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PaymentDate)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="PaymentId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Delete Payment</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Delete" >
+            <div class="row">
+                <div class="col-sm-12">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                </div>
+                <input type="hidden" asp-for="PaymentId" />
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Amount" class="control-label"></label>
+                        <input class="form-control" asp-for="Amount" name="Amount" id="Amount" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Amount'" placeholder='Enter the Amount' disabled>
+                        <span asp-validation-for="Amount" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Currency" class="control-label"></label>
+                        <select asp-for="Currency" class="form-control" disabled asp-items="@(new SelectList(Model.CurrencyList))">
+                        </select>
+                        <span asp-validation-for="Currency" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="Method" class="control-label"></label>
+                        <select asp-for="Method" class="form-control" disabled asp-items="@(new SelectList(Model.MethodsList))">
+                        </select>
+                        <span asp-validation-for="Method" class="text-danger"></span>
+                    </div>
+                </div>
+                @{
+                    if (Model.FlightBookingId != null)
+                    {
+                        <div class="form-group">
+                            <label asp-for="FlightBookingId" class="control-label" hidden></label>
+                            <input asp-for="FlightBookingId" class="form-control" hidden />
+                            <span asp-validation-for="FlightBookingId" class="text-danger" hidden></span>
+                        </div>
+                    }
+                    if (Model.RoomBookingId != null)
+                    {
+                        <div class="form-group">
+                            <label asp-for="RoomBookingId" class="control-label" hidden></label>
+                            <input asp-for="RoomBookingId" class="form-control" hidden />
+                            <span asp-validation-for="RoomBookingId" class="text-danger" hidden></span>
+                        </div>
+                    }
+                    if (Model.PackageBookingId != null)
+                    {
+                        <div class="form-group">
+                            <label asp-for="PackageBookingId" class="control-label" hidden></label>
+                            <input asp-for="PackageBookingId" class="form-control" hidden />
+                            <span asp-validation-for="PackageBookingId" class="text-danger" hidden></span>
+                        </div>
+                    }
+                }
+            </div>
+            <div class="row">
+                <div class="form-group mb-3 mr-3 text-right">
+                    <button type="submit" value="Delete" class="genric-btn danger radius">Delete</button>
+                </div>
+                <div class="form-group mb-3 text-right">
+                    <a asp-action="Index" class="genric-btn danger radius">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
 </div>
+

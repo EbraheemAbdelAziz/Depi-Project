@@ -21,7 +21,7 @@ namespace TravelGuide.Entiteis.Models
         [Range(1, 5, ErrorMessage = "Rating must be between 1 and 5.")]
         public int Rating { get; set; }     // Rate from 1 to 5
 
-        public string? HotelImage { get; set; }
+        public string HotelImage { get; set; }
         [NotMapped]
         public IFormFile? ImageFile { get; set; }
 

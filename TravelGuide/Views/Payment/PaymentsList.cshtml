@@ -5,57 +5,70 @@
     Layout = "_templateLayout";
 
 }
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Payments List</h2>
+    </div>
 
-<h1>Payments List</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<div class="col-lg-10 m-auto mb-10">
+        <table class="table table-striped">
+            <thead class="shadow" style="color: #0c3e72;">
         <tr>
-            <th>
+                    <th class="text-center">
                 @Html.DisplayNameFor(model => model.Amount)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Currency)
-            </th>
-            <th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Currency)
+                </th>
+                    <th class="text-center">
                 @Html.DisplayNameFor(model => model.Method)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
+                    <th class="text-center">
                 @Html.DisplayNameFor(model => model.PaymentDate)
+            </th >
+                    <th class="text-center">
+                Type Of Booking
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+                        <td class="text-center">
                 @Html.DisplayFor(modelItem => item.Amount)
             </td>
-            <td>
+                        <td class="text-center">
                 @Html.DisplayFor(modelItem => item.Currency)
             </td>
-            <td>
+                        <td class="text-center">
                 @Html.DisplayFor(modelItem => item.Method)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
+                        <td class="text-center">
                 @Html.DisplayFor(modelItem => item.PaymentDate)
             </td>
+                        <td class="text-center">
+                @{
+                    if(item.FlightBookingId != null)
+                    {
+                        @Html.DisplayNameFor(model => model.FlightBooking)
+                    }
+                    if(item.RoomBookingId != null)
+                    {
+                        @Html.DisplayNameFor(model => model.RoomBooking)
+                    }
+                    if (item.PackageBookingId != null)
+                    {
+                        @Html.DisplayNameFor(model => model.PackageBooking)
+                    }
+                }
+            </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PaymentId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PaymentId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PaymentId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.PaymentId" style="padding:5px 5px; color: #0c3e72;"><i class="fa-regular fa-pen-to-square"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.PaymentId" style="padding:5px 5px;color: #fe5b24d0; "><i class="fa-solid fa-trash"></i></a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+</div>
+</div>
