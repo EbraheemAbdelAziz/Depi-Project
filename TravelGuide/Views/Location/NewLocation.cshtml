@@ -3,47 +3,88 @@
 @{
     ViewData["Title"] = "New Location";
     Layout = "_templateLayout";
-
 }
 
-<h1>New Location</h1>
-
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="LocationName" class="control-label"></label>
-                <input asp-for="LocationName" class="form-control" />
-                <span asp-validation-for="LocationName" class="text-danger"></span>
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Create Location</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Create" enctype="multipart/form-data" id="contactForm">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="LocationName" name="LocationName" id="LocationName" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Location Name'" placeholder='Enter the Location Name'>
+                        <span asp-validation-for="LocationName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Country" name="Country" id="Country" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Country'" placeholder='Enter the Country'>
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Description" name="Description" id="Description" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Description'" placeholder='Enter the Description'>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="ImageUrl" name="ImageUrl" id="ImageUrl" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Image URL'" placeholder='Enter the Image URL'>
+                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                    </div>
+                </div>
+
             </div>
-            <div class="form-group">
-                <label asp-for="Country" class="control-label"></label>
-                <input asp-for="Country" class="form-control" />
-                <span asp-validation-for="Country" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ImageUrl" class="control-label"></label>
-                <input asp-for="ImageUrl" class="form-control" />
-                <span asp-validation-for="ImageUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="form-group mb-3 text-right">
+                <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+
+<style>
+    .file-upload {
+        display: inline-block;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+        .file-upload:focus {
+            border-color: #fe5c24;
+            outline: none;
+        }
+
+        .file-upload::-webkit-file-upload-button {
+            display: none;
+        }
+
+        .file-upload::before {
+            content: 'Choose File';
+            display: inline-block;
+            padding: 10px 12px;
+            border: 1px solid #fe5c24;
+            border-radius: 5px;
+            background-color: #fe5c24;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s, border 0.3s;
+            margin-right: 5px;
+        }
+
+        .file-upload:hover::before {
+            background-color: #fe5c24;
+            border-color: #fe5c24;
+        }
+</style>

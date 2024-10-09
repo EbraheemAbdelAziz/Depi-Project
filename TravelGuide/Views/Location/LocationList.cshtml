@@ -1,55 +1,47 @@
 ﻿@model IEnumerable<TravelGuide.Entiteis.Models.Location>
 
 @{
-    ViewData["Title"] = "LocationList";
+    ViewData["Title"] = "LocationsList";
     Layout = "_templateLayout";
-
 }
 
-<h1>LocationList</h1>
+<body>
+    <section class="top_place section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section_tittle text-center">
+                        <h2>Locations</h2>
+                        <p>Explore our curated list of travel destinations and plan your next journey.</p>
+                        @* Create button for admins *@
+                        <div class="m-auto text-center">
+                            <a asp-action="Create" asp-controller="Location"
+                               style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px;">
+                                Create New Location
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.LocationName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Country)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.LocationName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Country)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageUrl)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.LocationId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.LocationId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.LocationId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-8 col-md-8 m-auto mb-4">
+                    <div class="single_place p-4 border rounded">
+                        <div class="location-info">
+                            <h3>@item.LocationName</h3>
+                            <p><strong>Country:</strong> @item.Country</p>
+                            <p><strong>Description:</strong> @item.Description</p>
+                        </div>
+                    </div>
+                    <div class="actions mt-3 text-center">
+                        @* Admin actions (buttons outside the display box) *@
+                        <a class="btn btn-warning btn-sm mx-2" asp-action="Edit" asp-route-id="@item.LocationId">Edit</a>
+                        <a class="btn btn-danger btn-sm mx-2" asp-action="Delete" asp-route-id="@item.LocationId">Delete</a>
+                        <a class="btn btn-info btn-sm mx-2" asp-action="Details" asp-route-id="@item.LocationId">View Details</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </section>
+</body>
