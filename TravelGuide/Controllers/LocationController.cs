@@ -7,10 +7,11 @@ namespace TravelGuide.Controllers
     public class LocationController : Controller
     {
         private readonly IBaseRepository<Location> _location;
-
-        public LocationController(IBaseRepository<Location> location)
+        private IUploadFile _uploadFile;
+        public LocationController(IBaseRepository<Location> location, IUploadFile uploadFile)
         {
             _location = location;
+            _uploadFile = uploadFile;
         }
         // GET: LocationController
         public async Task<ActionResult> Index()
@@ -39,6 +40,12 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                if (location.ImageFile != null)
+                {
+                    //~/template/img/
+                    string FileName = await _uploadFile.UploadFileAsync("\\template\\img\\", location.ImageFile);
+                    location.ImageUrl = FileName;
+                }
                 await _location.AddItem(location);
                 return RedirectToAction(nameof(Index));
             }
@@ -64,10 +71,20 @@ namespace TravelGuide.Controllers
         // POST: LocationController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit(Location location)
+        public async Task<ActionResult> Edit(int id,Location location)
         {
             try
             {
+                var existingFlight = await _location.GetById(id);
+                if (location.ImageFile != null)
+                {
+                    string fileName = await _uploadFile.UploadFileAsync("\\template\\img\\", location.ImageFile);
+                    location.ImageUrl = fileName;
+                }
+                else
+                {
+                    location.ImageUrl = existingFlight.ImageUrl;
+                }
                 await _location.UpdateItem(location);
                 return RedirectToAction(nameof(Index));
             }

@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "NewFlight";
     Layout = "_templateLayout";
-
 }
 
 <div class="row">
@@ -39,30 +38,18 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input class="form-control" asp-for="DestinationCity" name="DestinationCity" id="DestinationCity" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination City'" placeholder='Enter the Destination City'>
-                        <span asp-validation-for="DestinationCity" class="text-danger"></span>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input class="form-control" asp-for="DestinationCountry" name="DestinationCountry" id="DestinationCountry" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the Destination Country'>
-                        <span asp-validation-for="DestinationCountry" class="text-danger"></span>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input class="form-control" asp-for="TotalPrice" name="TotalPrice" id="TotalPrice" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination Country'" placeholder='Enter the flight Price'>
+                        <input class="form-control" asp-for="TotalPrice" name="TotalPrice" id="TotalPrice" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the flight Price'" placeholder='Enter the flight Price'>
                         <span asp-validation-for="TotalPrice" class="text-danger"></span>
                     </div>
                 </div>
-                <div class="col-12">
-                   
-                    <div class="form-group mb-3">
-                        <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" />
-                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <select class="form-control" asp-for="LocationId" asp-items="ViewBag.Locations">
+                            <option value="">Select a location</option>
+                        </select>
+                        <span asp-validation-for="LocationId" class="text-danger"></span>
                     </div>
-
-
                 </div>
             </div>
             <div class="form-group mb-3 text-right">
@@ -72,47 +59,8 @@
     </div>
 </div>
 
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-@* style for the file input *@
-<style>
-    .file-upload {
-        display: inline-block; 
-        width: 100%;
-        padding: 5px; 
-        border: 1px solid #ccc; 
-        border-radius: 5px;
-        transition: border-color 0.3s;
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-
-        .file-upload:focus {
-            border-color: #fe5c24; 
-            outline: none; 
-        }
-
-        .file-upload::-webkit-file-upload-button {
-            display: none; 
-        }
-
-        .file-upload::before {
-            content: 'Choose File'; 
-            display: inline-block; 
-            padding: 10px 12px; 
-            border: 1px solid #fe5c24; 
-            border-radius: 5px; 
-            background-color: #fe5c24; 
-            color: white; 
-            cursor: pointer; 
-            transition: background-color 0.3s, border 0.3s;
-            margin-right: 5px;
-        }
-
-        .file-upload:hover::before {
-            background-color: #fe5c24;
-            border-color: #fe5c24;
-        }
-
-
-</style>
+}

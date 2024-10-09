@@ -30,11 +30,14 @@
                         <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input class="form-control" asp-for="ImageUrl" name="ImageUrl" id="ImageUrl" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Image URL'" placeholder='Enter the Image URL'>
-                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                <div class="col-12">
+
+                    <div class="form-group mb-3">
+                        <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" />
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
                     </div>
+
+
                 </div>
 
             </div>

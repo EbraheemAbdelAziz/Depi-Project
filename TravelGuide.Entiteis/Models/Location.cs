@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace TravelGuide.Entiteis.Models
 {
     public class Location
@@ -10,6 +12,8 @@ namespace TravelGuide.Entiteis.Models
         public string Country { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
-
+        [NotMapped]
+        [Required(ErrorMessage = "Please upload an image for the flight.")]
+        public IFormFile? ImageFile { get; set; }
     }
 }

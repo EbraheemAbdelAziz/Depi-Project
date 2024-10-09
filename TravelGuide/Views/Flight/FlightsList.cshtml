@@ -9,12 +9,13 @@
     <section class="top_place section_padding">
         <div class="container">
             <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <div class="section_tittle text-center">
-                            <h2>Flights</h2>
-                            <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
-                            @{
-                            if(User.Identity.IsAuthenticated && User.IsInRole("Admin")){
+                <div class="col-xl-6">
+                    <div class="section_tittle text-center">
+                        <h2>Flights</h2>
+                        <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
+                        @{
+                            if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
                                 @* Will be displayed for the admin only *@
                                 <div class="m-auto text-center">
                                     <a asp-action="Create" asp-controller="Flight"
@@ -22,9 +23,10 @@
                                         Create New Flight
                                     </a>
                                 </div>
-                            }   }
-                        </div>
+                            }
+                        }
                     </div>
+                </div>
             </div>
 
 
@@ -34,10 +36,10 @@
 
                 <div class="col-lg-8 col-md-8 m-auto">
                     <div class="single_place">
-                        <img src="@item.FlightImage" alt="NoImage" width="100%">
-                            <div class="hover_Text d-flex align-items-end justify-content-between">
-                                <div class="hover_text_iner">
-                                    <div class="flex-column">
+                        <img src="@item.location.ImageUrl" alt="NoImage" width="100%">
+                        <div class="hover_Text d-flex align-items-end justify-content-between">
+                            <div class="hover_text_iner">
+                                <div class="flex-column">
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
                                     {
                                         <a class="place_btn" asp-action="Create" asp-controller="FlightBooking" asp-route-FlightId="@item.FlightId">Book</a>
@@ -47,19 +49,19 @@
                                         <a class="place_btn" asp-action="Edit" asp-route-Id="@item.FlightId">Edit</a>
                                         <a class="place_btn" asp-action="Delete" asp-route-Id="@item.FlightId">Delete</a>
                                     }
-                                    </div>
-                                <h3>@item.DestinationCity - @item.TotalPrice $</h3>
-                                    <p>@item.DestinationCountry</p>
-                                    <p>@item.Airline, @item.ArivalAirport</p>
-                                    <p>@item.DepartureTime - @item.ArrivalTime</p>
-                                   
                                 </div>
+                                <h3>@item.location.LocationName - @item.TotalPrice $</h3>
+                                <p>@item.location.Country</p>
+                                <p>@item.Airline, @item.ArivalAirport</p>
+                                <p>@item.DepartureTime - @item.ArrivalTime</p>
 
                             </div>
+
                         </div>
                     </div>
+                </div>
             }
-         </div>
-     </section>
+        </div>
+    </section>
 
 </body>

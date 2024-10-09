@@ -14,16 +14,13 @@ namespace TravelGuide.Entiteis.Models
         public string ArivalAirport { get; set; }
         public DateTime DepartureTime { get; set; }
         public DateTime ArrivalTime { get; set; }
-        [MaxLength(50)]
-        public string DestinationCity { get; set; }
-        [MaxLength(50)]
-        public string DestinationCountry { get; set; }
         public Double TotalPrice { set; get; }
 
         public string? FlightImage { get; set; }
-        [NotMapped]
-        [Required(ErrorMessage = "Please upload an image for the flight.")]
-        public IFormFile? ImageFile { get; set; }
+
+        [ForeignKey(nameof(Location))]
+        public int LocationId { get; set; }
+        public Location? location { get; set; }
 
     }
 }
