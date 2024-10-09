@@ -14,7 +14,7 @@ namespace TravelGuide.Controllers
         // GET: RoomsController
         public async Task<ActionResult> Index()
         {
-            var room = await _room.GetAll();
+            var room = await _room.GetAll(null, new[] {"hotel"});
             return View("RoomsList",room);
         }
 

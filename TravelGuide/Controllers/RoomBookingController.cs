@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
 
@@ -7,16 +8,33 @@ namespace TravelGuide.Controllers
     public class RoomBookingController : Controller
 	{
         private readonly IBaseRepository<RoomBooking> _roomBooking;
-
-        public RoomBookingController(IBaseRepository<RoomBooking> roomBooking)
+		private UserManager<AppUser> _userManager;
+		private readonly IBaseRepository<Hotel> _hotel;
+		private readonly IBaseRepository<Room> _room;
+        public RoomBookingController(IBaseRepository<RoomBooking> roomBooking, UserManager<AppUser> userManager, IBaseRepository<Hotel> hotel, IBaseRepository<Room> room)
         {
             _roomBooking = roomBooking;
+            _userManager = userManager;
+            _hotel = hotel;
+            _room = room;
         }
         // GET: RoomBookingController
         public async Task<ActionResult> Index()
 		{
-			var roomBookings = await _roomBooking.GetAll();
-			return View("RoomsBookingList", roomBookings);
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+            var roomBookings = await _roomBooking.GetAll(fb => fb.UserId == currentUser.Id, new[] { "Room", "Hotel" });
+            bool isAdmin = await _userManager.IsInRoleAsync(currentUser, "Admin");
+            if (isAdmin)
+            {
+                roomBookings = await _roomBooking.GetAll(rb => rb.UserId == currentUser.Id, new[] { "Room", "Hotel" });
+            }
+            foreach (var item in roomBookings)
+            {
+                item.User = await _userManager.FindByIdAsync(item.UserId);
+            }
+            return View("RoomsBookingList", roomBookings);
 		}
 
 		// GET: RoomBookingController/Details/5
@@ -31,9 +49,12 @@ namespace TravelGuide.Controllers
 		}
 
 		// GET: RoomBookingController/Create
-		public async Task<ActionResult> Create()
+		public async Task<ActionResult> Create(string RoomId)
 		{
-			return View("NewRoomBooking");
+			var roomBooking = new RoomBooking();
+			roomBooking.RoomId = int.Parse(RoomId);
+			roomBooking.HotelId = _room.GetById(int.Parse(RoomId)).Result.hotelId;
+            return View("NewRoomBooking", roomBooking);
 		}
 
 		// POST: RoomBookingController/Create
@@ -43,9 +64,11 @@ namespace TravelGuide.Controllers
 		{
 			try
 			{
-				await _roomBooking.AddItem(roomBooking);
-				return RedirectToAction(nameof(Index));
-			}
+                roomBooking.BookingDate = DateTime.Now;
+                roomBooking.UserId = _userManager.GetUserAsync(User).Result.Id;
+                var BookingObj = await _roomBooking.AddItem(roomBooking);
+                return RedirectToAction("Create", "Payment", new { type = "roomBooking", BookingId = BookingObj.BookingId });
+            }
 			catch
 			{
                 return View("NewRoomBooking");

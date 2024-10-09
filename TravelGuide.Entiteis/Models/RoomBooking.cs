@@ -21,7 +21,9 @@ namespace TravelGuide.Entiteis.Models
         public Hotel? Hotel { get; set; }
 
         public int HotelId { get; set; }
+        [Display(Name = "Chick In Date")]
         public DateTime ChickInDate { get; set; }
+        [Display(Name = "Chick Out Date")]
         public DateTime ChickOutDate { get; set; }
 
     }

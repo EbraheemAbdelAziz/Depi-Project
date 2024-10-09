@@ -30,6 +30,7 @@
                     <div class="single_ihotel_list">
                         
                         <div class="hotel_text_iner">
+                            <h4>@item.hotel.HotelName</h4><br />
                             <h4>@item.RoomType</h4><br />
                             <h4>@item.RoomNumber</h4><br />
                             <h4>@item.PricePerNight</h4><br />
@@ -40,7 +41,7 @@
                         <div class="m-auto">
                             <div class="form-group mb-3">
 
-                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Index" asp-controller="RoomBooking">Book</a>
+                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-controller="RoomBooking" asp-action="Create" asp- asp-route-RoomId="@item.RoomId">Book</a>
 
                                 <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@item.RoomId">Edit</a>
 

@@ -8,12 +8,9 @@
 <div class="container">
     <div class="row align-items-center ">
         <div class="col-lg-12">
-
-            <h1>RoomsBookingList</h1>
-
-            <p>
-                <a asp-action="Create">Create New</a>
-            </p>
+            <div class="col-12">
+                <h2 class="contact-title text-center m-5 text-italic">Room Bookings</h2>
+            </div>
             <table class="table">
                 <thead>
                     <tr>
@@ -66,9 +63,17 @@
                             @Html.DisplayFor(modelItem => item.BookingStatus)
                         </td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
+                            @{
+                                if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                {
+                                    <a asp-action="Edit" asp-route-id="@item.BookingId" style="padding:5px 5px; color: #0c3e72;">
+                                        <i class="fa-regular fa-pen-to-square"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.BookingId" style="padding:5px 5px;color: #fe5b24d0; ">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
+                                }
+                            }
                         </td>
                     </tr>
             }

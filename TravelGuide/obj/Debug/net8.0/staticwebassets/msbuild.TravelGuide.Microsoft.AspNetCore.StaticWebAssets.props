@@ -48,6 +48,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\HotelsImages\33d416d6-fcad-4b29-af34-bf57e652d0de_ibrahim.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>TravelGuide</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TravelGuide</BasePath>
+      <RelativePath>Images/HotelsImages/33d416d6-fcad-4b29-af34-bf57e652d0de_ibrahim.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\HotelsImages\33d416d6-fcad-4b29-af34-bf57e652d0de_ibrahim.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Images\HotelsImages\b8c75da0-1c79-4885-b4b0-2dd97f24707c_IMG-20221002-WA0077.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelGuide</SourceId>
@@ -4544,6 +4560,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\6937c261-6ee5-4d87-a8e2-405579621410_services_1.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\694bbb4c-13e5-4924-83c8-9441504bef4d_single_place_1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>TravelGuide</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TravelGuide</BasePath>
+      <RelativePath>template/img/694bbb4c-13e5-4924-83c8-9441504bef4d_single_place_1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\694bbb4c-13e5-4924-83c8-9441504bef4d_single_place_1.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\78d0b801-97d2-4d56-9cd4-88ea5ff78739_single_place_3.png))">
       <SourceType>Package</SourceType>
       <SourceId>TravelGuide</SourceId>
@@ -4591,6 +4623,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\8a0f60f4-e293-4c54-a881-3df4b77af122_single_place_2.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\94150914-37d2-48b1-a547-86f46a591ee6_IMG-20221002-WA0104.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>TravelGuide</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TravelGuide</BasePath>
+      <RelativePath>template/img/94150914-37d2-48b1-a547-86f46a591ee6_IMG-20221002-WA0104.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\94150914-37d2-48b1-a547-86f46a591ee6_IMG-20221002-WA0104.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\template\img\9974964c-22bf-47ba-9044-014aa5bab318_single_place_2.png))">
       <SourceType>Package</SourceType>
