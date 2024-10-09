@@ -9202,19 +9202,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ebrah\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL 5480\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dot Net\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
+      "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
       "projectName": "TravelGuide",
-      "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
-      "packagesPath": "C:\\Users\\ebrah\\.nuget\\packages\\",
-      "outputPath": "D:\\Dot Net\\Depi-Project\\TravelGuide\\obj\\",
+      "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
+      "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ebrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL 5480\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9229,11 +9229,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
-              "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
+            "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+              "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
             },
-            "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj": {
-              "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj"
+            "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj": {
+              "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj"
             }
           }
         }
@@ -9299,7 +9299,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

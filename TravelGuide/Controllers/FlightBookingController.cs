@@ -25,11 +25,15 @@ namespace TravelGuide.Controllers
             var currentUser = await _userManager.GetUserAsync(User); 
             if (currentUser == null)
                 return RedirectToAction("Login", "Account");
-
-            var flightBookings = await _flightBooking.GetAll(fb => fb.UserId == currentUser.Id, new[] { "Flight" }); 
+            var flightBookings = await _flightBooking.GetAll(fb => fb.UserId == currentUser.Id, new[] { "Flight" });
+            bool isAdmin = await _userManager.IsInRoleAsync(currentUser, "Admin");
+            if (isAdmin)
+            {
+                flightBookings = await _flightBooking.GetAll(null, new[] { "Flight" });
+            }
             foreach(var flightBooking in flightBookings)
             {
-                flightBooking.User = currentUser;
+                flightBooking.User = await _userManager.FindByIdAsync(flightBooking.UserId);
             }
             return View("listFlightBookings", flightBookings);
         }

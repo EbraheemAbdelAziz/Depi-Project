@@ -891,19 +891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ebrah\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL 5480\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+      "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
       "projectName": "TravelGuide.Entiteis",
-      "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
-      "packagesPath": "C:\\Users\\ebrah\\.nuget\\packages\\",
-      "outputPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
+      "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+      "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ebrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL 5480\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -960,7 +960,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1369,10 +1369,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8"
         },
         "runtime": {
-          "TravelGuide.Entiteis.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "TravelGuide.Entiteis.dll": {}
         }
       }
     }
