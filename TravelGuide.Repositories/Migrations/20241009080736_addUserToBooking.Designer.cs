@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TravelGuide.Context;
 
@@ -11,9 +12,11 @@ using TravelGuide.Context;
 namespace TravelGuide.Repositories.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241009080736_addUserToBooking")]
+    partial class addUserToBooking
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -258,15 +261,15 @@ namespace TravelGuide.Repositories.Migrations
                         {
                             Id = "62fe5285-fd68-4711-ae93-673787f4ac66",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "2c17596c-4e69-4579-b6fb-83fd95f5ecdb",
+                            ConcurrencyStamp = "7ff9f834-1c27-4ad1-b5f2-d032beeef51b",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMD+91ZBhQcBtMu+MICO/UYAaKxCaEmhbi7ygoEsVUkwp3xUWy9OeFqeJ1y+/j/dnQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDANRpZSE561BiuzKNEXxfU2jTN8uLhDneohbwbT1rRShei//V60eQpFPA4sWy1yWA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "ecdfc4db-700e-4192-ac7f-6ff1d4fe44cf",
+                            SecurityStamp = "8c278d1a-fdaa-4645-bf1f-c485dda44c96",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         },
@@ -274,15 +277,15 @@ namespace TravelGuide.Repositories.Migrations
                         {
                             Id = "62fe5285-fd68-4711-ae93-673787f4a111",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b8f696fd-fc18-48c0-a417-57403d50d458",
+                            ConcurrencyStamp = "0cf5a7a2-e906-4017-9b6c-a25b7d4ae1d8",
                             Email = "user@user.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@USER.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHQhSbd9y2eEBNr3rHCOGKI98kfwZjEsjANtEHKxhA3g7E+Q0GJbCoNXd3leIH4wlg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHj8BQNYEBjMIDY3Ntug/k1yTBZZ8NaobQPMRf+pg7MEbIp+KiSM71utnwL7HqtnNw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "7bad8669-b880-4463-ae94-7f6f15ea6ef7",
+                            SecurityStamp = "dc8e616e-e007-4bc7-b1e4-1f97be74f6c7",
                             TwoFactorEnabled = false,
                             UserName = "user"
                         });

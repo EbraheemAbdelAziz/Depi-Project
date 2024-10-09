@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
+using TravelGuide.Repositories.Migrations;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Model;
 
 namespace TravelGuide.Controllers
@@ -13,20 +15,41 @@ namespace TravelGuide.Controllers
         private readonly IBaseRepository<FlightBooking> _flightBooking;
         private readonly IBaseRepository<RoomBooking> _roomBooking;
         private readonly IBaseRepository<PackageBooking> _packageBooking;
+        private readonly UserManager<AppUser> _userManager;
 
-        public PaymentController(IBaseRepository<Payment> payment, IBaseRepository<FlightBooking> flightBooking, IBaseRepository<RoomBooking> roomBooking, IBaseRepository<PackageBooking> packageBooking)
+        public PaymentController(IBaseRepository<Payment> payment, IBaseRepository<FlightBooking> flightBooking, IBaseRepository<RoomBooking> roomBooking, IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager)
         {
             _payment = payment;
             _flightBooking = flightBooking;
             _roomBooking = roomBooking;
             _packageBooking = packageBooking;
+            _userManager = userManager;
         }
 
         // GET: PaymentController
 
         public async Task<ActionResult> Index()
         {
-            var payments = await _payment.GetAll();
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+            var payments = await _payment.GetAll(p => p.FlightBooking.UserId == currentUser.Id || p.RoomBooking.UserId == currentUser.Id || p.PackageBooking.UserId == currentUser.Id, new[] {"FlightBooking","RoomBooking","PackageBooking"});
+            foreach (var payment in payments)
+            {
+                if (payment.FlightBookingId != null)
+                {
+                    payment.FlightBooking.User = await _userManager.FindByIdAsync(payment.FlightBooking.UserId);
+                }
+                if (payment.RoomBookingId != null)
+                {
+                    payment.RoomBooking.User = await _userManager.FindByIdAsync(payment.RoomBooking.UserId);
+                }
+                if (payment.PackageBookingId != null)
+                {
+                    payment.PackageBooking.User = await _userManager.FindByIdAsync(payment.PackageBooking.UserId);
+                }
+            }
+            
             return View("PaymentsList",payments);
         }
 

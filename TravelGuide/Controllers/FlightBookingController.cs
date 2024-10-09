@@ -27,6 +27,10 @@ namespace TravelGuide.Controllers
                 return RedirectToAction("Login", "Account");
 
             var flightBookings = await _flightBooking.GetAll(fb => fb.UserId == currentUser.Id, new[] { "Flight" }); 
+            foreach(var flightBooking in flightBookings)
+            {
+                flightBooking.User = currentUser;
+            }
             return View("listFlightBookings", flightBookings);
         }
 

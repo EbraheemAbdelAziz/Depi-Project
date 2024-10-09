@@ -5629,19 +5629,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL 5480\\.nuget\\packages\\": {}
+    "C:\\Users\\ebrah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+      "projectUniqueName": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
       "projectName": "TravelGuide.Repositories",
-      "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
-      "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\obj\\",
+      "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+      "packagesPath": "C:\\Users\\ebrah\\.nuget\\packages\\",
+      "outputPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL 5480\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ebrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5656,8 +5656,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
-              "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
+            "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+              "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
             }
           }
         }
@@ -5734,7 +5734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

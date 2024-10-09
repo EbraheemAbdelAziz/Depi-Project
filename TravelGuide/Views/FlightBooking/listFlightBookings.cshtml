@@ -14,6 +14,8 @@
             <thead class="shadow" style="color: #0c3e72;">
                 <tr>
                     <th class="text-center">
+                        User Name
+                    </th><th class="text-center">
                         Airline
                     </th>
                     <th class="text-center">
@@ -36,6 +38,9 @@
                 {
                     <tr>
                         <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.User.UserName)
+                        </td>
+                        <td class="text-center">
                             @Html.DisplayFor(modelItem => item.Flight.Airline)
                         </td>
                         <td class="text-center">
@@ -51,12 +56,18 @@
                             @Html.DisplayFor(modelItem => item.BookingStatus)
                         </td>
                         <td class="text-center" >
-                            <a asp-action="Edit" asp-route-id="@item.BookingId" style="padding:5px 5px; color: #0c3e72;">
-                                <i class="fa-regular fa-pen-to-square"></i>
-                            </a>
-                            <a asp-action="Delete" asp-route-id="@item.BookingId" style="padding:5px 5px;color: #fe5b24d0; ">
-                                <i class="fa-solid fa-trash"></i>
-                            </a>
+                            @{
+                                if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                {
+                                    <a asp-action="Edit" asp-route-id="@item.BookingId" style="padding:5px 5px; color: #0c3e72;">
+                                        <i class="fa-regular fa-pen-to-square"></i>
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@item.BookingId" style="padding:5px 5px;color: #fe5b24d0; ">
+                                        <i class="fa-solid fa-trash"></i>
+                                    </a>
+                                }
+                            }
+                            
                         </td>
                     </tr>
                 }

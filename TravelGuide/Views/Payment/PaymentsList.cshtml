@@ -13,10 +13,13 @@
 <div class="col-lg-10 m-auto mb-10">
         <table class="table table-striped">
             <thead class="shadow" style="color: #0c3e72;">
-        <tr>
-                    <th class="text-center">
-                @Html.DisplayNameFor(model => model.Amount)
-            </th>
+            <tr>
+                <th class="text-center">
+                    User Name
+                </th>
+                <th class="text-center">
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
                 <th class="text-center">
                     @Html.DisplayNameFor(model => model.Currency)
                 </th>
@@ -34,7 +37,23 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-                        <td class="text-center">
+            <td class="text-center">
+                @{
+                    if(item.FlightBookingId != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.FlightBooking.User.UserName)
+                    }
+                    if(item.RoomBookingId != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.RoomBooking.User.UserName)
+                    }
+                    if (item.PackageBookingId != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.PackageBooking.User.UserName)
+                    }
+                }
+            </td>
+            <td class="text-center">
                 @Html.DisplayFor(modelItem => item.Amount)
             </td>
                         <td class="text-center">
@@ -63,8 +82,13 @@
                 }
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PaymentId" style="padding:5px 5px; color: #0c3e72;"><i class="fa-regular fa-pen-to-square"></i></a> |
-                <a asp-action="Delete" asp-route-id="@item.PaymentId" style="padding:5px 5px;color: #fe5b24d0; "><i class="fa-solid fa-trash"></i></a>
+                @{
+                    if(User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.PaymentId" style="padding:5px 5px; color: #0c3e72;"><i class="fa-regular fa-pen-to-square"></i></a>
+                        <a asp-action="Delete" asp-route-id="@item.PaymentId" style = "padding:5px 5px;color: #fe5b24d0;"><i class="fa-solid fa-trash"></i></a>
+                    }
+                }
             </td>
         </tr>
 }
