@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
 
@@ -9,10 +10,12 @@ namespace TravelGuide.Controllers
     {
         // GET: HotelsController
         private IBaseRepository<Hotel> _hotel;
+        private IBaseRepository<Location> _location;
         private IUploadFile _uploadFile;
-        public HotelsController(IBaseRepository<Hotel> hotel, IUploadFile uploadFile)
+        public HotelsController(IBaseRepository<Hotel> hotel, IBaseRepository<Location> location, IUploadFile uploadFile)
         {
             _hotel = hotel;
+            _location = location;
             _uploadFile = uploadFile;
         }
         // GET: RoomsController
@@ -32,6 +35,8 @@ namespace TravelGuide.Controllers
         // GET: RoomsController/Create
         public async Task<ActionResult> Create()
         {
+            var location = await _location.GetAll();
+            ViewBag.Location = new SelectList(location, "LocationId", "LocationName", "ImageUrl");
             return View("NewHotel");
         }
 
@@ -47,17 +52,20 @@ namespace TravelGuide.Controllers
                     string FileName = await _uploadFile.UploadFileAsync("\\Images\\HotelsImages\\", hotel.ImageFile);
                     hotel.HotelImage = FileName;
                 }
-                var HotelTest = _hotel.GetAll().Result.Any(c => c.HotelName == hotel.HotelName);
-                if (HotelTest)
-                {
-                    ViewBag.ExistsError = "Hotel Name already exists";
-                    return View("NewHotel", hotel);
-                }
+
+                //var HotelTest = _hotel.GetAll().Result.Any(c => c.HotelName == hotel.HotelName);
+                //if (HotelTest)
+                //{
+                //    ViewBag.ExistsError = "Hotel Name already exists";
+                //    return View("NewHotel", hotel);
+                //}
                 await _hotel.AddItem(hotel);
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
+                var location = await _location.GetAll();
+                ViewBag.Location = new SelectList(location, "LocationId", "LocationName", "ImageUrl");
                 return View("NewHotel");
             }
         }
@@ -70,6 +78,8 @@ namespace TravelGuide.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
+            var location = await _location.GetAll();
+            ViewBag.Location = new SelectList(location, "LocationId", "LocationName", "ImageUrl");
             return View("EditHotel",hotel);
         }
 
