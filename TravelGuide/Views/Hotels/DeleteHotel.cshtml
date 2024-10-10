@@ -21,7 +21,6 @@
                     </div>
                 </div>
                 
-                
                 <div class="col-sm-6">
                     <div class="form-group">
                         <input class="form-control" asp-for="PhoneNumber" name="PhoneNumber" id="PhoneNumber" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the PhoneNumber'" placeholder='Enter the PhoneNumber'>
@@ -40,8 +39,15 @@
                         <span asp-validation-for="Rating" class="text-danger"></span>
                     </div>
                 </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <select class="form-control" asp-for="LocationId" asp-items="ViewBag.Location">
+                            <option value="">Select a location</option>
+                        </select>
+                        <span asp-validation-for="LocationId" class="text-danger"></span>
+                    </div>
+                </div>
                 
-      
             </div>
             <div class="m-auto">
                 <div class="form-group mb-3 text-right">
@@ -60,10 +66,3 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
-
-
-
-
-
-
-
