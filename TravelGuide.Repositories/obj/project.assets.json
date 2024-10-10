@@ -5629,19 +5629,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ebrah\\.nuget\\packages\\": {}
+    "C:\\Users\\El-Wattaneya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\New folder (3)\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
       "projectName": "TravelGuide.Repositories",
-      "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
-      "packagesPath": "C:\\Users\\ebrah\\.nuget\\packages\\",
-      "outputPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Repositories\\obj\\",
+      "projectPath": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\New folder (3)\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
+      "packagesPath": "C:\\Users\\El-Wattaneya\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\New folder (3)\\TravelGuide.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ebrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\El-Wattaneya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5649,15 +5649,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
-              "projectPath": "D:\\Dot Net\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
+            "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\New folder (3)\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+              "projectPath": "C:\\Users\\El-Wattaneya\\source\\repos\\Depi-Project\\New folder (3)\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
             }
           }
         }
@@ -5734,7 +5733,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

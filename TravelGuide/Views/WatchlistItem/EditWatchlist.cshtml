@@ -5,27 +5,31 @@
     Layout = "_templateLayout";
 }
 
-<h1>EditWatchlist</h1>
-
-<h4>WatchlistItem</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Watchlist Item</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" enctype="multipart/form-data" id="contactForm">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="ItemID" class="control-label"></label>
+                        <input asp-for="ItemID" class="form-control" />
+                        <span asp-validation-for="ItemID" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label asp-for="ItemType" class="control-label"></label>
+                        <input asp-for="ItemType" class="form-control" />
+                        <span asp-validation-for="ItemType" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
             <input type="hidden" asp-for="WatchlistItemId" />
-            <div class="form-group">
-                <label asp-for="ItemID" class="control-label"></label>
-                <input asp-for="ItemID" class="form-control" />
-                <span asp-validation-for="ItemID" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ItemType" class="control-label"></label>
-                <input asp-for="ItemType" class="form-control" />
-                <span asp-validation-for="ItemType" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group mb-3 text-right">
+                <button type="submit" value="Save" class="button button-contactForm btn_1">Save</button>
             </div>
         </form>
     </div>
@@ -36,5 +40,5 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @await Html.PartialAsync("_ValidationScriptsPartial")
 }

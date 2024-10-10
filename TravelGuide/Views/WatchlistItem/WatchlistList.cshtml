@@ -5,38 +5,56 @@
     Layout = "_templateLayout";
 }
 
-<h1>WatchlistList</h1>
+<body>
+    <section class="top_place section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section_tittle text-center">
+                        <h2>Watchlist</h2>
+                        <p>Keep track of your favorite items by adding them to your watchlist and easily manage them.</p>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.ItemID)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ItemType)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ItemID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ItemType)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.WatchlistItemId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.WatchlistItemId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.WatchlistItemId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                        @* Admin-only create button *@
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <div class="m-auto text-center">
+                                <a asp-action="Create" asp-controller="WatchlistItem"
+                                   class="btn btn-primary"
+                                   style="padding: 10px 25px; margin-top: 10px;">
+                                    Add New Watchlist Item
+                                </a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-8 col-md-8 m-auto mb-4">
+                        @* Watchlist item details display box *@
+                        <div class="single_place p-4 border rounded mb-3">
+                            <div class="watchlist-item-info">
+                                <h3>@item.ItemType</h3>
+                                <p><strong>Item ID:</strong> @item.ItemID</p>
+                                <p><strong>Details:</strong> More details about the item can be added here.</p>
+                            </div>
+                        </div>
+
+                        @* Buttons for Edit, Delete, and View Details outside the display box *@
+                        <div class="actions text-center">
+                            <a class="btn btn-info btn-sm mx-2" asp-action="Details" asp-route-id="@item.WatchlistItemId">View Details</a>
+
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
+                                <a class="btn btn-warning btn-sm mx-2" asp-action="Edit" asp-route-id="@item.WatchlistItemId">Edit</a>
+                                <a class="btn btn-danger btn-sm mx-2" asp-action="Delete" asp-route-id="@item.WatchlistItemId">Delete</a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+</body>

@@ -49,3 +49,16 @@ C:\Users\DELL 5480\Source\Repos\Depi-Project2\TravelGuide.Entiteis\obj\Debug\net
 C:\Users\DELL 5480\Source\Repos\Depi-Project2\TravelGuide.Entiteis\obj\Debug\net8.0\refint\TravelGuide.Entiteis.dll
 C:\Users\DELL 5480\Source\Repos\Depi-Project2\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.pdb
 C:\Users\DELL 5480\Source\Repos\Depi-Project2\TravelGuide.Entiteis\obj\Debug\net8.0\ref\TravelGuide.Entiteis.dll
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.deps.json
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.dll
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.pdb
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.AssemblyReference.cache
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.AssemblyInfoInputs.cache
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.AssemblyInfo.cs
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.sourcelink.json
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.dll
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\refint\TravelGuide.Entiteis.dll
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.pdb
+C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\ref\TravelGuide.Entiteis.dll
