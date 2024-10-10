@@ -17,8 +17,13 @@
                 <div class="col-sm-6">
                     <input type="hidden" asp-for="RoomId" />
                     <div class="form-group">
-                        <input class="form-control" asp-for="RoomId" name="RoomId" id="RoomId" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the RoomId'" placeholder='Enter the Room Id'>
-                        <span asp-validation-for="RoomId" class="text-danger"></span>
+                        <select asp-for="hotelId" asp-items="@(new SelectList(Model.HotelList, "HotelId", "HotelName"))" class="form-control" disabled>
+
+                            <option value="-1">Select a Hotel</option>
+
+                        </select>
+
+                        <span asp-validation-for="hotelId" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
