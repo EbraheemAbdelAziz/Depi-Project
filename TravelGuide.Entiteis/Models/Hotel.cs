@@ -12,10 +12,7 @@ namespace TravelGuide.Entiteis.Models
         public Location Location { get; set; }
         [MaxLength(50)]
         public string HotelName { get; set; }
-        [MaxLength(50)]
-        public string City { get; set; }
-        [MaxLength(100)]
-        public string Address { get; set; }
+        
         [MaxLength(50)]
         public string PhoneNumber { get; set; }
         [MaxLength(50)]
