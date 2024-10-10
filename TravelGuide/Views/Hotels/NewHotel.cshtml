@@ -3,7 +3,6 @@
 @{
     ViewData["Title"] = "NewHotel";
     Layout = "_templateLayout";
-
 }
 
 <div class="row">
@@ -11,59 +10,55 @@
         <h2 class="contact-title text-center m-5 text-italic">Add Hotel</h2>
     </div>
     <div class="col-lg-8 m-auto">
-        <form class="form-contact contact_form" asp-action="Create" enctype="multipart/form-data" id="contactForm">
+        <form class="form-contact contact_form" asp-action="Create" method="post" enctype="multipart/form-data">
+
             <div class="row">
                 <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label asp-for="HotelName" class="control-label"></label>
-                                    <input asp-for="HotelName" class="form-control" />
-                                    <span asp-validation-for="HotelName" class="text-danger"></span>
-                                </div>
+                    <div class="form-group">
+                        <input class="form-control" asp-for="HotelName" name="HotelName" id="HotelName" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the HotelName'" placeholder='Enter the HotelName'>
+                        <span asp-validation-for="HotelName" class="text-danger"></span>
+                    </div>
                 </div>
                 <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label asp-for="City" class="control-label"></label>
-                                    <input asp-for="City" class="form-control" />
-                                    <span asp-validation-for="City" class="text-danger"></span>
-                                </div>
+                    <div class="form-group">
+                        <input class="form-control" asp-for="PhoneNumber" name="PhoneNumber" id="PhoneNumber" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the PhoneNumber'" placeholder='Enter the PhoneNumber'>
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
                 </div>
                 <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label asp-for="Address" class="control-label"></label>
-                                    <input asp-for="Address" class="form-control" />
-                                    <span asp-validation-for="Address" class="text-danger"></span>
-                                </div>
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Email" name="Email" id="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter theEmail'" placeholder='Enter the Email'>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
                 </div>
                 <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label asp-for="PhoneNumber" class="control-label"></label>
-                                    <input asp-for="PhoneNumber" class="form-control" />
-                                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                                </div>
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Rating" name="Rating" id="Rating" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Rating'" placeholder='Enter the Rating'>
+                        <span asp-validation-for="Rating" class="text-danger"></span>
+                    </div>
                 </div>
-                <div class="col-sm-6">
-                                <div class="form-group">
-                                    <label asp-for="Email" class="control-label"></label>
-                                    <input asp-for="Email" class="form-control" />
-                                    <span asp-validation-for="Email" class="text-danger"></span>
-                                </div>
-                </div>
-                            <div class="form-group">
-                                <label asp-for="Rating" class="control-label"></label>
-                                <input asp-for="Rating" class="form-control" />
-                                <span asp-validation-for="Rating" class="text-danger"></span>
-                            </div>
-            </div>
-            <div class="form-group">
-                <label asp-for="@Model.ImageFile" class="control-label"></label>
-                <div class="custom-file">
-                    <input asp-for="@Model.ImageFile" class="form-control" onchange="loadFile(event)" />
-                </div>
-            </div>
+                
 
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <select class="form-control" asp-for="LocationId" asp-items="ViewBag.Location">
+                            <option value="">Select a location</option>
+                        </select>
+                        <span asp-validation-for="LocationId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                <div class="form-group">
+       
+                    <div class="custom-file">
+                        <input asp-for="@Model.ImageFile" class="form-control" onchange="loadFile(event)" />
+                    </div>
+                </div>
+                </div>
+            </div>
             <div class="form-group mb-3 text-right">
-                <button type="submit" value="Create" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Add</button>
-                <button type="button" onclick="window.location.href='@Url.Action("Index", "Hotels")'" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Cancel</button>
+                <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
             </div>
         </form>
     </div>
@@ -73,15 +68,14 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-
-    <script>
-        debugger
-        var loadFile = function (event) {
-            var output = document.getElementById('output');
-            output.src = URL.createObjectURL(event.target.files[0]);
-            output.onload = function () {
-                URL.revokeObjectURL(output.src)
-            }
-        };
-    </script>
 }
+<script>
+    debugger
+    var loadFile = function (event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.onload = function () {
+            URL.revokeObjectURL(output.src)
+        }
+    };
+</script>
