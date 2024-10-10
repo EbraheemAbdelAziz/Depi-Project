@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TravelGuide.Entiteis.Models
@@ -20,6 +20,8 @@ namespace TravelGuide.Entiteis.Models
         public decimal PricePerNight { get; set; }
         
         public bool Availability { get; set; }
+        [NotMapped]
+        public List<Hotel> HotelList { get; set; }
 
     }
 }
