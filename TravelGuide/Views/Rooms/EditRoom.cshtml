@@ -17,8 +17,12 @@
                 <div class="col-sm-6">
                     <input type="hidden" asp-for="RoomId" />
                     <div class="form-group">
-                        <label asp-for="hotelId" class="control-label"></label>
-                        <input asp-for="hotelId" class="form-control" />
+                        <select asp-for="hotelId" asp-items="@(new SelectList(Model.HotelList, "HotelId", "HotelName"))" class="form-control">
+
+                            <option value="">Select a Hotel</option>
+
+                        </select>
+
                         <span asp-validation-for="hotelId" class="text-danger"></span>
                     </div>
                 </div>
