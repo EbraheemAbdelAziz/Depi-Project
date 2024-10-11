@@ -9,7 +9,7 @@ namespace TravelGuide.Entiteis.Models
         [Key]
         public int HotelId { get; set; }
         public int LocationId { get; set; }
-        public Location Location { get; set; }
+        public Location? Location { get; set; }
         [MaxLength(50)]
         public string HotelName { get; set; }
         

@@ -13,12 +13,17 @@
                     <div class="section_tittle text-center">
                         <h2>Hotels</h2>
                         <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
-                        <div class="m-auto text-center">
-                            <a asp-action="Create" asp-controller="Hotels"
-                               style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px; ">
-                                Add New Hotel
-                            </a>
-                        </div>
+                        @{
+                            if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
+                                <div class="m-auto text-center">
+                                    <a asp-action="Create" asp-controller="Hotels"
+                                       style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px; ">
+                                        Add New Hotel
+                                    </a>
+                                </div>
+                            }
+                        }
                     </div>
                 </div>
             </div>
@@ -41,10 +46,14 @@
                                 <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Details" asp-route-Id="@item.HotelId">Contacts</a>
 
                                 <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Index" asp-controller="Rooms">Room</a>
+                                @{
+                                    if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                    {
+                                        <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@item.HotelId">Edit</a>
 
-                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@item.HotelId">Edit</a>
-
-                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.HotelId">Delete</a>
+                                        <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.HotelId">Delete</a>
+                                    }
+                                }
                             </div>
                         </div>
 

@@ -14,12 +14,17 @@
                     <div class="section_tittle text-center">
                         <h2>Rooms</h2>
                         <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
-                        <div class="m-auto text-center">
-                            <a asp-action="Create" asp-controller="Rooms"
-                               style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px; ">
-                                Add New Room
-                            </a>
-                        </div>
+                        @{
+                            if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
+                                <div class="m-auto text-center">
+                                    <a asp-action="Create" asp-controller="Rooms"
+                                       style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px; ">
+                                        Add New Room
+                                    </a>
+                                </div>
+                            }
+                        }
                     </div>
                 </div>
             </div>
@@ -42,10 +47,14 @@
                             <div class="form-group mb-3">
 
                                 <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-controller="RoomBooking" asp-action="Create" asp- asp-route-RoomId="@item.RoomId">Book</a>
+                                @{
+                                    if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                    {
+                                        <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@item.RoomId">Edit</a>
 
-                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@item.RoomId">Edit</a>
-
-                                <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.RoomId">Delete</a>
+                                        <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.RoomId">Delete</a>
+                                    }
+                                }
                             </div>
                         </div>
 
