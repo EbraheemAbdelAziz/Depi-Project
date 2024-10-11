@@ -44,12 +44,11 @@ namespace TravelGuide.Controllers
 
         // GET: RoomsController/Details/5 
 
-        public async Task<ActionResult> Details(int id)
+        public async Task<ActionResult> Details(int     id)
 
         {
-
             var room = await _room.GetById(id);
-
+            room.hotel = await _hotel.GetById(room.hotelId);
             return View("RoomDetails", room);
 
         }
@@ -123,19 +122,14 @@ namespace TravelGuide.Controllers
         public async Task<ActionResult> Edit(int id)
 
         {
-
             var room = await _room.GetById(id);
-
             if (room == null)
-
             {
-
                 return RedirectToAction(nameof(Index));
-
             }
-
+            var hotel = await _hotel.GetAll();
+            room.HotelList = hotel.ToList();
             return View("EditRoom", room);
-
         }
 
 
@@ -149,25 +143,16 @@ namespace TravelGuide.Controllers
         public async Task<ActionResult> Edit(int id, Room room)
 
         {
-
             try
 
             {
-
                 await _room.UpdateItem(room);
-
                 return RedirectToAction(nameof(Index));
-
             }
-
             catch
-
             {
-
                 return View("EditRoom");
-
             }
-
         }
 
 

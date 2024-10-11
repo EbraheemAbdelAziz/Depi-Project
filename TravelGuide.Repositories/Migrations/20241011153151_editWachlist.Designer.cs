@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TravelGuide.Context;
 
@@ -11,9 +12,11 @@ using TravelGuide.Context;
 namespace TravelGuide.Repositories.Migrations
 {
     [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241011153151_editWachlist")]
+    partial class editWachlist
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -258,15 +261,15 @@ namespace TravelGuide.Repositories.Migrations
                         {
                             Id = "62fe5285-fd68-4711-ae93-673787f4ac66",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f46cb6b2-bdd1-4c1f-8005-3edc58ac0458",
+                            ConcurrencyStamp = "835332a1-9e85-4d80-a4b0-698378fad994",
                             Email = "admin@admin.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAECWsXujNLA+SsrrBnq/mduuV2zKn7IYKzMGTRUp3tvByZLqx9/GVr9a9ocp3gOCt8Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEsWgZKxI7yXHYugdIs3f0JUsRQA4RSXUQC1QKXUL6SQQQzA5Vz6LSEnpQvf6xPvJg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9eb56a24-027a-49d1-9575-b54c11defaa3",
+                            SecurityStamp = "08994a32-fb84-46ea-aabc-03f46d110221",
                             TwoFactorEnabled = false,
                             UserName = "Admin"
                         },
@@ -274,15 +277,15 @@ namespace TravelGuide.Repositories.Migrations
                         {
                             Id = "62fe5285-fd68-4711-ae93-673787f4a111",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c943e3ee-80c9-484d-a043-b36fa33fe63c",
+                            ConcurrencyStamp = "d65e8eb1-ebe7-4b3b-81d3-3eea972f1f78",
                             Email = "user@user.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@USER.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM5HhFlycL+k21fyGWVdpLKW5BHNdY50jEXVgR/odY1Ktw7m/fGkvrf63/w9thLI1A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDiUWsqfjb245bZhfJ1N3CfoPB9CkI2lk/IzJCm3sCts7PM0yC8fed10AQHz9v1y+Q==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "3c905c04-cd63-49d2-9c6b-e6a29c2437af",
+                            SecurityStamp = "88f86ae5-0502-466e-ac83-bbd0cc9c2278",
                             TwoFactorEnabled = false,
                             UserName = "user"
                         });
@@ -656,13 +659,15 @@ namespace TravelGuide.Repositories.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId1")
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("WatchlistItemId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UserId1");
 
                     b.ToTable("WatchlistItems");
                 });
@@ -842,9 +847,7 @@ namespace TravelGuide.Repositories.Migrations
                 {
                     b.HasOne("TravelGuide.Entiteis.Models.AppUser", "User")
                         .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId1");
 
                     b.Navigation("User");
                 });

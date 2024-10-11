@@ -29,6 +29,7 @@ namespace TravelGuide.Controllers
         public async Task<ActionResult> Details(int id)
         {
             var flight = await _flight.GetById(id);
+            flight.location = await _location.GetById(flight.LocationId);
             return View("FlightDetails", flight);
         }
 

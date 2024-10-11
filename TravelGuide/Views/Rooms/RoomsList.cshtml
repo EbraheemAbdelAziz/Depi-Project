@@ -47,6 +47,7 @@
                             <div class="form-group mb-3">
 
                                 <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-controller="RoomBooking" asp-action="Create" asp- asp-route-RoomId="@item.RoomId">Book</a>
+                               
                                 @{
                                     if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                                     {
@@ -55,6 +56,12 @@
                                         <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.RoomId">Delete</a>
                                     }
                                 }
+                                <form class="d-flex" asp-action="Create" asp-controller="WatchlistItem" method="post">
+                                    <input type="hidden" name="ItemID" value="@item.RoomId" />
+                                    <input type="hidden" name="ItemType" value="Rooms" />
+                                    @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
+                                    <button type="submit" class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;">Add to Watchlist</button>
+                                </form>
                             </div>
                         </div>
 

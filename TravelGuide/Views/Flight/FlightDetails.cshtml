@@ -1,0 +1,79 @@
+﻿@model TravelGuide.Entiteis.Models.Flight
+
+@{
+    ViewData["Title"] = "WatchlistDetails";
+    Layout = "_templateLayout";
+}
+
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Flight Details</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <div class="form-contact contact_form">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="HotelName">Flight Airline</label>
+                        <p class="form-control">@Model.Airline</p>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="PhoneNumber">Arival Airport</label>
+                        <p class="form-control">@Model.ArivalAirport</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Email">Arrival Time</label>
+                        <p class="form-control">@Model.ArrivalTime</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Flight Price</label>
+                        <p class="form-control">@Model.TotalPrice</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Flight Price</label>
+                        <p class="form-control">@Model.TotalPrice</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Arival Location</label>
+                        <p class="form-control">@Model.location.LocationName</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-auto">
+                <div class="form-group mb-3 text-right">
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                    {
+                        <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Create" asp-controller="FlightBooking" asp-route-FlightId="@Model.FlightId">Book</a>
+                        <!-- Direct POST for adding to watchlist -->
+
+                    }
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@Model.FlightId">Edit</a>
+                        <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@Model.FlightId">Delete</a>
+                    }
+                    <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Index" asp-controller="WatchlistItem">Cancel</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
