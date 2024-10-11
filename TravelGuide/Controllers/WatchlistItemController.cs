@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
@@ -8,10 +9,12 @@ namespace TravelGuide.Controllers
     public class WatchlistItemController : Controller
     {
         private readonly IBaseRepository<WatchlistItem> _WatchlistItem;
+        private readonly UserManager<AppUser> _userManager;
 
-        public WatchlistItemController(IBaseRepository<WatchlistItem> watchlistItem)
+        public WatchlistItemController(IBaseRepository<WatchlistItem> watchlistItem, UserManager<AppUser> userManager)
         {
             _WatchlistItem = watchlistItem;
+            _userManager = userManager;
         }
 
         // GET: WatchlistItemController
@@ -29,18 +32,28 @@ namespace TravelGuide.Controllers
         }
 
         // GET: WatchlistItemController/Create
-        public async Task<ActionResult> Create()
-        {
-            return View("NewWatchlist");
-        }
+        //public async Task<ActionResult> Create()
+        //{
+        //    return View("NewWatchlist");
+        //}
 
         // POST: WatchlistItemController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(WatchlistItem watchlist)
+        public async Task<ActionResult> Create(int ItemId, string ItemType)
         {
             try
             {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null)
+                    return RedirectToAction("Login", "Account");
+                var watchlist = new WatchlistItem()
+                {
+                    ItemID = ItemId,
+                    ItemType = ItemType,
+                    UserId = currentUser.Id
+
+                };
                 await _WatchlistItem.AddItem(watchlist);
                 return RedirectToAction(nameof(Index));
             }

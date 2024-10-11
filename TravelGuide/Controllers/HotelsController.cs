@@ -21,7 +21,7 @@ namespace TravelGuide.Controllers
         // GET: RoomsController
         public async Task<ActionResult> Index()
         {
-            var hotel = await _hotel.GetAll();
+            var hotel = await _hotel.GetAll(null, new[] { "Location" });
             return View("HotelsList", hotel);
         }
 
@@ -90,6 +90,15 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                if (hotel.ImageFile != null)
+                {
+                    string FileName = await _uploadFile.UploadFileAsync("\\Images\\HotelsImages\\", hotel.ImageFile);
+                    hotel.HotelImage = FileName;
+                }
+                else {
+                    var oldHotel = await _hotel.GetById(id);
+                    hotel.HotelImage = oldHotel.HotelImage;
+                }
                 await _hotel.UpdateItem(hotel);
                 return RedirectToAction(nameof(Index));
             }

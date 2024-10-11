@@ -51,7 +51,10 @@ namespace TravelGuide.Controllers
 		// GET: RoomBookingController/Create
 		public async Task<ActionResult> Create(string RoomId)
 		{
-			var roomBooking = new RoomBooking();
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+            var roomBooking = new RoomBooking();
 			roomBooking.RoomId = int.Parse(RoomId);
 			roomBooking.HotelId = _room.GetById(int.Parse(RoomId)).Result.hotelId;
             return View("NewRoomBooking", roomBooking);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F/KH1sQ7svs=",
+  "dgSpecHash": "F8WgljEOSNg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
   "expectedPackageFiles": [
@@ -113,5 +113,12 @@
     "C:\\Users\\Mohamed\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Mohamed\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -7,10 +7,7 @@ namespace TravelGuide.Entiteis.Models
     {
         [Display(Name = "Booking Date")]
         public DateTime BookingDate { set; get; }
-        //[ForeignKey(nameof(user))]
-        //public int UserId { set; get; }
-        //public User? user { set; get; }
-        //public Double TotalPrice { set; get; }
+
         [Display(Name = "Booking Status")]
         public bool BookingStatus { set; get; }
         [ForeignKey("User")]

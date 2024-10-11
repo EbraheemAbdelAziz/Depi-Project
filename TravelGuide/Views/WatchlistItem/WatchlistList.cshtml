@@ -37,15 +37,12 @@
                         <div class="single_place p-4 border rounded mb-3">
                             <div class="watchlist-item-info">
                                 <h3>@item.ItemType</h3>
-                                <p><strong>Item ID:</strong> @item.ItemID</p>
-                                <p><strong>Details:</strong> More details about the item can be added here.</p>
+                                <p><strong>Details:</strong> Press View details to preview the @item.ItemType</p>
                             </div>
                         </div>
-
                         @* Buttons for Edit, Delete, and View Details outside the display box *@
                         <div class="actions text-center">
-                            <a class="btn btn-info btn-sm mx-2" asp-action="Details" asp-route-id="@item.WatchlistItemId">View Details</a>
-
+                            <a class="btn btn-info btn-sm mx-2" asp-action="Details" asp-route-id="@item.ItemID" asp-controller="@item.ItemType">View Details</a>
                             @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                             {
                                 <a class="btn btn-warning btn-sm mx-2" asp-action="Edit" asp-route-id="@item.WatchlistItemId">Edit</a>

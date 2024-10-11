@@ -11,7 +11,7 @@
         "projectName": "TravelGuide.Entiteis",
         "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,7 +86,7 @@
         "projectName": "TravelGuide.Repositories",
         "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,7 +197,7 @@
         "projectName": "TravelGuide",
         "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed\\Source\\Repos\\Depi-Project\\TravelGuide\\obj\\",
+        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -267,7 +267,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.6, )"
             }
           },
           "imports": [

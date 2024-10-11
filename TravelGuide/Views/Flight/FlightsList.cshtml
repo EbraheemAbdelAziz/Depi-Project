@@ -1,5 +1,4 @@
 ﻿@model IEnumerable<TravelGuide.Entiteis.Models.Flight>
-
 @{
     ViewData["Title"] = "FlightsList";
     Layout = "_templateLayout";
@@ -43,12 +42,20 @@
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
                                     {
                                         <a class="place_btn" asp-action="Create" asp-controller="FlightBooking" asp-route-FlightId="@item.FlightId">Book</a>
+                                        <!-- Direct POST for adding to watchlist -->
+                                        
                                     }
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                                     {
                                         <a class="place_btn" asp-action="Edit" asp-route-Id="@item.FlightId">Edit</a>
                                         <a class="place_btn" asp-action="Delete" asp-route-Id="@item.FlightId">Delete</a>
                                     }
+                                    <form asp-action="Create" asp-controller="WatchlistItem" method="post">
+                                        <input type="hidden" name="ItemID" value="@item.FlightId" />
+                                        <input type="hidden" name="ItemType" value="Flight" />
+                                        @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
+                                        <button type="submit" class="place_btn">Add to Watchlist</button>
+                                    </form>
                                 </div>
                                 <h3>@item.location.LocationName - @item.TotalPrice $</h3>
                                 <p>@item.location.Country</p>

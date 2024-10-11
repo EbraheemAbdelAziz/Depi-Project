@@ -15,7 +15,8 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="row">
                 <div class="col-sm-6">
-                    <input type="hidden" asp-for="HotelId" />
+                    <input  asp-for="HotelId" hidden />
+                    <input  asp-for="LocationId" hidden />
                     <div class="form-group">
                         <input class="form-control" asp-for="HotelName" name="HotelName" id="HotelName" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the HotelName'" placeholder='Enter the Hotel Name'>
                         <span asp-validation-for="HotelName" class="text-danger"></span>
@@ -41,7 +42,13 @@
                         <span asp-validation-for="Rating" class="text-danger"></span>
                     </div>
                 </div>
-                
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <div class="custom-file">
+                        <input asp-for="@Model.ImageFile" class="form-control"  />
+                    </div>
+                </div>
             </div>
             <div class="m-auto">
                 <div class="form-group mb-3 text-right">
@@ -49,7 +56,6 @@
                     <button type="button" onclick="window.location.href='@Url.Action("Index", "Hotels")'" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Cancel</button>
                 </div>
             </div>
-
         </form>
     </div>
 

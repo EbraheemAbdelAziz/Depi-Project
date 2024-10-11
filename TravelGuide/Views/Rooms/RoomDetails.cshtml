@@ -1,0 +1,64 @@
+﻿@model TravelGuide.Entiteis.Models.Room
+
+@{
+    ViewData["Title"] = "WatchlistDetails";
+    Layout = "_templateLayout";
+}
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Room Details</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <div class="form-contact contact_form">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="HotelName">Room Number</label>
+                        <p class="form-control">@Model.RoomNumber</p>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="PhoneNumber">Room Number</label>
+                        <p class="form-control">@Model.RoomType</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Email">Capacity</label>
+                        <p class="form-control">@Model.Capacity</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Hotel</label>
+                        <p class="form-control">@Model.hotel.HotelName</p>
+                    </div>
+                </div>
+            </div>
+            <div class="m-auto">
+                <div class="form-group mb-3 text-right">
+                    <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-controller="RoomBooking" asp-action="Create" asp- asp-route-RoomId="@Model.RoomId">Book</a>
+                    @{
+                        if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@Model.RoomId">Edit</a>
+
+                            <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@Model.RoomId">Delete</a>
+                        }
+                    }
+                    <a asp-action="Index" asp-controller="WatchlistItem" class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;">Cancel</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

@@ -897,11 +897,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohamed\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+      "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
       "projectName": "TravelGuide.Entiteis",
-      "projectPath": "C:\\Users\\Mohamed\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+      "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
       "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohamed\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
+      "outputPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -968,5 +968,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

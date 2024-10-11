@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TravelGuide.Entiteis.Models
 {
@@ -7,16 +8,14 @@ namespace TravelGuide.Entiteis.Models
         [Key]
         public int WatchlistItemId { get; set; }
 
-       // [ForeignKey("User")]
-        //[ForeignKey(nameof(User))]
-        //public int UserId { get; set; }
+        public string UserId { get; set; }
 
         public int ItemID { get; set; }
 
         [MaxLength(20)]
         public string ItemType { get; set; }
 
-        //public User User { get; set; }
+        public AppUser? User { get; set; }
 
     }
 }

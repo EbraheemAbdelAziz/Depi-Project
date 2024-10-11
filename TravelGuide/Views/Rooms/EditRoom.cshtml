@@ -18,9 +18,6 @@
                     <input type="hidden" asp-for="RoomId" />
                     <div class="form-group">
                         <select asp-for="hotelId" asp-items="@(new SelectList(Model.HotelList, "HotelId", "HotelName"))" class="form-control">
-
-                            <option value="">Select a Hotel</option>
-
                         </select>
 
                         <span asp-validation-for="hotelId" class="text-danger"></span>
@@ -35,8 +32,21 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label asp-for="RoomType" class="control-label"></label>
-                        <input asp-for="RoomType" class="form-control" />
+                        <select asp-for="RoomType" class="form-control">
+
+                            <option value="@Model.RoomType">@Model.RoomType</option>
+
+                            <option value="Budget ">Budget </option>
+
+                            <option value="Deluxe ">Deluxe </option>
+
+                            <option value="Luxury">Luxury</option>
+
+                            <option value="Standard ">Standard </option>
+
+                            <option value="Suites ">Suites </option>
+
+                        </select>
                         <span asp-validation-for="RoomType" class="text-danger"></span>
                     </div>
                 </div>
