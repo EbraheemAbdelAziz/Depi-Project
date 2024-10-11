@@ -5,57 +5,59 @@
     Layout = "_templateLayout";
 
 }
-
-<h1>listPackageBooking</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NumberOfGuests)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TravelPackage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.BookingDate)
-            </th>
-@*             <th>
-                @Html.DisplayNameFor(model => model.TotalPrice)
-            </th> *@
-            <th>
-                @Html.DisplayNameFor(model => model.BookingStatus)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumberOfGuests)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TravelPackage.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BookingDate)
-            </td>
-@*             <td>
-                @Html.DisplayFor(modelItem => item.TotalPrice)
-            </td> *@
-            <td>
-                @Html.DisplayFor(modelItem => item.BookingStatus)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Package Bookings</h2>
+    </div>
+    <div class="col-lg-10 m-auto mb-10">
+        <table class="table table-striped">
+            <thead class="shadow" style="color: #0c3e72;">
+                <tr>
+                    <th class="text-center">
+                        Number of Guests
+                    </th>
+                    <th class="text-center">
+                        Travel Package
+                    </th>
+                    <th class="text-center">
+                        Booking Date
+                    </th>
+                    <th class="text-center">
+                        Booking Status
+                    </th>
+                    <th class="text-center"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.NumberOfGuests)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.TravelPackage.Description)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.BookingDate)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.BookingStatus)
+                        </td>
+                        <td class="text-center">
+                            @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.BookingId" style="padding:5px 5px; color: #0c3e72;">
+                                    <i class="fa-regular fa-pen-to-square"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.BookingId" style="padding:5px 5px;color: #fe5b24d0;">
+                                    <i class="fa-solid fa-trash"></i>
+                                </a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

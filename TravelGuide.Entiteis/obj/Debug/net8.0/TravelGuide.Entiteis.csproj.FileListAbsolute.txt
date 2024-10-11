@@ -62,3 +62,16 @@ C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entit
 C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\refint\TravelGuide.Entiteis.dll
 C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.pdb
 C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Entiteis\obj\Debug\net8.0\ref\TravelGuide.Entiteis.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.deps.json
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\bin\Debug\net8.0\TravelGuide.Entiteis.pdb
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.AssemblyInfo.cs
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.sourcelink.json
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\refint\TravelGuide.Entiteis.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\TravelGuide.Entiteis.pdb
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Entiteis\obj\Debug\net8.0\ref\TravelGuide.Entiteis.dll

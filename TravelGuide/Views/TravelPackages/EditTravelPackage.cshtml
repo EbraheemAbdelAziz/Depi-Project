@@ -5,75 +5,90 @@
     Layout = "_templateLayout";
 }
 
-<h1>EditTravelPackage</h1>
-
-<h4>TravelPackage</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Travel Package</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" enctype="multipart/form-data" id="contactForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="PackageId" />
-            <div class="form-group">
-                <label asp-for="PackageName" class="control-label"></label>
-                <input asp-for="PackageName" class="form-control" />
-                <span asp-validation-for="PackageName" class="text-danger"></span>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="hidden" asp-for="PackageId" />
+                    <div class="form-group">
+                        <input class="form-control" asp-for="PackageName" name="PackageName" id="PackageName" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Package Name'" placeholder='Enter the Package Name'>
+                        <span asp-validation-for="PackageName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Description" name="Description" id="Description" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Description'" placeholder='Enter the Description'>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Destination" name="Destination" id="Destination" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination'" placeholder='Enter the Destination'>
+                        <span asp-validation-for="Destination" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Price" name="Price" id="Price" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Price'" placeholder='Enter the Price'>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Duration" name="Duration" id="Duration" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Duration'" placeholder='Enter the Duration'>
+                        <span asp-validation-for="Duration" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="StartDate" type="date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Start Date'" placeholder='Enter the Start Date'>
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="EndDate" type="date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the End Date'" placeholder='Enter the End Date'>
+                        <span asp-validation-for="EndDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="MaxGuests" type="number" min="1" max="100" step="1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Maximum Guests'" placeholder='Enter the Maximum Guests'>
+                        <span asp-validation-for="MaxGuests" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Rating" type="range" min="1" max="5" step="0.1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Rating'" placeholder='Enter the Rating'>
+                        <span asp-validation-for="Rating" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="TravelImage" type="file" accept="image/*" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Upload an Image'" placeholder='Upload an Image'>
+                        <span asp-validation-for="TravelImage" class="text-danger"></span>
+                    </div>
+                </div>
+
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Destination" class="control-label"></label>
-                <input asp-for="Destination" class="form-control" />
-                <span asp-validation-for="Destination" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Duration" class="control-label"></label>
-                <input asp-for="Duration" class="form-control" />
-                <span asp-validation-for="Duration" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="StartDate" class="control-label"></label>
-                <input asp-for="StartDate" class="form-control" />
-                <span asp-validation-for="StartDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EndDate" class="control-label"></label>
-                <input asp-for="EndDate" class="form-control" />
-                <span asp-validation-for="EndDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MaxGuests" class="control-label"></label>
-                <input asp-for="MaxGuests" class="form-control" />
-                <span asp-validation-for="MaxGuests" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Rating" class="control-label"></label>
-                <input asp-for="Rating" class="form-control" />
-                <span asp-validation-for="Rating" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ImageURL" class="control-label"></label>
-                <input asp-for="ImageURL" class="form-control" />
-                <span asp-validation-for="ImageURL" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group mb-3 text-right flex flex-row">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "TravelPackages")'" style="background-color:#162b45;">Cancel</button>
+
+                <button type="submit" value="Edit" class="button button-contactForm btn_1">Edit</button>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

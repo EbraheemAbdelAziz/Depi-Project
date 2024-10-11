@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
 
@@ -9,28 +11,57 @@ namespace TravelGuide.Controllers
     {
         // GET: PackageBookingController
         private IBaseRepository<PackageBooking> _packageBooking;
-
-        public PackageBookingController(IBaseRepository<PackageBooking> packageBooking)
+        private readonly UserManager<AppUser> _userManager;
+        public PackageBookingController(IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager)
         {
             _packageBooking = packageBooking;
+            _userManager = userManager;
         }
 
         public async Task <ActionResult> Index()
         {
-            var packageBooking = await _packageBooking.GetAll();
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+            var packageBooking = await _packageBooking.GetAll(fb => fb.UserId == currentUser.Id, new[] { "TravelPackage" });
+            bool isAdmin = await _userManager.IsInRoleAsync(currentUser, "Admin");
+            if (isAdmin)
+            {
+                packageBooking = await _packageBooking.GetAll(null, new[] { "TravelPackage" });
+            }
+            foreach (var flightBooking in packageBooking)
+            {
+                flightBooking.User = await _userManager.FindByIdAsync(flightBooking.UserId);
+            }
             return View("listPackageBooking",packageBooking);
         }
 
         // GET: PackageBookingController/Details/5
         public async Task <ActionResult> Details(int id)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
             var packageBooking = await _packageBooking.GetById(id);
             return View("PackageBookingDetails", packageBooking);
         }
 
         // GET: PackageBookingController/Create
-        public async Task <ActionResult> Create()
+        public async Task <ActionResult> Create(int PackageId)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return RedirectToAction("Login", "Account");
+            var packageBooking = await _packageBooking.GetAll(fb => fb.PackageId == PackageId);
+            var reservedSeats = packageBooking.Select(fb => fb.NumberOfGuests).ToList();
+            var availableSeats = Enumerable.Range(1, 30).Except(reservedSeats).ToList();
+
+            var packageBookings = new PackageBooking
+            {
+                PackageId = PackageId,
+                UserId = currentUser.Id
+            };
+            ViewBag.PackageId = PackageId;
+            ViewBag.AvailableSeats = new SelectList(availableSeats);
             return View("NewPackageBooking");
         }
 
@@ -41,8 +72,11 @@ namespace TravelGuide.Controllers
         {
             try
             {
-                await _packageBooking.AddItem(packageBooking);
-                return RedirectToAction(nameof(Index));
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
+                packageBooking.UserId = currentUser.Id;
+                var packageBookingObj = await _packageBooking.AddItem(packageBooking);
+                return RedirectToAction("Create", "Payment", new { type = "packageBooking", BookingId = packageBookingObj.BookingId });
             }
             catch
             {
@@ -53,7 +87,15 @@ namespace TravelGuide.Controllers
         // GET: PackageBookingController/Edit/5
         public async Task <ActionResult> Edit(int id)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return RedirectToAction("Login", "Account");
+
             var packageBooking = await _packageBooking.GetById(id);
+            var packageBookings = await _packageBooking.GetAll(pb => pb.PackageId == packageBooking.PackageId);
+            var reservedGuests = packageBookings.Select(pb => pb.NumberOfGuests).ToList();
+            reservedGuests.Add(packageBooking.NumberOfGuests);
+            var availableGuests = Enumerable.Range(1, 30).Except(reservedGuests).ToList();
+            ViewBag.AvailableGuests = new SelectList(availableGuests);
             return View("EditPackageBooking", packageBooking);
         }
 
@@ -64,6 +106,10 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
+
+                packageBooking.UserId = currentUser.Id;
                 await _packageBooking.UpdateItem(packageBooking);
                 return RedirectToAction(nameof(Index));
             }
@@ -76,6 +122,9 @@ namespace TravelGuide.Controllers
         // GET: PackageBookingController/Delete/5
         public async Task <ActionResult> Delete(int id)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
             var packageBooking = await _packageBooking.GetById(id);
             return View("DeletePackageBooking", packageBooking);
         }
@@ -87,6 +136,8 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
                 await _packageBooking.DeleteItem(id);
                 return RedirectToAction(nameof(Index));
             }

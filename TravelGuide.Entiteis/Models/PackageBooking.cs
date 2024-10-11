@@ -8,7 +8,7 @@ namespace TravelGuide.Entiteis.Models
         [Key]
         public int BookingId {  get; set; }
         [Required]
-        public int PackageId { get; set; }
+        public int? PackageId { get; set; }
 
         [Required]
         public int NumberOfGuests { get; set; }
@@ -16,7 +16,7 @@ namespace TravelGuide.Entiteis.Models
         // Foreign key relationships
         [ForeignKey("PackageId")]
         [Required]
-        public virtual TravelPackage TravelPackage { get; set; }
+        public virtual TravelPackage? TravelPackage { get; set; }
 
     }
 }

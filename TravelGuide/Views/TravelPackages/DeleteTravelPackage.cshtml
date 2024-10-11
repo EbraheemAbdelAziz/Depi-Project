@@ -5,78 +5,133 @@
     Layout = "_templateLayout";
 }
 
-<h1>DeleteTravelPackage</h1>
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Delete Travel Package</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Delete" enctype="multipart/form-data" id="contactForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="hidden" asp-for="PackageId" />
+                    <div class="form-group">
+                        <input class="form-control" asp-for="PackageName" name="PackageName" id="PackageName" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Package Name'" placeholder='Enter the Package Name'>
+                        <span asp-validation-for="PackageName" class="text-danger"></span>
+                    </div>
+                </div>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>TravelPackage</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PackageName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PackageName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Destination)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Destination)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Duration)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Duration)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StartDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.StartDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EndDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EndDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MaxGuests)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MaxGuests)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Rating)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Rating)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageURL)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageURL)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="PackageId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Description" name="Description" id="Description" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Description'" placeholder='Enter the Description'>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Destination" name="Destination" id="Destination" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination'" placeholder='Enter the Destination'>
+                        <span asp-validation-for="Destination" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Price" name="Price" id="Price" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Price'" placeholder='Enter the Price'>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Duration" name="Duration" id="Duration" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Duration'" placeholder='Enter the Duration'>
+                        <span asp-validation-for="Duration" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="StartDate" name="StartDate" id="StartDate" type="date" disabled>
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="EndDate" name="EndDate" id="EndDate" type="date" disabled>
+                        <span asp-validation-for="EndDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="MaxGuests" name="MaxGuests" id="MaxGuests" type="number" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Max Guests'" placeholder='Enter the Max Guests'>
+                        <span asp-validation-for="MaxGuests" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Rating" name="Rating" id="Rating" type="number" step="0.1" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Rating'" placeholder='Enter the Rating'>
+                        <span asp-validation-for="Rating" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="TravelImage" name="TravelImage" id="TravelImage" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Upload Travel Image'" placeholder='Upload Travel Image'>
+                        <span asp-validation-for="TravelImage" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group mb-3 text-right flex flex-row">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "TravelPackages")'" style="background-color:#162b45;">Cancel</button>
+                <button type="submit" value="Delete" class="button button-contactForm btn_1">Delete</button>
+            </div>
+        </form>
+    </div>
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+@* style for the file input *@
+<style>
+    .custom-file-upload {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 5px;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+    .file-upload-label {
+        background-color: #fe5c24;
+        color: white;
+        padding: 10px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: 5px;
+        transition: background-color 0.3s, border 0.3s;
+    }
+
+        .file-upload-label:hover {
+            background-color: #e54c1f;
+        }
+
+    .file-name {
+        flex-grow: 1;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .file-upload {
+        display: none;
+    }
+</style>

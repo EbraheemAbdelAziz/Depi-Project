@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace TravelGuide.Entiteis.Models
@@ -36,9 +38,8 @@ namespace TravelGuide.Entiteis.Models
         public decimal? Rating { get; set; }
 
         [MaxLength(255)]
-        public string ImageURL { get; set; }
+        public byte[]? TravelImage { get; set; }
 
-        // Navigation property
         public virtual ICollection<PackageBooking> PackageBookings { get; set; }
     }
 }

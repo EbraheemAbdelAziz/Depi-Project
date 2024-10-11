@@ -5,75 +5,83 @@
     Layout = "_templateLayout";
 }
 
-<h1>NewTravelPackage</h1>
-
-<h4>TravelPackage</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="PackageName" class="control-label"></label>
-                <input asp-for="PackageName" class="form-control" />
-                <span asp-validation-for="PackageName" class="text-danger"></span>
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Create Travel Package</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Create" method="post" enctype="multipart/form-data" id="travelPackageForm">
+            @Html.AntiForgeryToken()
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="PackageName" name="PackageName" id="PackageName" type="text" placeholder='Enter the Package Name'>
+                        <span asp-validation-for="PackageName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Description" name="Description" id="Description" type="text" placeholder='Enter the Description'>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Destination" name="Destination" id="Destination" type="text" placeholder='Enter the Destination'>
+                        <span asp-validation-for="Destination" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Price" name="Price" id="Price" type="text" placeholder='Enter the Price'>
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+                </div>
+                <!-- Updated StartDate input -->
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="StartDate" name="StartDate" id="StartDate" type="date" placeholder='Select Start Date'>
+                        <span asp-validation-for="StartDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <!-- Updated EndDate input -->
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="EndDate" name="EndDate" id="EndDate" type="date" placeholder='Select End Date'>
+                        <span asp-validation-for="EndDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <!-- Updated MaxGuests input -->
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="MaxGuests" name="MaxGuests" id="MaxGuests" type="number" min="1" max="100" placeholder='Enter Max Guests'>
+                        <span asp-validation-for="MaxGuests" class="text-danger"></span>
+                    </div>
+                </div>
+                <!-- Updated Rating input (slider) -->
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Rating (1 to 5):</label>
+                        <input class="form-control-range" asp-for="Rating" name="Rating" id="Rating" type="range" min="1" max="5" step="0.5" value="3">
+                        <span asp-validation-for="Rating" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="TravelImage" name="TravelImage" id="TravelImage" type="file" placeholder='Upload an Image'>
+                        <span asp-validation-for="TravelImage" class="text-danger"></span>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Destination" class="control-label"></label>
-                <input asp-for="Destination" class="form-control" />
-                <span asp-validation-for="Destination" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Duration" class="control-label"></label>
-                <input asp-for="Duration" class="form-control" />
-                <span asp-validation-for="Duration" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="StartDate" class="control-label"></label>
-                <input asp-for="StartDate" class="form-control" />
-                <span asp-validation-for="StartDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EndDate" class="control-label"></label>
-                <input asp-for="EndDate" class="form-control" />
-                <span asp-validation-for="EndDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MaxGuests" class="control-label"></label>
-                <input asp-for="MaxGuests" class="form-control" />
-                <span asp-validation-for="MaxGuests" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Rating" class="control-label"></label>
-                <input asp-for="Rating" class="form-control" />
-                <span asp-validation-for="Rating" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ImageURL" class="control-label"></label>
-                <input asp-for="ImageURL" class="form-control" />
-                <span asp-validation-for="ImageURL" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="form-group mb-3 text-right">
+                <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
+

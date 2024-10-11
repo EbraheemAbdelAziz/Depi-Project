@@ -6,49 +6,47 @@
 
 }
 
-<h1>EditPackageBooking</h1>
-
-<h4>PackageBooking</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="BookingId" />
-            <div class="form-group">
-                <label asp-for="PackageId" class="control-label"></label>
-                <select asp-for="PackageId" class="form-control" asp-items="ViewBag.PackageId"></select>
-                <span asp-validation-for="PackageId" class="text-danger"></span>
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Edit Package Booking</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <form class="form-contact contact_form" asp-action="Edit" method="post" id="contactForm">
+            <div class="row">
+                <input asp-for="BookingId" class="form-control" hidden />
+                <input asp-for="PackageId" class="form-control" hidden />
+
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="PackageId" class="control-label"></label>
+                        <select asp-for="PackageId" class="form-control" asp-items="ViewBag.PackageId">
+                            <option value="@Model.PackageId" selected>@Model.PackageId</option> <!-- or any other identifier for package -->
+                        </select>
+                        <span asp-validation-for="PackageId" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="NumberOfGuests" class="control-label"></label>
+                        <input asp-for="NumberOfGuests" class="form-control" />
+                        <span asp-validation-for="NumberOfGuests" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label asp-for="BookingDate" class="control-label"></label>
+                        <input class="form-control" asp-for="BookingDate" name="BookingDate" id="BookingDate" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Booking Date'" placeholder='Enter the Booking Date' />
+                        <span asp-validation-for="BookingDate" class="text-danger"></span>
+                    </div>
+                </div>
+                <input class="form-check-input" asp-for="BookingStatus" hidden />
             </div>
-            <div class="form-group">
-                <label asp-for="NumberOfGuests" class="control-label"></label>
-                <input asp-for="NumberOfGuests" class="form-control" />
-                <span asp-validation-for="NumberOfGuests" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="BookingDate" class="control-label"></label>
-                <input asp-for="BookingDate" class="form-control" />
-                <span asp-validation-for="BookingDate" class="text-danger"></span>
-            </div>
-@*             <div class="form-group">
-                <label asp-for="TotalPrice" class="control-label"></label>
-                <input asp-for="TotalPrice" class="form-control" />
-                <span asp-validation-for="TotalPrice" class="text-danger"></span>
-            </div> *@
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="BookingStatus" /> @Html.DisplayNameFor(model => model.BookingStatus)
-                </label>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group mb-3 text-right">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "PackageBooking")'" style="background-color:#162b45;">Cancel</button>
+                <button type="submit" value="Edit" class="button button-contactForm btn_1">Edit</button>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

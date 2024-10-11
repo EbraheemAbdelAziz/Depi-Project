@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
 
@@ -9,10 +10,13 @@ namespace TravelGuide.Controllers
     {
         // GET: TravelPackagesController
         private IBaseRepository<TravelPackage> _TravelPackages;
-
-        public TravelPackagesController(IBaseRepository<TravelPackage> travelPackages)
+        private IUploadFile _uploadFile;
+        private readonly IBaseRepository<Location> _location;
+        public TravelPackagesController(IBaseRepository<TravelPackage> travelPackages, IUploadFile uploadFile, IBaseRepository<Location> location)
         {
             _TravelPackages = travelPackages;
+            _uploadFile = uploadFile;
+            _location = location;
         }
 
         public async Task <ActionResult> Index()
@@ -31,6 +35,8 @@ namespace TravelGuide.Controllers
         // GET: TravelPackagesController/Create
         public async Task <ActionResult> Create()
         {
+            var locations = await _location.GetAll();
+            ViewBag.Locations = new SelectList(locations, "LocationId", "LocationName", "ImageUrl");
             return View("NewTravelPackage");
         }
 
@@ -41,12 +47,28 @@ namespace TravelGuide.Controllers
         {
             try
             {
-                var Travelpackagetest = _TravelPackages.GetAll().Result.Any(c => c.PackageName == travelPackage.PackageName);
-                if (Travelpackagetest)
+
+                //if (travelPackage.ImageFile != null)
+                //{
+                //    string FileName = await _uploadFile.UploadFileAsync("\\Images\\TravelImage\\", travelPackage.ImageFile);
+                //    travelPackage.TravelImage = FileName;
+                //}
+
+                //var Travelpackagetest = _TravelPackages.GetAll().Result.Any(c => c.PackageName == travelPackage.PackageName);
+                //if (Travelpackagetest)
+                //{
+                //    ViewBag.ExistsError = "TravelPackage Name already exists";
+                //    return View("NewTravelPackage", travelPackage);
+                //}
+                if (Request.Form.Files != null && Request.Form.Files.Count > 0)
                 {
-                    ViewBag.ExistsError = "TravelPackage Name already exists";
-                    return View("NewTravelPackage", travelPackage);
+                    using (var memoryStream = new MemoryStream())
+                    {
+                        await Request.Form.Files[0].CopyToAsync(memoryStream);
+                        travelPackage.TravelImage = memoryStream.ToArray();
+                    }
                 }
+
                 await _TravelPackages.AddItem(travelPackage);
                 return RedirectToAction(nameof(Index));
             }

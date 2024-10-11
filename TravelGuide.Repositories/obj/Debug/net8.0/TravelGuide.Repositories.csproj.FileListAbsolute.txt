@@ -88,3 +88,21 @@ C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Repos
 C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.pdb
 C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.genruntimeconfig.cache
 C:\Users\El-Wattaneya\source\repos\Depi-Project\New folder (3)\TravelGuide.Repositories\obj\Debug\net8.0\ref\TravelGuide.Repositories.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\bin\Debug\net8.0\TravelGuide.Repositories.deps.json
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\bin\Debug\net8.0\TravelGuide.Repositories.runtimeconfig.json
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\bin\Debug\net8.0\TravelGuide.Repositories.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\bin\Debug\net8.0\TravelGuide.Repositories.pdb
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\bin\Debug\net8.0\TravelGuide.Entiteis.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\bin\Debug\net8.0\TravelGuide.Entiteis.pdb
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.AssemblyInfo.cs
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.sourcelink.json
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGu.3F2224C2.Up2Date
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\refint\TravelGuide.Repositories.dll
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.pdb
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\TravelGuide.Repositories.genruntimeconfig.cache
+C:\Users\Mohamed\Source\Repos\Depi-Project\TravelGuide.Repositories\obj\Debug\net8.0\ref\TravelGuide.Repositories.dll
