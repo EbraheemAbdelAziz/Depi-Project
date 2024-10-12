@@ -27,8 +27,10 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input class="form-control" asp-for="Destination" name="Destination" id="Destination" type="text" placeholder='Enter the Destination'>
-                        <span asp-validation-for="Destination" class="text-danger"></span>
+                        <select class="form-control" asp-for="DestinationId" asp-items="ViewBag.Locations">
+                            <option value="-1">Select a Destination</option>
+                        </select>
+                        <span asp-validation-for="DestinationId" class="text-danger"></span>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -40,6 +42,7 @@
                 <!-- Updated StartDate input -->
                 <div class="col-sm-6">
                     <div class="form-group">
+                        <label asp-for="StartDate" class="control-label">Start Date</label>
                         <input class="form-control" asp-for="StartDate" name="StartDate" id="StartDate" type="date" placeholder='Select Start Date'>
                         <span asp-validation-for="StartDate" class="text-danger"></span>
                     </div>
@@ -47,6 +50,7 @@
                 <!-- Updated EndDate input -->
                 <div class="col-sm-6">
                     <div class="form-group">
+                        <label asp-for="EndDate" class="control-label">End Date</label>
                         <input class="form-control" asp-for="EndDate" name="EndDate" id="EndDate" type="date" placeholder='Select End Date'>
                         <span asp-validation-for="EndDate" class="text-danger"></span>
                     </div>
@@ -68,8 +72,8 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input class="form-control" asp-for="TravelImage" name="TravelImage" id="TravelImage" type="file" placeholder='Upload an Image'>
-                        <span asp-validation-for="TravelImage" class="text-danger"></span>
+                        <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" placeholder='Upload an Image'>
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
                     </div>
                 </div>
             </div>

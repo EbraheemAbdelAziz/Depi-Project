@@ -48,11 +48,11 @@ namespace TravelGuide.Controllers
             try
             {
 
-                //if (travelPackage.ImageFile != null)
-                //{
-                //    string FileName = await _uploadFile.UploadFileAsync("\\Images\\TravelImage\\", travelPackage.ImageFile);
-                //    travelPackage.TravelImage = FileName;
-                //}
+                if (travelPackage.ImageFile != null)
+                {
+                    string FileName = await _uploadFile.UploadFileAsync("\\Images\\TravelImage\\", travelPackage.ImageFile);
+                    travelPackage.PackageImage = FileName;
+                }
 
                 //var Travelpackagetest = _TravelPackages.GetAll().Result.Any(c => c.PackageName == travelPackage.PackageName);
                 //if (Travelpackagetest)
@@ -60,15 +60,15 @@ namespace TravelGuide.Controllers
                 //    ViewBag.ExistsError = "TravelPackage Name already exists";
                 //    return View("NewTravelPackage", travelPackage);
                 //}
-                if (Request.Form.Files != null && Request.Form.Files.Count > 0)
-                {
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        await Request.Form.Files[0].CopyToAsync(memoryStream);
-                        travelPackage.TravelImage = memoryStream.ToArray();
-                    }
-                }
-
+                //if (Request.Form.Files != null && Request.Form.Files.Count > 0)
+                //{
+                //    using (var memoryStream = new MemoryStream())
+                //    {
+                //        await Request.Form.Files[0].CopyToAsync(memoryStream);
+                //        travelPackage.TravelImage = memoryStream.ToArray();
+                //    }
+                //}
+                travelPackage.Duration = travelPackage.EndDate.Day - travelPackage.StartDate.Day;
                 await _TravelPackages.AddItem(travelPackage);
                 return RedirectToAction(nameof(Index));
             }
@@ -87,6 +87,10 @@ namespace TravelGuide.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
+
+            var locations = await _location.GetAll(l=>l.LocationId != travelPackage.DestinationId);
+            travelPackage.Destination = await _location.GetById(travelPackage.DestinationId);
+            ViewBag.Locations = new SelectList(locations, "LocationId", "LocationName", "ImageUrl");
             return View("EditTravelPackage",travelPackage);
         }
 
@@ -97,6 +101,17 @@ namespace TravelGuide.Controllers
         {
             try
             {
+                if (travelPackage.ImageFile != null)
+                {
+                    string FileName = await _uploadFile.UploadFileAsync("\\Images\\TravelImage\\", travelPackage.ImageFile);
+                    travelPackage.PackageImage = FileName;
+                }
+                else
+                {
+                    travelPackage.PackageImage = _TravelPackages.GetById(travelPackage.PackageId).Result.PackageImage;
+                }
+                travelPackage.Duration = travelPackage.EndDate.Day - travelPackage.StartDate.Day;
+                
                 await _TravelPackages.UpdateItem(travelPackage);
                 return RedirectToAction(nameof(Index));
             }

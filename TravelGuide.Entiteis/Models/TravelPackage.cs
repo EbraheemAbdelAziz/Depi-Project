@@ -18,7 +18,9 @@ namespace TravelGuide.Entiteis.Models
 
         [Required]
         [MaxLength(100)]
-        public string Destination { get; set; }
+        public Location? Destination { get; set; }
+
+        public int DestinationId { get; set; }
 
         [Required]
         public decimal Price { get; set; }
@@ -37,9 +39,8 @@ namespace TravelGuide.Entiteis.Models
 
         public decimal? Rating { get; set; }
 
-        [MaxLength(255)]
-        public byte[]? TravelImage { get; set; }
-
-        public virtual ICollection<PackageBooking> PackageBookings { get; set; }
+        public string PackageImage { get; set; }
+        [NotMapped]
+        public IFormFile? ImageFile { get; set; }
     }
 }

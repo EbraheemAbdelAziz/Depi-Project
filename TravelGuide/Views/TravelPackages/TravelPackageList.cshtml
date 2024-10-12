@@ -33,13 +33,13 @@
             {
 
 
-                var base64Image = Convert.ToBase64String(item.TravelImage);
-                var imageSrc = $"data:image/jpeg;base64,{base64Image}";
+                @* var base64Image = Convert.ToBase64String(item.PackageImage);
+                var imageSrc = $"data:image/jpeg;base64,{base64Image}"; *@
 
 
                 <div class="col-lg-8 col-md-8 m-auto">
                     <div class="single_place">
-                        <img src="@imageSrc" alt="NoImage" width="100%">
+                        <img src="@item.PackageImage" alt="NoImage" width="100%">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <div class="flex-column">
