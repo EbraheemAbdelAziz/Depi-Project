@@ -35,10 +35,12 @@
                         <img src="@item.HotelImage" alt="NoImage" width="100%">
                         
                         <div class="hotel_text_iner">
-                            <h3>@item.HotelName</h3>
+                            <h3>Hotel Name: @item.HotelName</h3>
                             <h5>
-                                @item.Rating
-                                @*<a href="#"><i class="fas fa-star"></i></a>*@
+                                @for (int i = 0; i < @item.Rating;i++){
+                                    <a href="#"><i class="fas fa-star"></i></a>
+                                }
+
                             </h5>
                         </div>
                         <div class="m-auto">
