@@ -9205,24 +9205,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohamed\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DELL 5480\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
+      "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
       "projectName": "TravelGuide",
-      "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
-      "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide\\obj\\",
+      "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\TravelGuide.csproj",
+      "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mohamed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DELL 5480\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9237,11 +9232,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
-              "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
+            "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+              "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj"
             },
-            "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj": {
-              "projectPath": "C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj"
+            "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj": {
+              "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Repositories\\TravelGuide.Repositories.csproj"
             }
           }
         }
@@ -9307,16 +9302,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Mohamed\\source\\repos\\Depi-Project\\TravelGuide\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
