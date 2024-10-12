@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelGuide.Repositories")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9b5239950ba75208a35998172f6d2be2247409f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38f793f5bfa8f3dced73b50701d007f6dbf6d98")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelGuide.Repositories")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelGuide.Repositories")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

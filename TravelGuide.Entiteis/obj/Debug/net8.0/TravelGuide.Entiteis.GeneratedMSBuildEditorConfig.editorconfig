@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TravelGuide.Entiteis
-build_property.ProjectDir = C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide.Entiteis\
+build_property.ProjectDir = C:\Users\DELL 5480\source\repos\Depi-Project\TravelGuide.Entiteis\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

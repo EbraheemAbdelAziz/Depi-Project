@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {}
+    "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
+    "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+        "projectUniqueName": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
         "projectName": "TravelGuide.Entiteis",
-        "projectPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
+        "projectPath": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide.Entiteis\\TravelGuide.Entiteis.csproj",
         "packagesPath": "C:\\Users\\DELL 5480\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide.Entiteis\\obj\\",
         "projectStyle": "PackageReference",
