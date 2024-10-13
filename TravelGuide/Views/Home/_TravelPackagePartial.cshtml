@@ -1,0 +1,45 @@
+﻿@model IEnumerable<TravelGuide.Entiteis.Models.TravelPackage>
+
+<section class="top_place section_padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6">
+                <div class="section_tittle text-center">
+                    <h2>Top Travel Packages</h2>
+                    <p>Experience the world with our curated travel packages. Explore amazing destinations and create unforgettable memories.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model != null && Model.Count() >= 4)
+            {
+                @foreach (var package in Model.Take(4))
+                {
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single_place">
+                            <img src="@package.Destination.ImageUrl" alt="Package Image">
+                            <div class="hover_Text d-flex align-items-end justify-content-between">
+                                <div class="hover_text_iner">
+                                    <h3>@package.PackageName</h3>
+                                    <p>@package.Destination.LocationName</p>
+                                    <p>@package.Duration days - From @package.StartDate.ToString("MM/dd/yyyy") to @package.EndDate.ToString("MM/dd/yyyy")</p>
+                                    <div class="place_review">
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                        <span>(210 review)</span>
+                                    </div>
+                                    <a class="btn_1" asp-controller="TravelPackages" asp-action="Details" asp-route-id="@package.PackageId">View Package</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+
+            <a class="btn_1 text-cnter" asp-controller="TravelPackages" asp-action="Index">Discover more</a>
+        </div>
+    </div>
+</section>
