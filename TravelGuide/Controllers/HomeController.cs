@@ -10,18 +10,22 @@ namespace TravelGuide.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IBaseRepository<Flight> _flightRepository;
+        private readonly IBaseRepository<Hotel> _hotelRepository;
         private readonly IBaseRepository<TravelPackage> _travelPackage;
 
-        public HomeController(ILogger<HomeController> logger, IBaseRepository<Flight> flightRepository, IBaseRepository<TravelPackage> travelPackage)
+        public HomeController(ILogger<HomeController> logger, IBaseRepository<Flight> flightRepository, IBaseRepository<Hotel> hotelRepository, IBaseRepository<TravelPackage> travelPackage)
         {
             _logger = logger;
             _flightRepository = flightRepository;
+            _hotelRepository = hotelRepository;
             _travelPackage = travelPackage;
         }
 
         public async Task<IActionResult> Index()
         {
             var flights = await _flightRepository.GetAll(null, new[] { "location" });
+            var hotelModel = await _hotelRepository.GetAll(null, new[] { "Location" });
+            ViewBag.HotelModel = hotelModel;
             IEnumerable<TravelPackage> travelPackage =await _travelPackage.GetAll();
             ViewBag.TravelPackage= travelPackage;
             return View(flights);
