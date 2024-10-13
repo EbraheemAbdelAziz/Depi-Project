@@ -112,6 +112,8 @@ namespace TravelGuide.Controllers
         public async Task<ActionResult> Delete(int id)
         {
             var hotel = await _hotel.GetById(id);
+            Location location = await _location.GetById(hotel.LocationId);
+            ViewBag.Location = location.LocationName;
             return View("DeleteHotel",hotel);
         }
 

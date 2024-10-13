@@ -162,9 +162,13 @@ namespace TravelGuide.Controllers
         public async Task<ActionResult> Delete(int id)
 
         {
-
             var room = await _room.GetById(id);
-
+            if (room == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            var hotel = await _hotel.GetAll();
+            room.HotelList = hotel.ToList();
             return View("DeleteRoom", room);
 
         }
