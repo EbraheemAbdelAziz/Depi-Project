@@ -1,3 +1,4 @@
+@model IEnumerable<TravelGuide.Entiteis.Models.Flight>
 @{
     ViewData["Title"] = "Home Page";
     Layout = "_templateLayout";
@@ -22,4 +23,4 @@
 <!-- Header part end-->
 <partial name = "_hotelPartial" model="Model" />
 
-<partial name = "_flightPartial" model="Model"/>
+@await Html.PartialAsync("_flightPartial", Model)
