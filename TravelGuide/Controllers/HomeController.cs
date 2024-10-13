@@ -21,11 +21,11 @@ namespace TravelGuide.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var flights = await _flightRepository.GetAll(null, new[] { "location" }); 
+            var flights = await _flightRepository.GetAll(null, new[] { "location" });
+            IEnumerable<TravelPackage> travelPackage =await _travelPackage.GetAll();
+            ViewBag.TravelPackage= travelPackage;
             return View(flights);
-            var travelPackage = _travelPackage.GetAll();
-            ViewBag.TravelPackage=travelPackage;
-            return View(travelPackage);
+
         }
 
         public IActionResult Privacy()

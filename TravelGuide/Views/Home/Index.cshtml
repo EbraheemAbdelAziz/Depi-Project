@@ -25,7 +25,7 @@
 
 @await Html.PartialAsync("_flightPartial", Model)
 
-<partial name="_TravelPackagePartial" model="Model" />
+<partial name="_TravelPackagePartial" model="ViewBag.TravelPackage" />
 
-@await Html.PartialAsync("_TravelPackagePartial", Model)
-
+@* @await Html.PartialAsync("_TravelPackagePartial", ViewBag.TravelPackage)
+ *@
