@@ -41,8 +41,10 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <select class="form-control" asp-for="LocationId" asp-items="ViewBag.Location">
-                            <option value="">Select a location</option>
+                        <select class="form-control" asp-for="LocationId" disabled>
+                            <option>
+                                @ViewBag.Location
+                            </option>
                         </select>
                         <span asp-validation-for="LocationId" class="text-danger"></span>
                     </div>
