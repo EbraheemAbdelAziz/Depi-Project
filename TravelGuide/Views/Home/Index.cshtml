@@ -1,6 +1,7 @@
 @model IEnumerable<TravelGuide.Entiteis.Models.Flight>
 @{
     ViewData["Title"] = "Home Page";
+    var hotelModel = ViewBag.HotelModel;
     Layout = "_templateLayout";
 }
 
@@ -21,7 +22,7 @@
     </div>
 </section>
 <!-- Header part end-->
-<partial name = "_hotelPartial" model="Model" />
+<partial name = "_hotelPartial" model="hotelModel" />
 
 @await Html.PartialAsync("_flightPartial", Model)
 
