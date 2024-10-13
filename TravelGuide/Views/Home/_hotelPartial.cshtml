@@ -1,108 +1,46 @@
+@model IEnumerable<TravelGuide.Entiteis.Models.Hotel>
 
-
-
+@{
+    var hotelModel = ViewBag.HotelModel as IEnumerable<TravelGuide.Entiteis.Models.Hotel>;
+}
 <section class="hotel_list section_padding">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">
                 <div class="section_tittle text-center">
-                    <h2>Top Hotel </h2>
+                    <h2>Top Hotels</h2>
                     <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-sm-6">
-                <div class="single_ihotel_list">
-                    <img src="template/img/ind/industries_1.png" alt="">
-                    <div class="hover_text">
-                        <div class="hotel_social_icon">
-                            <ul>
-                                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="share_icon">
-                            <i class="ti-share"></i>
-                        </div>
-                    </div>
-                    <div class="hotel_text_iner">
-                        <h3> <a href="#"> Hotel Polonia</a></h3>
-                        <div class="place_review">
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <span>(210 review)</span>
-                        </div>
-                        <p>London, United Kingdom</p>
-                        <h5>From <span>$500</span></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="single_ihotel_list">
-                    <img src="template/img/ind/industries_2.png" alt="">
-                    <div class="hover_text">
-                        <div class="hotel_social_icon">
-                            <ul>
-                                <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="share_icon">
-                            <i class="ti-share"></i>
-                        </div>
-                    </div>
-                    <div class="hotel_text_iner">
-                        <h3> <a href="#"> Hotel Polonia</a></h3>
-                        <div class="place_review">
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <span>(210 review)</span>
-                        </div>
-                        <p>London, United Kingdom</p>
-                        <h5>From <span>$500</span></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="single_ihotel_list">
-                    <img src="template/img/ind/industries_3.png" alt="">
-                    <div class="hover_text">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
+            @if (hotelModel != null && hotelModel.Count() >= 3)
+            {
+                @foreach (var item in hotelModel.Take(3))
+                {
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single_ihotel_list">
+                            <img src="@item.HotelImage" alt="">
+                            <div class="hotel_text_iner">
+                                <h3><a href="#"> @item.HotelName</a></h3>
+                                <p>@item.Location.LocationName</p>
+                                <div class="place_review">
+                                    @for (int i = 0; i < @item.Rating; i++)
+                                    {
+                                        <a href="#"><i class="fas fa-star"></i></a>
+                                    }
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="hotel_text_iner">
-                        <h3> <a href="#"> Hotel Polonia</a></h3>
-                        <div class="place_review">
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <span>(210 review)</span>
-                        </div>
-                        <p>London, United Kingdom</p>
-                        <h5>From <span>$500</span></h5>
-                    </div>
-                </div>
+                }
+            }
+        </div>
+
+        
+        <div class="row justify-content-center mt-5">
+            <div class="col-auto">
+                <a class="btn_1" asp-area="" asp-controller="Hotels" asp-action="Index">Discover more</a>
             </div>
         </div>
     </div>
