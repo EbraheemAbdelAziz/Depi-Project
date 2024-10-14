@@ -51,13 +51,9 @@
                 </div>
                 
             </div>
-            <div class="m-auto">
-                <div class="form-group mb-3 text-right">
-                    <button type="submit" value="Delete" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Delete</button>
-                    <button type="button" onclick="window.location.href='@Url.Action("Index", "Hotels")'" style="display: inline-block; padding: 10px 15px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px; ">Cancel</button>
-                </div>
-
-    
+            <div class="form-group mb-3 text-right flex flex-row">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "Hotels")'">Cancel</button>
+                <button type="submit" value="Delete" class="button button-contactForm btn_1" style="background-color:#162b45;">Delete</button>
             </div>
         </form>
     </div>
