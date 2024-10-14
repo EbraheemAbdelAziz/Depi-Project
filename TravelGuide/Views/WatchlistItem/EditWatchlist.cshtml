@@ -1,4 +1,4 @@
-﻿@model TravelGuide.Entiteis.Models.WatchlistItem
+@model TravelGuide.Entiteis.Models.WatchlistItem
 
 @{
     ViewData["Title"] = "EditWatchlist";
@@ -28,8 +28,10 @@
                 </div>
             </div>
             <input type="hidden" asp-for="WatchlistItemId" />
-            <div class="form-group mb-3 text-right">
-                <button type="submit" value="Save" class="button button-contactForm btn_1">Save</button>
+            <div class="form-group mb-3 text-right flex flex-row">
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "WatchListItem")'">Cancel</button>
+
+                <button type="submit" value="Edit" class="button button-contactForm btn_1" style="background-color:#162b45;">Edit</button>
             </div>
         </form>
     </div>
