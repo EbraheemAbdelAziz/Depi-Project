@@ -8,7 +8,7 @@
 
 <div class="row">
     <div class="col-12">
-        <h2 class="contact-title text-center m-5 text-italic">Edit Flight Booking</h2>
+        <h2 class="contact-title text-center m-5 text-italic">Delete Flight Booking</h2>
     </div>
     <div class="col-lg-8 m-auto">
         <form class="form-contact contact_form" asp-action="Delete">
@@ -50,8 +50,8 @@
                 <input class="form-check-input" asp-for="BookingStatus" hidden />
             </div>
             <div class="form-group mb-3 text-right">
-                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "FlightBooking")'" style="background-color:#162b45;">Cancel</button>
-                <button type="submit" value="Delete" class="button button-contactForm btn_1">Delete</button>
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "FlightBooking")'" >Cancel</button>
+                <button type="submit" value="Delete" class="button button-contactForm btn_1" style="background-color:#162b45;">Delete</button>
             </div>
         </form>
     </div>

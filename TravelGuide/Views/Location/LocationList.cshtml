@@ -26,19 +26,23 @@
 
             @foreach (var item in Model)
             {
-                <div class="col-lg-8 col-md-8 m-auto mb-4">
-                    <div class="single_place p-4 border rounded">
-                        <div class="location-info">
-                            <h3>@item.LocationName</h3>
-                            <p><strong>Country:</strong> @item.Country</p>
-                            <p><strong>Description:</strong> @item.Description</p>
+                <div class="col-lg-8 col-md-8 m-auto">
+                    <div class="single_place">
+                        <img src="@item.ImageUrl" alt="NoImage" width="100%">
+                        <div class="hover_Text d-flex align-items-end justify-content-between">
+                            <div class="hover_text_iner w-100">
+                                <p>@item.LocationName, @item.Country</p>
+                                <p  >@item.Description</p>
+                                <div class="flex-column">
+                                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                    {
+                                        <a class="place_btn" asp-action="Edit" asp-route-Id="@item.LocationId">Edit</a>
+                                        <a class="place_btn" asp-action="Delete" asp-route-Id="@item.LocationId">Delete</a>
+                                    }
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="actions mt-3 text-center">
-                        @* Admin actions (buttons outside the display box) *@
-                        <a class="btn btn-warning btn-sm mx-2" asp-action="Edit" asp-route-id="@item.LocationId">Edit</a>
-                        <a class="btn btn-danger btn-sm mx-2" asp-action="Delete" asp-route-id="@item.LocationId">Delete</a>
-                        <a class="btn btn-info btn-sm mx-2" asp-action="Details" asp-route-id="@item.LocationId">View Details</a>
                     </div>
                 </div>
             }

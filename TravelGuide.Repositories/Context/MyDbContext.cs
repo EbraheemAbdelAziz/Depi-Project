@@ -71,8 +71,20 @@ namespace TravelGuide.Context
 			.HasForeignKey(p => p.FlightBookingId)
 			.OnDelete(DeleteBehavior.Cascade);
 
-        }
-		public DbSet<WatchlistItem> WatchlistItems { get; set; }
+			//builder.Entity<Payment>()
+			//	.HasOne(p => p.RoomBooking)
+			//	.WithMany()
+			//	.HasForeignKey(p => p.RoomBookingId)
+			//	.OnDelete(DeleteBehavior.Cascade);
+
+			//builder.Entity<Payment>()
+			//    .HasOne(p => p.PackageBooking)
+			//    .WithMany()
+			//    .HasForeignKey(p => p.PackageBookingId)
+			//    .OnDelete(DeleteBehavior.Cascade);
+
+		}
+        public DbSet<WatchlistItem> WatchlistItems { get; set; }
         public DbSet<Hotel> Hotels {  get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Flight> Flights { get; set; }

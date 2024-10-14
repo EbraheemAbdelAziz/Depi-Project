@@ -56,11 +56,9 @@
                                 <h3>@item.PackageName - @item.Price $</h3>
                                 <p>@item.Destination</p>
                                 <p>@item.Description</p>
-                                <p>Duration: @item.Duration days</p>
-                                <p>Max Guests: @item.MaxGuests</p>
+                                <p>@item.Duration days for @item.MaxGuests Guests</p>
                                 <p>Rating: @item.Rating / 5</p>
-                                <p>Start Date: @item.StartDate.ToShortDateString()</p>
-                                <p>End Date: @item.EndDate.ToShortDateString()</p>
+                                <p>Starting from @item.StartDate.ToShortDateString() to @item.EndDate.ToShortDateString()</p>
                             </div>
                         </div>
                     </div>

@@ -28,12 +28,6 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input class="form-control" asp-for="Destination" name="Destination" id="Destination" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Destination'" placeholder='Enter the Destination'>
-                        <span asp-validation-for="Destination" class="text-danger"></span>
-                    </div>
-                </div>
 
                 <div class="col-sm-6">
                     <div class="form-group">
@@ -77,17 +71,27 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input class="form-control" asp-for="PackageImage" name="TravelImage" id="TravelImage" type="text" disabled onfocus="this.placeholder = ''" onblur="this.placeholder = 'Upload Travel Image'" placeholder='Upload Travel Image'>
-                        <span asp-validation-for="PackageImage" class="text-danger"></span>
+                <div class="col-12">
+                    <div class="form-group mb-3">
+                        <div class="custom-file-upload">
+                            <label for="file-upload" class="file-upload-label">Choose File</label>
+                            <span id="file-name" class="file-name">
+
+                                @if (Model != null && !string.IsNullOrEmpty(Model.PackageImage))
+                                {
+                                    @System.IO.Path.GetFileName(Model.PackageImage).Substring(System.IO.Path.GetFileName(Model.PackageImage).IndexOf('_') + 1)
+                                    ;
+                                }
+                            </span>
+                            <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" disabled />
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="form-group mb-3 text-right flex flex-row">
-                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "TravelPackages")'" style="background-color:#162b45;">Cancel</button>
-                <button type="submit" value="Delete" class="button button-contactForm btn_1">Delete</button>
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "TravelPackages")'" >Cancel</button>
+                <button type="submit" value="Delete" class="button button-contactForm btn_1" style="background-color:#162b45;">Delete</button>
             </div>
         </form>
     </div>

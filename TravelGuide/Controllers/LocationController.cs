@@ -20,13 +20,6 @@ namespace TravelGuide.Controllers
             return View("LocationList",locations);
         }
 
-        // GET: LocationController/Details/5
-        public async Task<ActionResult> Details(int id)
-        {
-            var location = await _location.GetById(id);
-            return View("LocationDetails",location);
-        }
-
         // GET: LocationController/Create
         public async Task<ActionResult> Create()
         {

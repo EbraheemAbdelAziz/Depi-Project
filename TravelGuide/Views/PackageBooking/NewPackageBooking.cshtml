@@ -33,7 +33,8 @@
                 <input class="form-check-input" asp-for="BookingStatus" hidden />
             </div>
             <div class="form-group mb-3 text-right">
-                <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "PackageBooking")'" >Cancel</button>
+                <button type="submit" value="create" class="button button-contactForm btn_1" style="background-color:#162b45;">Create</button>
             </div>
         </form>
     </div>

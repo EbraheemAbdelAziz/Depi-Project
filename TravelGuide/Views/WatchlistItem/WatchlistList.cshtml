@@ -13,18 +13,6 @@
                     <div class="section_tittle text-center">
                         <h2>Watchlist</h2>
                         <p>Keep track of your favorite items by adding them to your watchlist and easily manage them.</p>
-
-                        @* Admin-only create button *@
-                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
-                        {
-                            <div class="m-auto text-center">
-                                <a asp-action="Create" asp-controller="WatchlistItem"
-                                   class="btn btn-primary"
-                                   style="padding: 10px 25px; margin-top: 10px;">
-                                    Add New Watchlist Item
-                                </a>
-                            </div>
-                        }
                     </div>
                 </div>
             </div>

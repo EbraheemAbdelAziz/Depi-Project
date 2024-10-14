@@ -86,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfaG90ZWxQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL 5480/source/repos/Depi-Project/TravelGuide/Views/Home/_TravelPackagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVHJhdmVsUGFja2FnZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL 5480/source/repos/Depi-Project/TravelGuide/Views/Hotels/DeleteHotel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG90ZWxzXERlbGV0ZUhvdGVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -112,10 +116,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DELL 5480/source/repos/Depi-Project/TravelGuide/Views/Location/EditLocation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cRWRpdExvY2F0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/DELL 5480/source/repos/Depi-Project/TravelGuide/Views/Location/LocationDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYXRpb25cTG9jYXRpb25EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL 5480/source/repos/Depi-Project/TravelGuide/Views/Location/LocationList.cshtml]

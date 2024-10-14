@@ -12,10 +12,12 @@ namespace TravelGuide.Controllers
         // GET: PackageBookingController
         private IBaseRepository<PackageBooking> _packageBooking;
         private readonly UserManager<AppUser> _userManager;
-        public PackageBookingController(IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager)
+        private IBaseRepository<TravelPackage> _travelPackage;
+        public PackageBookingController(IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager, IBaseRepository<TravelPackage> travelPackage)
         {
             _packageBooking = packageBooking;
             _userManager = userManager;
+            _travelPackage = travelPackage;
         }
 
         public async Task <ActionResult> Index()
@@ -126,6 +128,8 @@ namespace TravelGuide.Controllers
             if (currentUser == null)
                 return RedirectToAction("Login", "Account");
             var packageBooking = await _packageBooking.GetById(id);
+            TravelPackage travelPackage =await _travelPackage.GetById((int)packageBooking.PackageId);
+            packageBooking.TravelPackage = travelPackage;
             return View("DeletePackageBooking", packageBooking);
         }
 
