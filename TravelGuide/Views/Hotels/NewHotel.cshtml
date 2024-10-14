@@ -48,14 +48,7 @@
                     </div>
                 </div>
 
-@*                 <div class="col-sm-6">
-                <div class="form-group">
-       
-                    <div class="custom-file">
-                        <input asp-for="@Model.ImageFile" class="form-control" onchange="loadFile(event)" />
-                    </div>
-                </div>
-                </div> *@
+               
                 <div class="col-12">
 
                     <div class="form-group mb-3">
@@ -67,7 +60,8 @@
                 </div>
             </div>
             <div class="form-group mb-3 text-right">
-                <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
+                <button type="button" class="button button-contactForm btn_1" onclick="window.location='@Url.Action("Index", "Hotels")'">Cancel</button>
+                <button type="submit" value="create" class="button button-contactForm btn_1" style="background-color:#162b45;">Create</button>
             </div>
         </form>
     </div>
