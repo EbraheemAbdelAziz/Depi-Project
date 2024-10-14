@@ -1,4 +1,4 @@
-﻿@model TravelGuide.Entiteis.Models.TravelPackage
+@model TravelGuide.Entiteis.Models.TravelPackage
 
 @{
     ViewData["Title"] = "NewTravelPackage";
@@ -70,11 +70,14 @@
                         <span asp-validation-for="Rating" class="text-danger"></span>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="form-group">
-                        <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" placeholder='Upload an Image'>
+                <div class="col-12">
+
+                    <div class="form-group mb-3">
+                        <input type="file" id="file-upload" asp-for="ImageFile" class="file-upload" onchange="loadFile(event)  />
                         <span asp-validation-for="ImageFile" class="text-danger"></span>
                     </div>
+
+
                 </div>
             </div>
             <div class="form-group mb-3 text-right">
@@ -83,9 +86,57 @@
         </form>
     </div>
 </div>
+
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+<script>
+    debugger
+    var loadFile = function (event) {
+        var output = document.getElementById('output');
+        output.src = URL.createObjectURL(event.target.files[0]);
+        output.onload = function () {
+            URL.revokeObjectURL(output.src)
+        }
+    };
+</script>
+<style>
+    .file-upload {
+        display: inline-block;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+        .file-upload:focus {
+            border-color: #fe5c24;
+            outline: none;
+        }
+
+        .file-upload::-webkit-file-upload-button {
+            display: none;
+        }
+
+        .file-upload::before {
+            content: 'Choose File';
+            display: inline-block;
+            padding: 10px 12px;
+            border: 1px solid #fe5c24;
+            border-radius: 5px;
+            background-color: #fe5c24;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s, border 0.3s;
+            margin-right: 5px;
+        }
+
+        .file-upload:hover::before {
+            background-color: #fe5c24;
+            border-color: #fe5c24;
+        }
+</style>
 
