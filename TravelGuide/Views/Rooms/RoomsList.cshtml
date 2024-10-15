@@ -53,6 +53,8 @@
                                     <form class="d-flex" asp-action="Create" asp-controller="WatchlistItem" method="post">
                                         <input type="hidden" name="ItemID" value="@item.RoomId" />
                                         <input type="hidden" name="ItemType" value="Rooms" />
+                                        <input type="hidden" name="Image" value="@item.hotel.HotelImage" />
+                                        <input type="hidden" name="Name" value="@item.hotel.HotelName" />
                                         @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
                                         <button type="submit" class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;">Add to Watchlist</button>
                                     </form>

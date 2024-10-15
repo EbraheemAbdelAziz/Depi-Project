@@ -53,6 +53,8 @@
                                     <form asp-action="Create" asp-controller="WatchlistItem" method="post">
                                         <input type="hidden" name="ItemID" value="@item.FlightId" />
                                         <input type="hidden" name="ItemType" value="Flight" />
+                                        <input type="hidden" name="Image" value="@item.location.ImageUrl" />
+                                        <input type="hidden" name="Name" value="@item.location.LocationName" />
                                         @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
                                         <button type="submit" class="place_btn">Add to Watchlist</button>
                                     </form>

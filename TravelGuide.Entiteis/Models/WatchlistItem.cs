@@ -10,6 +10,8 @@ namespace TravelGuide.Entiteis.Models
 
         public string UserId { get; set; }
 
+        public string Image { get; set; } // hotelImage for the room or locationImagee for the flight
+        public string Name { get; set; } // HotelName for the room or LocationName for the flight
         public int ItemID { get; set; }
 
         [MaxLength(20)]

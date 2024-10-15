@@ -1,2055 +1,2055 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelGuide.bundle.scp.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TravelGuide.bundle.scp.css",
       "PackagePath": "staticwebassets\\TravelGuide.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\12eca15a-a1a4-4c5c-a57b-90b4028ad1b5_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\12eca15a-a1a4-4c5c-a57b-90b4028ad1b5_ibrahim.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\12eca15a-a1a4-4c5c-a57b-90b4028ad1b5_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\172bc4e0-35e3-445e-8198-749f7edcad6c_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\172bc4e0-35e3-445e-8198-749f7edcad6c_ibrahim.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\172bc4e0-35e3-445e-8198-749f7edcad6c_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\1a72a616-7b62-4505-9e50-df6e39f717fe_20221025_221830.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\1a72a616-7b62-4505-9e50-df6e39f717fe_20221025_221830.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\1a72a616-7b62-4505-9e50-df6e39f717fe_20221025_221830.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\33d416d6-fcad-4b29-af34-bf57e652d0de_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\33d416d6-fcad-4b29-af34-bf57e652d0de_ibrahim.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\33d416d6-fcad-4b29-af34-bf57e652d0de_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\37614cea-d4a8-42de-b61c-8c52e594c2e9_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\37614cea-d4a8-42de-b61c-8c52e594c2e9_services_3.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\37614cea-d4a8-42de-b61c-8c52e594c2e9_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\40f55d60-7f18-43e2-a5d1-d72aa77d6d3e_services_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\40f55d60-7f18-43e2-a5d1-d72aa77d6d3e_services_1.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\40f55d60-7f18-43e2-a5d1-d72aa77d6d3e_services_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\76639035-4423-4a47-a088-4c736655f43b_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\76639035-4423-4a47-a088-4c736655f43b_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\76639035-4423-4a47-a088-4c736655f43b_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\9197db02-38f0-42c8-9408-460e3f9911ab_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\9197db02-38f0-42c8-9408-460e3f9911ab_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\9197db02-38f0-42c8-9408-460e3f9911ab_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\9b6ba5ac-70fd-4307-927a-7a5fcbaef609_IMG-20221002-WA0104.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\9b6ba5ac-70fd-4307-927a-7a5fcbaef609_IMG-20221002-WA0104.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\9b6ba5ac-70fd-4307-927a-7a5fcbaef609_IMG-20221002-WA0104.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\b8c75da0-1c79-4885-b4b0-2dd97f24707c_IMG-20221002-WA0077.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\b8c75da0-1c79-4885-b4b0-2dd97f24707c_IMG-20221002-WA0077.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\b8c75da0-1c79-4885-b4b0-2dd97f24707c_IMG-20221002-WA0077.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\bc4351bc-6222-4746-a08f-f58f43f0c956_info.txt",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\bc4351bc-6222-4746-a08f-f58f43f0c956_info.txt",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\bc4351bc-6222-4746-a08f-f58f43f0c956_info.txt"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\bf446c9c-20bb-49e8-8280-5f2780c9e7d4_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\bf446c9c-20bb-49e8-8280-5f2780c9e7d4_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\bf446c9c-20bb-49e8-8280-5f2780c9e7d4_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\c23967ad-acf6-49d2-9b14-a3265e4627c1_IMG-20221002-WA0105.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\c23967ad-acf6-49d2-9b14-a3265e4627c1_IMG-20221002-WA0105.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\c23967ad-acf6-49d2-9b14-a3265e4627c1_IMG-20221002-WA0105.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\c2dad3f9-f9cb-4217-8ff6-c4ec70f73689_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\c2dad3f9-f9cb-4217-8ff6-c4ec70f73689_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\c2dad3f9-f9cb-4217-8ff6-c4ec70f73689_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\ca82aeb6-66d0-4acd-a92b-f5d555b2bb9a_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\ca82aeb6-66d0-4acd-a92b-f5d555b2bb9a_services_3.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\ca82aeb6-66d0-4acd-a92b-f5d555b2bb9a_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\d80b7da7-2386-4daf-9063-2d5da708522a_IMG-20221002-WA0077.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\d80b7da7-2386-4daf-9063-2d5da708522a_IMG-20221002-WA0077.jpg",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\d80b7da7-2386-4daf-9063-2d5da708522a_IMG-20221002-WA0077.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\fb4eae74-6131-436c-b64c-d24a120cf9dc_me.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\fb4eae74-6131-436c-b64c-d24a120cf9dc_me.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\fb4eae74-6131-436c-b64c-d24a120cf9dc_me.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\fc07dfeb-6da2-4162-b342-282398c69e7e_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\HotelsImages\\fc07dfeb-6da2-4162-b342-282398c69e7e_services_3.png",
       "PackagePath": "staticwebassets\\Images\\HotelsImages\\fc07dfeb-6da2-4162-b342-282398c69e7e_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\07443434-6fab-4abf-9fd4-dfe028c5056d_25d7a3dd-11a9-450e-bc41-367338857809_single_place_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\07443434-6fab-4abf-9fd4-dfe028c5056d_25d7a3dd-11a9-450e-bc41-367338857809_single_place_3.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\07443434-6fab-4abf-9fd4-dfe028c5056d_25d7a3dd-11a9-450e-bc41-367338857809_single_place_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\25d7a3dd-11a9-450e-bc41-367338857809_single_place_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\25d7a3dd-11a9-450e-bc41-367338857809_single_place_3.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\25d7a3dd-11a9-450e-bc41-367338857809_single_place_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\40de7ada-c658-47dc-9fa1-0e85bbc6bbc9_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\40de7ada-c658-47dc-9fa1-0e85bbc6bbc9_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\40de7ada-c658-47dc-9fa1-0e85bbc6bbc9_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\52d10b2b-2d32-498a-a7b6-ef4b9f158830_services_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\52d10b2b-2d32-498a-a7b6-ef4b9f158830_services_2.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\52d10b2b-2d32-498a-a7b6-ef4b9f158830_services_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\5391b5d3-38cf-475d-b05e-977642b5df8e_single_place_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\5391b5d3-38cf-475d-b05e-977642b5df8e_single_place_3.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\5391b5d3-38cf-475d-b05e-977642b5df8e_single_place_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\7925e944-ed0a-40f6-be16-b7cd05d2e92e_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\7925e944-ed0a-40f6-be16-b7cd05d2e92e_single_place_1.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\7925e944-ed0a-40f6-be16-b7cd05d2e92e_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\8b48bbe0-379b-4220-8cfe-4566d9c5fcc2_services_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\8b48bbe0-379b-4220-8cfe-4566d9c5fcc2_services_2.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\8b48bbe0-379b-4220-8cfe-4566d9c5fcc2_services_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\936d2219-ef8d-4fe4-8f7d-9963a835d633_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\936d2219-ef8d-4fe4-8f7d-9963a835d633_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\936d2219-ef8d-4fe4-8f7d-9963a835d633_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\98713e5b-74f3-42b9-ba69-e49a4ea526e0_6cfc770d-24ee-4af3-8e6d-97862a1a50c5_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\98713e5b-74f3-42b9-ba69-e49a4ea526e0_6cfc770d-24ee-4af3-8e6d-97862a1a50c5_single_place_2.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\98713e5b-74f3-42b9-ba69-e49a4ea526e0_6cfc770d-24ee-4af3-8e6d-97862a1a50c5_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\a49ce780-17e6-4ff2-af8f-f11945d8da64_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\a49ce780-17e6-4ff2-af8f-f11945d8da64_ibrahim.jpg",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\a49ce780-17e6-4ff2-af8f-f11945d8da64_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\c84964b5-a360-41ce-88d0-e0990a8ba832_me.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\c84964b5-a360-41ce-88d0-e0990a8ba832_me.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\c84964b5-a360-41ce-88d0-e0990a8ba832_me.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\e97e82ef-2b24-4441-b6b3-7d8b6e3f99cb_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\e97e82ef-2b24-4441-b6b3-7d8b6e3f99cb_ibrahim.jpg",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\e97e82ef-2b24-4441-b6b3-7d8b6e3f99cb_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\eab73f23-fc6c-46c3-80a1-49cda198d71f_download.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\eab73f23-fc6c-46c3-80a1-49cda198d71f_download.jpg",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\eab73f23-fc6c-46c3-80a1-49cda198d71f_download.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\ee18ab79-a15e-4867-b82a-eeaea92981cf_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\ee18ab79-a15e-4867-b82a-eeaea92981cf_single_place_1.png",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\ee18ab79-a15e-4867-b82a-eeaea92981cf_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\fee180a4-619d-4d13-bd74-5d61ff5b04be_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\fee180a4-619d-4d13-bd74-5d61ff5b04be_ibrahim.jpg",
       "PackagePath": "staticwebassets\\Images\\TravelImage\\fee180a4-619d-4d13-bd74-5d61ff5b04be_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\css\\all.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\css\\all.css",
       "PackagePath": "staticwebassets\\css\\all.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\_media.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\_media.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\_media.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_border-radius.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_border-radius.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_border-radius.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_reset-text.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_reset-text.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_reset-text.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_screen-reader.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_screen-reader.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_screen-reader.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_text-hide.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_text-hide.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_text-hide.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_visibility.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\mixins\\_visibility.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\mixins\\_visibility.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\utilities\\_stretched-link.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\bootstrap\\utilities\\_stretched-link.css",
       "PackagePath": "staticwebassets\\login\\css\\bootstrap\\utilities\\_stretched-link.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\style.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\css\\style.css",
       "PackagePath": "staticwebassets\\login\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\images\\bg.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\images\\bg.jpg",
       "PackagePath": "staticwebassets\\login\\images\\bg.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\login\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\jquery.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\login\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\main.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\main.js",
       "PackagePath": "staticwebassets\\login\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\popper.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\js\\popper.js",
       "PackagePath": "staticwebassets\\login\\js\\popper.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_alert.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_badge.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_breadcrumb.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_button-group.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_buttons.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_card.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_carousel.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_close.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_code.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_code.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_code.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_custom-forms.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_custom-forms.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_custom-forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_dropdown.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_forms.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_functions.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_grid.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_images.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_input-group.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_input-group.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_jumbotron.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_jumbotron.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_jumbotron.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_list-group.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_media.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_media.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_media.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_mixins.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_modal.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_nav.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_navbar.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_pagination.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_popover.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_print.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_print.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_print.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_progress.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_reboot.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_root.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_spinners.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_spinners.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_tables.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_toasts.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_toasts.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_tooltip.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_transitions.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_type.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_utilities.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_variables.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_background-variant.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_background-variant.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_badge.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_float.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_float.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_grid-framework.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_grid-framework.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_hover.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_image.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_nav-divider.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_nav-divider.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_size.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_size.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_size.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_table-row.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_table-row.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-hide.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_text-hide.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\mixins\\_visibility.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\mixins\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_align.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_align.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_align.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_background.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_background.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_background.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_borders.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_borders.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_borders.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_clearfix.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_display.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_display.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_display.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_embed.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_embed.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_embed.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_flex.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_flex.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_flex.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_float.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_float.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_float.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_overflow.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_overflow.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_position.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_position.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_screenreaders.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_screenreaders.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_shadows.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_shadows.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_sizing.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_sizing.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_spacing.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_spacing.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_text.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_text.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_text.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\utilities\\_visibility.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\utilities\\_visibility.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\bootstrap\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\login\\scss\\bootstrap\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\style.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\login\\scss\\style.scss",
       "PackagePath": "staticwebassets\\login\\scss\\style.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\main.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\main.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\css\\main.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\normalize.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\css\\normalize.min.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\css\\normalize.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\img\\Thumbs.db",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\img\\Thumbs.db"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\img\\logo.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\img\\logo.png",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\index.html",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\index.html",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\index.html"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\custom.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\custom.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\jquery-1.11.0.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\jquery-1.11.0.min.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\jquery.nav.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\js\\jquery.nav.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\js\\jquery.nav.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shAutoloader.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shAutoloader.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shAutoloader.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAS3.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAS3.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAS3.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushAppleScript.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushBash.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushBash.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushBash.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCSharp.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushColdFusion.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCpp.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCpp.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCpp.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCss.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCss.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushCss.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDelphi.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDiff.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDiff.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushDiff.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushErlang.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushErlang.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushErlang.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushGroovy.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJScript.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJScript.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJScript.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJava.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJava.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJava.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushJavaFX.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPerl.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPerl.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPerl.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPhp.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPhp.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPhp.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPlain.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPlain.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPlain.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPowerShell.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPython.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPython.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushPython.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushRuby.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushRuby.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushRuby.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSass.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSass.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSass.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushScala.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushScala.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushScala.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSql.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSql.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushSql.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushVb.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushVb.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushVb.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushXml.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushXml.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shBrushXml.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shCore.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shCore.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shCore.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shLegacy.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shLegacy.js",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\scripts\\shLegacy.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCore.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCore.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCore.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDefault.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDefault.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDefault.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDjango.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDjango.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreDjango.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEclipse.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEclipse.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEclipse.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEmacs.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEmacs.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreEmacs.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreFadeToGrey.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMDUltra.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMidnight.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMidnight.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreMidnight.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreRDark.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreRDark.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shCoreRDark.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDefault.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDefault.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDefault.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDjango.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDjango.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeDjango.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEclipse.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEclipse.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEclipse.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEmacs.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEmacs.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeEmacs.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeFadeToGrey.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMDUltra.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMidnight.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMidnight.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeMidnight.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeRDark.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeRDark.css",
       "PackagePath": "staticwebassets\\template\\193 travel DOC\\syntax-highlighter\\styles\\shThemeRDark.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\contact_process.php",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\contact_process.php",
       "PackagePath": "staticwebassets\\template\\contact_process.php"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\animate.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\animate.css",
       "PackagePath": "staticwebassets\\template\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\aos.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\aos.css",
       "PackagePath": "staticwebassets\\template\\css\\aos.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\template\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\flaticon.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\flaticon.css",
       "PackagePath": "staticwebassets\\template\\css\\flaticon.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\template\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\gijgo.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\gijgo.min.css",
       "PackagePath": "staticwebassets\\template\\css\\gijgo.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\magnific-popup.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\template\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\nice-select.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\nice-select.css",
       "PackagePath": "staticwebassets\\template\\css\\nice-select.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\owl.carousel.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\template\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\slick.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\slick.css",
       "PackagePath": "staticwebassets\\template\\css\\slick.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\style.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\style.css",
       "PackagePath": "staticwebassets\\template\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\style.map",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\style.map",
       "PackagePath": "staticwebassets\\template\\css\\style.map"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\swiper.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\swiper.min.css",
       "PackagePath": "staticwebassets\\template\\css\\swiper.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\themify-icons.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\css\\themify-icons.css",
       "PackagePath": "staticwebassets\\template\\css\\themify-icons.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\css\\all.min.css",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\css\\all.min.css",
       "PackagePath": "staticwebassets\\template\\fontawesome\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fontawesome\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\template\\fontawesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.eot",
       "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.ttf",
       "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.woff",
       "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\Flaticon.woff2",
       "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\template\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\gijgo-material.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\gijgo-material.ttf",
       "PackagePath": "staticwebassets\\template\\fonts\\gijgo-material.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\gijgo-material.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\gijgo-material.woff",
       "PackagePath": "staticwebassets\\template\\fonts\\gijgo-material.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.eot",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.eot",
       "PackagePath": "staticwebassets\\template\\fonts\\themify.eot"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.svg",
       "PackagePath": "staticwebassets\\template\\fonts\\themify.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.ttf",
       "PackagePath": "staticwebassets\\template\\fonts\\themify.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.woff",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\fonts\\themify.woff",
       "PackagePath": "staticwebassets\\template\\fonts\\themify.woff"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\05b2f9b5-751c-413e-a4ab-f1b8e55b7a9e_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\05b2f9b5-751c-413e-a4ab-f1b8e55b7a9e_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\05b2f9b5-751c-413e-a4ab-f1b8e55b7a9e_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\115ae25d-8ac1-4d5d-9624-b22a2a115767_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\115ae25d-8ac1-4d5d-9624-b22a2a115767_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\115ae25d-8ac1-4d5d-9624-b22a2a115767_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\187b026e-b442-4a40-bc09-6b9c232c3323_logo.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\187b026e-b442-4a40-bc09-6b9c232c3323_logo.png",
       "PackagePath": "staticwebassets\\template\\img\\187b026e-b442-4a40-bc09-6b9c232c3323_logo.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\18e9ea1e-7a57-408c-b16a-67ca0cca3495_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\18e9ea1e-7a57-408c-b16a-67ca0cca3495_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\18e9ea1e-7a57-408c-b16a-67ca0cca3495_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\194f2e11-837a-4c50-b1c8-956dbe771b82_logo.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\194f2e11-837a-4c50-b1c8-956dbe771b82_logo.png",
       "PackagePath": "staticwebassets\\template\\img\\194f2e11-837a-4c50-b1c8-956dbe771b82_logo.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\1bfbcbbf-df14-4a9c-b6e8-0889a778f585_single_place_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\1bfbcbbf-df14-4a9c-b6e8-0889a778f585_single_place_4.png",
       "PackagePath": "staticwebassets\\template\\img\\1bfbcbbf-df14-4a9c-b6e8-0889a778f585_single_place_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\25b3c666-3652-4d33-aaa8-f60e68953686_services_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\25b3c666-3652-4d33-aaa8-f60e68953686_services_4.png",
       "PackagePath": "staticwebassets\\template\\img\\25b3c666-3652-4d33-aaa8-f60e68953686_services_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\26d9775b-6aa2-410a-9223-25bbf1702a31_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\26d9775b-6aa2-410a-9223-25bbf1702a31_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\26d9775b-6aa2-410a-9223-25bbf1702a31_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\2833238b-b2fe-4b19-afc8-3f9a4afbefcf_favicon.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\2833238b-b2fe-4b19-afc8-3f9a4afbefcf_favicon.png",
       "PackagePath": "staticwebassets\\template\\img\\2833238b-b2fe-4b19-afc8-3f9a4afbefcf_favicon.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\293730af-3ef1-4896-9b5d-2711edb5773f_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\293730af-3ef1-4896-9b5d-2711edb5773f_services_3.png",
       "PackagePath": "staticwebassets\\template\\img\\293730af-3ef1-4896-9b5d-2711edb5773f_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\2c518049-6758-46c2-b03c-9c15bfac6b1d_single_place_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\2c518049-6758-46c2-b03c-9c15bfac6b1d_single_place_4.png",
       "PackagePath": "staticwebassets\\template\\img\\2c518049-6758-46c2-b03c-9c15bfac6b1d_single_place_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\2dfca007-1141-43d2-8297-99222e6569e8_ce9f0524-957c-4d59-82bf-9d1395b2fc8e_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\2dfca007-1141-43d2-8297-99222e6569e8_ce9f0524-957c-4d59-82bf-9d1395b2fc8e_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\2dfca007-1141-43d2-8297-99222e6569e8_ce9f0524-957c-4d59-82bf-9d1395b2fc8e_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\32124588-13d5-4d9e-833e-8424d6ae4eaf_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\32124588-13d5-4d9e-833e-8424d6ae4eaf_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\32124588-13d5-4d9e-833e-8424d6ae4eaf_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\38f6640b-6250-4fd2-b2be-a95c08fa85e8_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\38f6640b-6250-4fd2-b2be-a95c08fa85e8_services_3.png",
       "PackagePath": "staticwebassets\\template\\img\\38f6640b-6250-4fd2-b2be-a95c08fa85e8_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\3bb67d0a-c91f-4046-ba73-a1099d1db5d9_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\3bb67d0a-c91f-4046-ba73-a1099d1db5d9_services_3.png",
       "PackagePath": "staticwebassets\\template\\img\\3bb67d0a-c91f-4046-ba73-a1099d1db5d9_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\42b47ae4-dec0-4de4-afc9-0904bd7e8224_me.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\42b47ae4-dec0-4de4-afc9-0904bd7e8224_me.png",
       "PackagePath": "staticwebassets\\template\\img\\42b47ae4-dec0-4de4-afc9-0904bd7e8224_me.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\44286b6f-1483-42c8-be37-2dbbef0f9d41_211862.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\44286b6f-1483-42c8-be37-2dbbef0f9d41_211862.png",
       "PackagePath": "staticwebassets\\template\\img\\44286b6f-1483-42c8-be37-2dbbef0f9d41_211862.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\4890ffef-dc7a-4c5b-a5e6-b2a9f725879a_services_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\4890ffef-dc7a-4c5b-a5e6-b2a9f725879a_services_2.png",
       "PackagePath": "staticwebassets\\template\\img\\4890ffef-dc7a-4c5b-a5e6-b2a9f725879a_services_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\4e016c34-8bd1-47d1-bbd5-1cb9c1a3d5f5_1667733175952.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\4e016c34-8bd1-47d1-bbd5-1cb9c1a3d5f5_1667733175952.png",
       "PackagePath": "staticwebassets\\template\\img\\4e016c34-8bd1-47d1-bbd5-1cb9c1a3d5f5_1667733175952.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\4f2444d9-b83d-4a85-b96f-14cb050dd857_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\4f2444d9-b83d-4a85-b96f-14cb050dd857_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\4f2444d9-b83d-4a85-b96f-14cb050dd857_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\568d1786-6728-489f-b623-c97395af781f_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\568d1786-6728-489f-b623-c97395af781f_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\568d1786-6728-489f-b623-c97395af781f_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\6937c261-6ee5-4d87-a8e2-405579621410_services_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\6937c261-6ee5-4d87-a8e2-405579621410_services_1.png",
       "PackagePath": "staticwebassets\\template\\img\\6937c261-6ee5-4d87-a8e2-405579621410_services_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\694bbb4c-13e5-4924-83c8-9441504bef4d_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\694bbb4c-13e5-4924-83c8-9441504bef4d_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\694bbb4c-13e5-4924-83c8-9441504bef4d_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\6cfc770d-24ee-4af3-8e6d-97862a1a50c5_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\6cfc770d-24ee-4af3-8e6d-97862a1a50c5_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\6cfc770d-24ee-4af3-8e6d-97862a1a50c5_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\73e82258-5607-4ad3-972a-edced1a779ab_download.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\73e82258-5607-4ad3-972a-edced1a779ab_download.jpg",
       "PackagePath": "staticwebassets\\template\\img\\73e82258-5607-4ad3-972a-edced1a779ab_download.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\78d0b801-97d2-4d56-9cd4-88ea5ff78739_single_place_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\78d0b801-97d2-4d56-9cd4-88ea5ff78739_single_place_3.png",
       "PackagePath": "staticwebassets\\template\\img\\78d0b801-97d2-4d56-9cd4-88ea5ff78739_single_place_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\89136ed8-6cdb-43bd-9f70-af51e01fada1_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\89136ed8-6cdb-43bd-9f70-af51e01fada1_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\89136ed8-6cdb-43bd-9f70-af51e01fada1_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\8a0f60f4-e293-4c54-a881-3df4b77af122_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\8a0f60f4-e293-4c54-a881-3df4b77af122_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\8a0f60f4-e293-4c54-a881-3df4b77af122_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\94150914-37d2-48b1-a547-86f46a591ee6_IMG-20221002-WA0104.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\94150914-37d2-48b1-a547-86f46a591ee6_IMG-20221002-WA0104.jpg",
       "PackagePath": "staticwebassets\\template\\img\\94150914-37d2-48b1-a547-86f46a591ee6_IMG-20221002-WA0104.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\9974964c-22bf-47ba-9044-014aa5bab318_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\9974964c-22bf-47ba-9044-014aa5bab318_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\9974964c-22bf-47ba-9044-014aa5bab318_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_1.png",
       "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_2.png",
       "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_3.png",
       "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\Professional\\our_professional_4.png",
       "PackagePath": "staticwebassets\\template\\img\\Professional\\our_professional_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a15ac4cb-a88d-498d-bc26-ed9b1cc31e32_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a15ac4cb-a88d-498d-bc26-ed9b1cc31e32_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\a15ac4cb-a88d-498d-bc26-ed9b1cc31e32_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a4187107-486a-4390-aa37-dbab310d0f56_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a4187107-486a-4390-aa37-dbab310d0f56_ibrahim.jpg",
       "PackagePath": "staticwebassets\\template\\img\\a4187107-486a-4390-aa37-dbab310d0f56_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a472c403-eda7-46ae-a1dc-46fb64e5362e_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a472c403-eda7-46ae-a1dc-46fb64e5362e_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\a472c403-eda7-46ae-a1dc-46fb64e5362e_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a6ffc4df-90fb-4cfe-b2e9-749428a956b7_ibrahim.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a6ffc4df-90fb-4cfe-b2e9-749428a956b7_ibrahim.jpg",
       "PackagePath": "staticwebassets\\template\\img\\a6ffc4df-90fb-4cfe-b2e9-749428a956b7_ibrahim.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a7b7a9e4-2f2d-4a21-a07b-78a15677a62f_single_place_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a7b7a9e4-2f2d-4a21-a07b-78a15677a62f_single_place_3.png",
       "PackagePath": "staticwebassets\\template\\img\\a7b7a9e4-2f2d-4a21-a07b-78a15677a62f_single_place_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a7fbaa80-b70e-47ec-bac7-485c7e7b4257_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\a7fbaa80-b70e-47ec-bac7-485c7e7b4257_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\a7fbaa80-b70e-47ec-bac7-485c7e7b4257_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ab0c8309-dc80-41d8-98e6-9b521b76e6b8_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ab0c8309-dc80-41d8-98e6-9b521b76e6b8_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\ab0c8309-dc80-41d8-98e6-9b521b76e6b8_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\about_img.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\about_img.png",
       "PackagePath": "staticwebassets\\template\\img\\about_img.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ac36e87e-a92e-4aa4-a357-861dc76bf0e4_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ac36e87e-a92e-4aa4-a357-861dc76bf0e4_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\ac36e87e-a92e-4aa4-a357-861dc76bf0e4_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ace41234-cf07-4cda-b5a0-0ed394f07e89_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ace41234-cf07-4cda-b5a0-0ed394f07e89_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\ace41234-cf07-4cda-b5a0-0ed394f07e89_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\b694bd51-5be3-47bc-af1e-4e924553709b_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\b694bd51-5be3-47bc-af1e-4e924553709b_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\b694bd51-5be3-47bc-af1e-4e924553709b_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\b80ce715-3987-40a0-8f35-bdc627222977_services_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\b80ce715-3987-40a0-8f35-bdc627222977_services_2.png",
       "PackagePath": "staticwebassets\\template\\img\\b80ce715-3987-40a0-8f35-bdc627222977_services_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\banner_bg.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\banner_bg.png",
       "PackagePath": "staticwebassets\\template\\img\\banner_bg.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\bbc8940f-1f14-4691-b5ae-cea0088f20f9_services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\bbc8940f-1f14-4691-b5ae-cea0088f20f9_services_3.png",
       "PackagePath": "staticwebassets\\template\\img\\bbc8940f-1f14-4691-b5ae-cea0088f20f9_services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\bdadec24-7259-4f7b-8451-74ef1a8519bc_download.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\bdadec24-7259-4f7b-8451-74ef1a8519bc_download.jpg",
       "PackagePath": "staticwebassets\\template\\img\\bdadec24-7259-4f7b-8451-74ef1a8519bc_download.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\author.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\author.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\author.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_1.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\blog_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_2.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\blog_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_3.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\blog_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\blog_4.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\blog_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\learn_about_bg.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\learn_about_bg.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\learn_about_bg.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_1.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_2.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_3.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_4.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_5.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\single_blog_5.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_5.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\slide_thumb_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\blog\\slide_thumb_1.png",
       "PackagePath": "staticwebassets\\template\\img\\blog\\slide_thumb_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\breadcrumb.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\breadcrumb.png",
       "PackagePath": "staticwebassets\\template\\img\\breadcrumb.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\c0252a70-a247-41bb-8d8a-58b3ab101f01_logo.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\c0252a70-a247-41bb-8d8a-58b3ab101f01_logo.png",
       "PackagePath": "staticwebassets\\template\\img\\c0252a70-a247-41bb-8d8a-58b3ab101f01_logo.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\cb8b94a4-c863-4eec-846c-9f4fdc67aea2_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\cb8b94a4-c863-4eec-846c-9f4fdc67aea2_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\cb8b94a4-c863-4eec-846c-9f4fdc67aea2_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ce9f0524-957c-4d59-82bf-9d1395b2fc8e_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ce9f0524-957c-4d59-82bf-9d1395b2fc8e_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\ce9f0524-957c-4d59-82bf-9d1395b2fc8e_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_1.png",
       "PackagePath": "staticwebassets\\template\\img\\comment\\comment_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_2.png",
       "PackagePath": "staticwebassets\\template\\img\\comment\\comment_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\comment\\comment_3.png",
       "PackagePath": "staticwebassets\\template\\img\\comment\\comment_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\d0412475-5118-4adf-973a-5c869690dd4f_single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\d0412475-5118-4adf-973a-5c869690dd4f_single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\d0412475-5118-4adf-973a-5c869690dd4f_single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\dc215d37-665d-4da9-a161-8109f330a9be_20221025_221830.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\dc215d37-665d-4da9-a161-8109f330a9be_20221025_221830.jpg",
       "PackagePath": "staticwebassets\\template\\img\\dc215d37-665d-4da9-a161-8109f330a9be_20221025_221830.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\df976fb0-6e5b-426b-9d51-801df0e4bbff_single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\df976fb0-6e5b-426b-9d51-801df0e4bbff_single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\df976fb0-6e5b-426b-9d51-801df0e4bbff_single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\e178841a-9aaf-48f7-96b4-0dcc957152e6_services_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\e178841a-9aaf-48f7-96b4-0dcc957152e6_services_1.png",
       "PackagePath": "staticwebassets\\template\\img\\e178841a-9aaf-48f7-96b4-0dcc957152e6_services_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\a.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\a.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\a.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\a2.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\a2.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\a2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\d.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\d.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\d.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\disabled-check.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\disabled-check.png",
       "PackagePath": "staticwebassets\\template\\img\\elements\\disabled-check.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\disabled-radio.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\disabled-radio.png",
       "PackagePath": "staticwebassets\\template\\img\\elements\\disabled-radio.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f1.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f1.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f2.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f2.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f3.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f3.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f4.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f4.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f5.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f5.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f5.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f6.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f6.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f6.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f7.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f7.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f7.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f8.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\f8.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\f8.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g1.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g1.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g1.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g2.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g2.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g2.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g3.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g3.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g3.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g4.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g4.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g4.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g5.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g5.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g5.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g6.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g6.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g6.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g7.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g7.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g7.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g8.jpg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\g8.jpg",
       "PackagePath": "staticwebassets\\template\\img\\elements\\g8.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\primary-check.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\primary-check.png",
       "PackagePath": "staticwebassets\\template\\img\\elements\\primary-check.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\primary-radio.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\primary-radio.png",
       "PackagePath": "staticwebassets\\template\\img\\elements\\primary-radio.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\success-check.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\success-check.png",
       "PackagePath": "staticwebassets\\template\\img\\elements\\success-check.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\success-radio.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\elements\\success-radio.png",
       "PackagePath": "staticwebassets\\template\\img\\elements\\success-radio.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\event_bg.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\event_bg.png",
       "PackagePath": "staticwebassets\\template\\img\\event_bg.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\fa7c1c05-69c6-4ab3-948e-7829cb61356f_25b3c666-3652-4d33-aaa8-f60e68953686_services_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\fa7c1c05-69c6-4ab3-948e-7829cb61356f_25b3c666-3652-4d33-aaa8-f60e68953686_services_4.png",
       "PackagePath": "staticwebassets\\template\\img\\fa7c1c05-69c6-4ab3-948e-7829cb61356f_25b3c666-3652-4d33-aaa8-f60e68953686_services_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\faq_bg.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\faq_bg.png",
       "PackagePath": "staticwebassets\\template\\img\\faq_bg.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\favicon.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\favicon.png",
       "PackagePath": "staticwebassets\\template\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_1.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_2.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_3.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_4.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_5.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_5.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_5.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_6.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_img\\footer_img_6.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_img\\footer_img_6.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_overlay.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\footer_overlay.png",
       "PackagePath": "staticwebassets\\template\\img\\footer_overlay.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_1.png",
       "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_2.png",
       "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_3.png",
       "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_4.png",
       "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_5.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\gallery\\gallery_5.png",
       "PackagePath": "staticwebassets\\template\\img\\gallery\\gallery_5.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\left.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\left.svg",
       "PackagePath": "staticwebassets\\template\\img\\icon\\left.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\play.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\play.svg",
       "PackagePath": "staticwebassets\\template\\img\\icon\\play.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\quate.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\quate.svg",
       "PackagePath": "staticwebassets\\template\\img\\icon\\quate.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\right.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\icon\\right.svg",
       "PackagePath": "staticwebassets\\template\\img\\icon\\right.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_1.png",
       "PackagePath": "staticwebassets\\template\\img\\ind\\industries_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_2.png",
       "PackagePath": "staticwebassets\\template\\img\\ind\\industries_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\ind\\industries_3.png",
       "PackagePath": "staticwebassets\\template\\img\\ind\\industries_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\logo.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\logo.png",
       "PackagePath": "staticwebassets\\template\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\next.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\next.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\next.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_1.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_10.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_10.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_10.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_2.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_3.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_4.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_5.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_5.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_5.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_6.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_6.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_6.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_7.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_7.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_7.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_8.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_8.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_8.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_9.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\post_9.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\post_9.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\preview.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\post\\preview.png",
       "PackagePath": "staticwebassets\\template\\img\\post\\preview.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\right-arrow.svg",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\right-arrow.svg",
       "PackagePath": "staticwebassets\\template\\img\\right-arrow.svg"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_1.png",
       "PackagePath": "staticwebassets\\template\\img\\services_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_2.png",
       "PackagePath": "staticwebassets\\template\\img\\services_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_3.png",
       "PackagePath": "staticwebassets\\template\\img\\services_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\services_4.png",
       "PackagePath": "staticwebassets\\template\\img\\services_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_1.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_1.png",
       "PackagePath": "staticwebassets\\template\\img\\single_place_1.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_2.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_2.png",
       "PackagePath": "staticwebassets\\template\\img\\single_place_2.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_3.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_3.png",
       "PackagePath": "staticwebassets\\template\\img\\single_place_3.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_4.png",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\single_place_4.png",
       "PackagePath": "staticwebassets\\template\\img\\single_place_4.png"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\aos.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\aos.js",
       "PackagePath": "staticwebassets\\template\\js\\aos.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\template\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\contact.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\contact.js",
       "PackagePath": "staticwebassets\\template\\js\\contact.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\custom.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\custom.js",
       "PackagePath": "staticwebassets\\template\\js\\custom.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\gijgo.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\gijgo.min.js",
       "PackagePath": "staticwebassets\\template\\js\\gijgo.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\gmaps.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\gmaps.min.js",
       "PackagePath": "staticwebassets\\template\\js\\gmaps.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery-1.12.1.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery-1.12.1.min.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery-1.12.1.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery-3.3.1.slim.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery-3.3.1.slim.min.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery-3.3.1.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.ajaxchimp.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.ajaxchimp.min.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery.ajaxchimp.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.easing.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.easing.min.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery.easing.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.form.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.form.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery.form.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.magnific-popup.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.magnific-popup.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery.magnific-popup.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.nice-select.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.nice-select.min.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery.nice-select.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.validate.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\template\\js\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\mail-script.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\mail-script.js",
       "PackagePath": "staticwebassets\\template\\js\\mail-script.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\masonry.pkgd.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\masonry.pkgd.js",
       "PackagePath": "staticwebassets\\template\\js\\masonry.pkgd.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\masonry.pkgd.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\masonry.pkgd.min.js",
       "PackagePath": "staticwebassets\\template\\js\\masonry.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\template\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\particles.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\particles.min.js",
       "PackagePath": "staticwebassets\\template\\js\\particles.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\popper.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\template\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\slick.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\slick.min.js",
       "PackagePath": "staticwebassets\\template\\js\\slick.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\swiper.min.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\swiper.min.js",
       "PackagePath": "staticwebassets\\template\\js\\swiper.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\swiper_custom.js",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\js\\swiper_custom.js",
       "PackagePath": "staticwebassets\\template\\js\\swiper_custom.js"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_Professional.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_Professional.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_Professional.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_about.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_about.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_about.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_banner.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_banner.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_banner.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_best_services.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_best_services.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_best_services.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_blog.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_blog.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_blog.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_blog_part.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_blog_part.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_blog_part.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_booking.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_booking.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_booking.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_breadcrumb.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_button.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_button.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_button.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_category_post.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_category_post.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_category_post.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_client_review.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_client_review.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_client_review.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_common.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_common.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_common.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_contact.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_contact.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_contact.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_copyright_part.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_copyright_part.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_copyright_part.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_elements.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_elements.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_elements.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_event_part.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_event_part.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_event_part.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_extends.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_extends.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_extends.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_faq_part.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_faq_part.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_faq_part.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_footer.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_footer.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_hotel&rasturant.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_hotel&rasturant.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_hotel&rasturant.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_hotel_list.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_hotel_list.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_hotel_list.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_menu.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_menu.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_menu.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_mixins.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_mixins.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_our_gallery.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_our_gallery.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_our_gallery.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_portfolio.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_portfolio.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_portfolio.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_post_style.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_post_style.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_post_style.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_project_details.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_project_details.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_project_details.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_service.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_service.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_service.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_single_blog.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_single_blog.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_single_blog.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_social_connect_part.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_social_connect_part.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_social_connect_part.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_sub_menu.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_sub_menu.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_sub_menu.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_subscribe_area.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_subscribe_area.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_subscribe_area.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_team.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_team.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_team.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_top_place.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_top_place.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_top_place.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_tour_details_content.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_tour_details_content.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_tour_details_content.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_variables.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\_variables.scss",
       "PackagePath": "staticwebassets\\template\\sass\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\style.scss",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\template\\sass\\style.scss",
       "PackagePath": "staticwebassets\\template\\sass\\style.scss"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Users\\DELL 5480\\Source\\Repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\DELL 5480\\source\\repos\\Depi-Project\\TravelGuide\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
     },
     {

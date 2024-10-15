@@ -20,15 +20,15 @@
             <div class="row">
                 @foreach (var item in Model)
                 {
-                    <div class="col-lg-8 col-md-8 m-auto mb-4">
-                        @* Watchlist item details display box *@
+@*                     <div class="col-lg-8 col-md-8 m-auto mb-4">
+                      
                         <div class="single_place p-4 border rounded mb-3">
                             <div class="watchlist-item-info">
                                 <h3>@item.ItemType</h3>
                                 <p><strong>Details:</strong> Press View details to preview the @item.ItemType</p>
                             </div>
                         </div>
-                        @* Buttons for Edit, Delete, and View Details outside the display box *@
+                       
                         <div class="actions text-center">
                             <a class="btn btn-info btn-sm mx-2" asp-action="Details" asp-route-id="@item.ItemID" asp-controller="@item.ItemType">View Details</a>
                             @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
@@ -37,7 +37,28 @@
                                 <a class="btn btn-danger btn-sm mx-2" asp-action="Delete" asp-route-id="@item.WatchlistItemId">Delete</a>
                             }
                         </div>
+                    </div> *@
+
+                    <div class="col-lg-8 col-md-8 m-auto">
+                        <div class="single_place">
+                            <img src="@item.Image" alt="NoImage" width="100%">
+                            <div class="hover_Text d-flex align-items-end justify-content-between">
+                                <div class="hover_text_iner">
+                                    <div class="flex-row">
+                                        <h3 class="mb-2">@item.ItemType @item.Name</h3>
+                                        <form asp-action="Delete" asp-route-id="@item.WatchlistItemId" method="post" class="d-inline">
+                                            <button type="submit" class="place_btn btn btn-danger">Delete</button>
+                                        </form>
+
+                                        <a class="place_btn btn btn-secondary" asp-action="Details" asp-route-id="@item.ItemID" asp-controller="@item.ItemType">Details</a>
+
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 }
             </div>
         </div>
