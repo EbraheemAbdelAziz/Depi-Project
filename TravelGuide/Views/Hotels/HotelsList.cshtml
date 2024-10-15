@@ -36,7 +36,7 @@
                                         <ul style="list-style: none; padding: 0; margin: 0;">
                                             <li>
                                                 <a href="@Url.Action("Details", new { id = item.HotelId })" style="text-decoration: none; color: #fe5c24; font-size: 24px;">
-                                                    <i class="fas fa-envelope"></i>
+                                                    <i class="fa-solid fa-up-right-from-square"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -51,10 +51,16 @@
 
                                         <a class="btn text-white" style="display: inline-block; padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@item.HotelId">Delete</a>
                                     }
-                                    <h3>@item.HotelName</h3>
-                                    <h5>@item.Location.LocationName</h5>
+                                   
+                                        <h3 style="margin: 0;">@item.HotelName</h3>
+
+                                    <h5 class="text-white my-2">@item.Location.LocationName</h5>
                                     <h5>
                                         @for (int i = 0; i < @item.Rating; i++)
+                                        {
+                                            <a href="#"><i class="fas fa-star" style="color: #fe5c24;"></i></a>
+                                        }
+                                        @for (int i = 0; i < 5 - @item.Rating; i++)
                                         {
                                             <a href="#"><i class="fas fa-star"></i></a>
                                         }

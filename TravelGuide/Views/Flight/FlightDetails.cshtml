@@ -59,11 +59,11 @@
                         <!-- Direct POST for adding to watchlist -->
 
                     }
-                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+@*                     @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                     {
                         <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Edit" asp-route-Id="@Model.FlightId">Edit</a>
                         <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@Model.FlightId">Delete</a>
-                    }
+                    } *@
                     <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Index" asp-controller="WatchlistItem">Cancel</a>
                 </div>
             </div>

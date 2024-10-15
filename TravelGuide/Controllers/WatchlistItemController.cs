@@ -9,12 +9,16 @@ namespace TravelGuide.Controllers
     public class WatchlistItemController : Controller
     {
         private readonly IBaseRepository<WatchlistItem> _WatchlistItem;
+        private readonly IBaseRepository<Flight> _flight;
+        private readonly IBaseRepository<Room> _room;
         private readonly UserManager<AppUser> _userManager;
 
-        public WatchlistItemController(IBaseRepository<WatchlistItem> watchlistItem, UserManager<AppUser> userManager)
+        public WatchlistItemController(IBaseRepository<WatchlistItem> watchlistItem, UserManager<AppUser> userManager, IBaseRepository<Flight> flight, IBaseRepository<Room> room)
         {
             _WatchlistItem = watchlistItem;
             _userManager = userManager;
+            _flight = flight;
+            _room = room;
         }
 
         // GET: WatchlistItemController
