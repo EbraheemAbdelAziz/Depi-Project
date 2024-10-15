@@ -115,6 +115,8 @@ namespace TravelGuide.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
+			roomBooking.Hotel = await _hotel.GetById(roomBooking.HotelId);
+			roomBooking.Room = await _room .GetById(roomBooking.RoomId);
             return View("DeleteRoomBooking",roomBooking);
 		}
 
