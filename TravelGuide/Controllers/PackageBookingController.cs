@@ -13,11 +13,13 @@ namespace TravelGuide.Controllers
         private IBaseRepository<PackageBooking> _packageBooking;
         private readonly UserManager<AppUser> _userManager;
         private IBaseRepository<TravelPackage> _travelPackage;
-        public PackageBookingController(IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager, IBaseRepository<TravelPackage> travelPackage)
+        private readonly IBaseRepository<Payment> _payments;
+        public PackageBookingController(IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager, IBaseRepository<TravelPackage> travelPackage, IBaseRepository<Payment> payments)
         {
             _packageBooking = packageBooking;
             _userManager = userManager;
             _travelPackage = travelPackage;
+            _payments = payments;
         }
 
         public async Task <ActionResult> Index()
@@ -142,6 +144,11 @@ namespace TravelGuide.Controllers
             {
                 var currentUser = await _userManager.GetUserAsync(User);
                 if (currentUser == null) return RedirectToAction("Login", "Account");
+                var payments = await _payments.GetAll(p=> p.PackageBookingId == id);
+                foreach (var item in payments)
+                {
+                    await _payments.DeleteItem(item.PaymentId);
+                }
                 await _packageBooking.DeleteItem(id);
                 return RedirectToAction(nameof(Index));
             }

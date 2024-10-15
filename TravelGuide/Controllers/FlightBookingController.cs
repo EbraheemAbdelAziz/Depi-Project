@@ -12,11 +12,13 @@ namespace TravelGuide.Controllers
     {
         private readonly IBaseRepository<FlightBooking> _flightBooking;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IBaseRepository<Payment> _payments;
 
-        public FlightBookingController(IBaseRepository<FlightBooking> flightBooking, UserManager<AppUser> userManager)
+        public FlightBookingController(IBaseRepository<FlightBooking> flightBooking, UserManager<AppUser> userManager, IBaseRepository<Payment> payments)
         {
             _flightBooking = flightBooking;
             _userManager = userManager;
+            _payments = payments;
         }
 
         // GET: FlightBookingController
@@ -148,6 +150,11 @@ namespace TravelGuide.Controllers
             {
                 var currentUser = await _userManager.GetUserAsync(User);
                 if (currentUser == null) return RedirectToAction("Login", "Account");
+                var payments = await _payments.GetAll(p => p.FlightBookingId == id);
+                foreach (var item in payments)
+                {
+                    await _payments.DeleteItem(item.PaymentId);
+                }
                 await _flightBooking.DeleteItem(id);
                 return RedirectToAction(nameof(Index));
             }

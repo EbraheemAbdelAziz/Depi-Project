@@ -16,14 +16,16 @@ namespace TravelGuide.Controllers
         private readonly IBaseRepository<RoomBooking> _roomBooking;
         private readonly IBaseRepository<PackageBooking> _packageBooking;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IBaseRepository<Room> _room;
 
-        public PaymentController(IBaseRepository<Payment> payment, IBaseRepository<FlightBooking> flightBooking, IBaseRepository<RoomBooking> roomBooking, IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager)
+        public PaymentController(IBaseRepository<Payment> payment, IBaseRepository<FlightBooking> flightBooking, IBaseRepository<RoomBooking> roomBooking, IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager, IBaseRepository<Room> room)
         {
             _payment = payment;
             _flightBooking = flightBooking;
             _roomBooking = roomBooking;
             _packageBooking = packageBooking;
             _userManager = userManager;
+            _room = room;
         }
 
         // GET: PaymentController
@@ -141,6 +143,9 @@ namespace TravelGuide.Controllers
                     var booking = await _roomBooking.GetById(int.Parse(BookingId));
                     booking.BookingStatus = true;
                     await _roomBooking.UpdateItem(booking);
+                    var Room = await _room.GetById(booking.RoomId);
+                    Room.Availability = false;
+                    await _room.UpdateItem(Room);
                 }
                 if (payment.PackageBookingId != null)
                 {

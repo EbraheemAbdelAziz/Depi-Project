@@ -11,12 +11,14 @@ namespace TravelGuide.Controllers
 		private UserManager<AppUser> _userManager;
 		private readonly IBaseRepository<Hotel> _hotel;
 		private readonly IBaseRepository<Room> _room;
-        public RoomBookingController(IBaseRepository<RoomBooking> roomBooking, UserManager<AppUser> userManager, IBaseRepository<Hotel> hotel, IBaseRepository<Room> room)
+		private readonly IBaseRepository<Payment> _payments;
+        public RoomBookingController(IBaseRepository<RoomBooking> roomBooking, UserManager<AppUser> userManager, IBaseRepository<Hotel> hotel, IBaseRepository<Room> room, IBaseRepository<Payment> payments)
         {
             _roomBooking = roomBooking;
             _userManager = userManager;
             _hotel = hotel;
             _room = room;
+            _payments = payments;
         }
         // GET: RoomBookingController
         public async Task<ActionResult> Index()
@@ -113,7 +115,7 @@ namespace TravelGuide.Controllers
             {
                 return RedirectToAction(nameof(Index));
             }
-            return View("DeleteRoomBooking");
+            return View("DeleteRoomBooking",roomBooking);
 		}
 
 		// POST: RoomBookingController/Delete/5
@@ -123,7 +125,14 @@ namespace TravelGuide.Controllers
 		{
 			try
 			{
-				await _roomBooking.DeleteItem(id);
+                var currentUser = await _userManager.GetUserAsync(User);
+                if (currentUser == null) return RedirectToAction("Login", "Account");
+                var payments = await _payments.GetAll(p => p.RoomBookingId == id);
+                foreach (var item in payments)
+                {
+                    await _payments.DeleteItem(item.PaymentId);
+                }
+                await _roomBooking.DeleteItem(id);
 				return RedirectToAction(nameof(Index));
 			}
 			catch
