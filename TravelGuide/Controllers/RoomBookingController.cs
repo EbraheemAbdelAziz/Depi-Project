@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
@@ -107,8 +108,9 @@ namespace TravelGuide.Controllers
 			}
 		}
 
-		// GET: RoomBookingController/Delete/5
-		public async Task<ActionResult> Delete(int id)
+        // GET: RoomBookingController/Delete/5
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult> Delete(int id)
 		{
             var roomBooking = await _roomBooking.GetById(id);
             if (roomBooking == null)
@@ -120,8 +122,9 @@ namespace TravelGuide.Controllers
             return View("DeleteRoomBooking",roomBooking);
 		}
 
-		// POST: RoomBookingController/Delete/5
-		[HttpPost]
+        // POST: RoomBookingController/Delete/5
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<ActionResult> Delete(int id, RoomBooking roomBooking)
 		{

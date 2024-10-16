@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TravelGuide.Entiteis.Models;
 using TravelGuide.Repositories.Interfaces;
 
@@ -21,12 +22,14 @@ namespace TravelGuide.Controllers
         }
 
         // GET: LocationController/Create
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Create()
         {
             return View("NewLocation");
         }
 
         // POST: LocationController/Create
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(Location location)
@@ -50,6 +53,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: LocationController/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(int id)
         {
             var location = await _location.GetById(id);
@@ -62,6 +66,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: LocationController/Edit/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(int id,Location location)
@@ -88,6 +93,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: LocationController/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(int id)
         {
             var location = await _location.GetById(id);
@@ -99,6 +105,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: LocationController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Delete(int id, Location location)

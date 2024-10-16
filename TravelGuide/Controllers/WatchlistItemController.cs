@@ -35,12 +35,6 @@ namespace TravelGuide.Controllers
             return View("WatchlistDetails", watchList);
         }
 
-        // GET: WatchlistItemController/Create
-        //public async Task<ActionResult> Create()
-        //{
-        //    return View("NewWatchlist");
-        //}
-
         // POST: WatchlistItemController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -68,45 +62,6 @@ namespace TravelGuide.Controllers
                 return View("NewWatchlist");
             }
         }
-
-        // GET: WatchlistItemController/Edit/5
-        //public async Task<ActionResult> Edit(int id)
-        //{
-        //    var watchlist = await _WatchlistItem.GetById(id);
-        //    if (watchlist == null)
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View("EditWatchlist", watchlist);
-        //}
-
-        // POST: WatchlistItemController/Edit/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<ActionResult> Edit(int id, WatchlistItem watchlist)
-        //{
-        //    try
-        //    {
-        //        await _WatchlistItem.UpdateItem(watchlist);
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View("EditWatchlist");
-        //    }
-        //}
-
-        // GET: WatchlistItemController/Delete/5
-        //public async Task<ActionResult> Delete(int id)
-        //{
-        //    var watchlist = await _WatchlistItem.GetById(id);
-        //    if (watchlist == null)
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View("DeleteWatchlist", watchlist);
-        //}
-
 
         // POST: WatchlistItemController/Delete/5
         [HttpPost]

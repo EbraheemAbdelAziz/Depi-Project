@@ -26,7 +26,7 @@ namespace TravelGuide.Controllers
             var flights = await _flightRepository.GetAll(null, new[] { "location" });
             var hotelModel = await _hotelRepository.GetAll(null, new[] { "Location" });
             ViewBag.HotelModel = hotelModel;
-            IEnumerable<TravelPackage> travelPackage =await _travelPackage.GetAll();
+            IEnumerable<TravelPackage> travelPackage =await _travelPackage.GetAll(null, new[] { "Destination" });
             ViewBag.TravelPackage= travelPackage;
             return View(flights);
 

@@ -16,7 +16,7 @@
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     </div>
                     <div class="col-sm-12">
-                        <div class="form-group">
+                        <div class="form-group" hidden>
                             <label asp-for="Amount" class="control-label"></label>
                             <input class="form-control" asp-for="Amount" name="Amount" id="Amount" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter the Amount'" placeholder='Enter the Amount'>
                             <span asp-validation-for="Amount" class="text-danger"></span>

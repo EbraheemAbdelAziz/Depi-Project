@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -124,6 +125,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: PackageBookingController/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task <ActionResult> Delete(int id)
         {
             var currentUser = await _userManager.GetUserAsync(User);
@@ -136,6 +138,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: PackageBookingController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task <ActionResult> Delete(int id, PackageBooking packageBooking)

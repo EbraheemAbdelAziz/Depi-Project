@@ -11,35 +11,51 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            @if(Model != null && Model.Count() >= 4)
+        <div class="row justify-content-around">
+            @foreach (var item in Model)
             {
-                @foreach (var item in Model.Take(4))
-                {
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single_place">
-                            <img src="@item.location.ImageUrl" alt="">
-                            <div class="hover_Text d-flex align-items-end justify-content-between">
-                                <div class="hover_text_iner">
-                                    <h3>@item.location.LocationName</h3>
-                                    <p>@item.ArivalAirport, @item.ArivalAirport</p>
-                                                                  
-                                        <div class="place_review">
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <a href="#"><i class="fas fa-star"></i></a>
-                            <span>(210 review)</span>
-                            </div>
+                <div class="col-lg-6 col-md-6 m-auto">
+                    <div class="single_place">
+                        <img src="@item.location.ImageUrl" alt="NoImage" width="100%">
+                        <div class="hover_Text d-flex align-items-end justify-content-between">
+                            <div class="hover_text_iner">
+                                <h3>@item.location.LocationName - @item.TotalPrice $</h3>
+                                <p>@item.location.Country</p>
+                                <p>@item.Airline, @item.ArivalAirport</p>
+                                <p>Flight Time : @item.DepartureTime.ToShortDateString()</p>
+                                <p>Departure Time : @item.DepartureTime.TimeOfDay</p>
+                                <p>Arrival Time: @item.ArrivalTime.TimeOfDay</p>
+                                <div class="flex-column">
+                                    @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                                    {
+                                        <a class="place_btn" asp-action="Create" asp-controller="FlightBooking" asp-route-FlightId="@item.FlightId">Book</a>
+                                        <!-- Direct POST for adding to watchlist -->
+                                    }
+                                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                                    {
+                                        <a class="place_btn" asp-action="Edit" asp-route-Id="@item.FlightId">Edit</a>
+                                        <a class="place_btn" asp-action="Delete" asp-route-Id="@item.FlightId">Delete</a>
+                                    }
+                                    <form asp-action="Create" asp-controller="WatchlistItem" method="post">
+                                        <input type="hidden" name="ItemID" value="@item.FlightId" />
+                                        <input type="hidden" name="ItemType" value="Flight" />
+                                        <input type="hidden" name="Image" value="@item.location.ImageUrl" />
+                                        <input type="hidden" name="Name" value="@item.location.LocationName" />
+                                        @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
+                                        <button type="submit" class="place_btn" style="border : none">Add to Watchlist</button>
+                                    </form>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-                }
+                </div>
             }
-
-            <a class="btn_1 text-cnter" asp-area="" asp-controller="Flight" asp-action="Index">Discover more</a>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-auto">
+                <a class="btn_1 text-cnter" asp-area="" asp-controller="Flight" asp-action="Index">Discover more</a>
+            </div>
         </div>
     </div>
 </section>

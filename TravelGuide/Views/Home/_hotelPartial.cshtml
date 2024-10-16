@@ -3,7 +3,7 @@
 @{
     var hotelModel = ViewBag.HotelModel as IEnumerable<TravelGuide.Entiteis.Models.Hotel>;
 }
-<section class="hotel_list section_padding">
+<section class="hotel_list section_padding" id="Hotels">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6">
@@ -13,16 +13,16 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            @if (hotelModel != null && hotelModel.Count() >= 3)
-            {
+        <div class="row justify-content-around">
+            @* @if (hotelModel != null && hotelModel.Count() >= 3)
+            { *@
                 @foreach (var item in hotelModel.Take(3))
                 {
                     <div class="col-lg-4 col-sm-6">
                         <div class="single_ihotel_list">
                             <img src="@item.HotelImage" alt="">
                             <div class="hotel_text_iner">
-                                <h3><a href="#"> @item.HotelName</a></h3>
+                                <h3><a asp-action="Index" asp-controller="Rooms" asp-route-HotelId="@item.HotelId"> @item.HotelName</a></h3>
                                 <p>@item.Location.LocationName</p>
                                 <div class="place_review">
                                     @for (int i = 0; i < @item.Rating; i++)
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 }
-            }
+          @*   } *@
         </div>
 
         

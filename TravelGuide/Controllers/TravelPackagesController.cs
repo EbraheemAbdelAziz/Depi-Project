@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using TravelGuide.Entiteis.Models;
@@ -33,6 +34,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: TravelPackagesController/Create
+        [Authorize(Roles = "Admin")]
         public async Task <ActionResult> Create()
         {
             var locations = await _location.GetAll();
@@ -41,6 +43,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: TravelPackagesController/Create
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task <ActionResult> Create(TravelPackage travelPackage)
@@ -53,21 +56,6 @@ namespace TravelGuide.Controllers
                     string FileName = await _uploadFile.UploadFileAsync("\\Images\\TravelImage\\", travelPackage.ImageFile);
                     travelPackage.PackageImage = FileName;
                 }
-
-                //var Travelpackagetest = _TravelPackages.GetAll().Result.Any(c => c.PackageName == travelPackage.PackageName);
-                //if (Travelpackagetest)
-                //{
-                //    ViewBag.ExistsError = "TravelPackage Name already exists";
-                //    return View("NewTravelPackage", travelPackage);
-                //}
-                //if (Request.Form.Files != null && Request.Form.Files.Count > 0)
-                //{
-                //    using (var memoryStream = new MemoryStream())
-                //    {
-                //        await Request.Form.Files[0].CopyToAsync(memoryStream);
-                //        travelPackage.TravelImage = memoryStream.ToArray();
-                //    }
-                //}
                 travelPackage.Duration = travelPackage.EndDate.Day - travelPackage.StartDate.Day;
                 await _TravelPackages.AddItem(travelPackage);
                 return RedirectToAction(nameof(Index));
@@ -80,6 +68,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: TravelPackagesController/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task <ActionResult> Edit(int id)
         {
             var travelPackage = await _TravelPackages.GetById(id);
@@ -95,6 +84,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: TravelPackagesController/Edit/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task <ActionResult> Edit(int id, TravelPackage travelPackage)
@@ -122,6 +112,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: TravelPackagesController/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task <ActionResult> Delete(int id)
         {
             var travelpackage = await _TravelPackages.GetById(id);
@@ -129,6 +120,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: TravelPackagesController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task <ActionResult> Delete(int id, IFormCollection collection)

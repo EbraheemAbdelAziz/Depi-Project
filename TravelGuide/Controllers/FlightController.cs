@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using TravelGuide.Entiteis.Models;
@@ -34,6 +35,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: FlightController/Create
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Create()
         {
             var locations = await _location.GetAll();
@@ -42,6 +44,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: FlightController/Create
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(Flight flight)
@@ -59,7 +62,7 @@ namespace TravelGuide.Controllers
             }
         }
 
-      
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(int id)
         {
             var flight = await _flight.GetById(id);
@@ -73,6 +76,7 @@ namespace TravelGuide.Controllers
             return View("EditFlight", flight);
         }
         // POST: FlightController/Edit/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(int id, Flight flight)
@@ -88,7 +92,7 @@ namespace TravelGuide.Controllers
                 return View("EditFlight", flight);
             }
         }
-
+        [Authorize(Roles = "Admin")]
         // GET: FlightController/Delete/5
         public async Task<ActionResult> Delete(int id)
         {
@@ -103,6 +107,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: FlightController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Delete(int id, Flight flight)

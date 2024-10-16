@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using TravelGuide.Repositories.Interfaces;
 
 using TravelGuide.Entiteis.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TravelGuide.Controllers
 
@@ -30,11 +31,11 @@ namespace TravelGuide.Controllers
 
         // GET: RoomsController 
 
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(int HotelId)
 
         {
 
-            var room = await _room.GetAll(null, new[] { "hotel" });
+            var room = await _room.GetAll(r=>r.hotelId == HotelId, new[] { "hotel" });
 
             return View("RoomsList", room);
 
@@ -56,6 +57,7 @@ namespace TravelGuide.Controllers
 
 
         // GET: RoomsController/Create 
+        [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult> Create()
 
@@ -72,6 +74,7 @@ namespace TravelGuide.Controllers
 
 
         // POST: RoomsController/Create 
+        [Authorize(Roles = "Admin")]
 
         [HttpPost]
 
@@ -117,7 +120,8 @@ namespace TravelGuide.Controllers
 
 
 
-        // GET: RoomsController/Edit/5 
+        // GET: RoomsController/Edit/5
+        [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult> Edit(int id)
 
@@ -135,7 +139,7 @@ namespace TravelGuide.Controllers
 
 
         // POST: RoomsController/Edit/5 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
 
         [ValidateAntiForgeryToken]
@@ -158,7 +162,7 @@ namespace TravelGuide.Controllers
 
 
         // GET: RoomsController/Delete/5 
-
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(int id)
 
         {
@@ -176,7 +180,7 @@ namespace TravelGuide.Controllers
 
 
         // POST: RoomsController/Delete/5 
-
+        [Authorize(Roles = "Admin")]
         [HttpPost]
 
         [ValidateAntiForgeryToken]

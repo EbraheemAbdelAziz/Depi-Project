@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -33,6 +34,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: RoomsController/Create
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Create()
         {
             var location = await _location.GetAll();
@@ -41,6 +43,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: RoomsController/Create
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(Hotel hotel)
@@ -71,6 +74,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: RoomsController/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Edit(int id)
         {
             var hotel = await _hotel.GetById(id);
@@ -84,6 +88,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: RoomsController/Edit/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(int id, Hotel hotel)
@@ -109,6 +114,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: RoomsController/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(int id)
         {
             var hotel = await _hotel.GetById(id);
@@ -118,6 +124,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: RoomsController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Delete(int id, Hotel hotel)

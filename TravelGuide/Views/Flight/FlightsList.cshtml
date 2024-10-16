@@ -29,15 +29,21 @@
             </div>
 
 
-
+            <div class="row justify-content-around">
             @foreach (var item in Model)
             {
 
-                <div class="col-lg-8 col-md-8 m-auto">
+                <div class="col-lg-6 col-md-6 m-auto">
                     <div class="single_place">
                         <img src="@item.location.ImageUrl" alt="NoImage" width="100%">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
+                                <h3>@item.location.LocationName - @item.TotalPrice $</h3>
+                                <p>@item.location.Country</p>
+                                <p>@item.Airline, @item.ArivalAirport</p>
+                                    <p>Flight Time : @item.DepartureTime.ToShortDateString()</p>
+                                <p>Departure Time : @item.DepartureTime.TimeOfDay</p>
+                                <p>Arrival Time: @item.ArrivalTime.TimeOfDay</p>
                                 <div class="flex-column">
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
                                     {
@@ -56,13 +62,9 @@
                                         <input type="hidden" name="Image" value="@item.location.ImageUrl" />
                                         <input type="hidden" name="Name" value="@item.location.LocationName" />
                                         @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
-                                        <button type="submit" class="place_btn">Add to Watchlist</button>
+                                            <button type="submit" class="place_btn" style="border : none">Add to Watchlist</button>
                                     </form>
                                 </div>
-                                <h3>@item.location.LocationName - @item.TotalPrice $</h3>
-                                <p>@item.location.Country</p>
-                                <p>@item.Airline, @item.ArivalAirport</p>
-                                <p>@item.DepartureTime - @item.ArrivalTime</p>
 
                             </div>
 
@@ -70,6 +72,7 @@
                     </div>
                 </div>
             }
+            </div>
         </div>
     </section>
 

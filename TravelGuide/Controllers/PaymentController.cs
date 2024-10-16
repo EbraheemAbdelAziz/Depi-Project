@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -17,8 +18,10 @@ namespace TravelGuide.Controllers
         private readonly IBaseRepository<PackageBooking> _packageBooking;
         private readonly UserManager<AppUser> _userManager;
         private readonly IBaseRepository<Room> _room;
+        private readonly IBaseRepository<Flight> _flight;
+        private readonly IBaseRepository<TravelPackage> _travelPAckage;
 
-        public PaymentController(IBaseRepository<Payment> payment, IBaseRepository<FlightBooking> flightBooking, IBaseRepository<RoomBooking> roomBooking, IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager, IBaseRepository<Room> room)
+        public PaymentController(IBaseRepository<Payment> payment, IBaseRepository<FlightBooking> flightBooking, IBaseRepository<RoomBooking> roomBooking, IBaseRepository<PackageBooking> packageBooking, UserManager<AppUser> userManager, IBaseRepository<Room> room, IBaseRepository<Flight> flight, IBaseRepository<TravelPackage> travelPAckage)
         {
             _payment = payment;
             _flightBooking = flightBooking;
@@ -26,6 +29,8 @@ namespace TravelGuide.Controllers
             _packageBooking = packageBooking;
             _userManager = userManager;
             _room = room;
+            _flight = flight;
+            _travelPAckage = travelPAckage;
         }
 
         // GET: PaymentController
@@ -97,6 +102,8 @@ namespace TravelGuide.Controllers
                 {
                     payment.RoomBooking = await _roomBooking.GetById( int.Parse(BookingId));
                     payment.RoomBookingId = int.Parse(BookingId);
+                    var room = await _room.GetById(payment.RoomBooking.RoomId);
+                    payment.Amount = (double)(room.PricePerNight * (payment.RoomBooking.ChickOutDate.Day - payment.RoomBooking.ChickInDate.Day) );
                     return View("NewPayment",payment);
                 }
                 else if (type == "flightBooking")
@@ -104,12 +111,15 @@ namespace TravelGuide.Controllers
                     var flightBook = await _flightBooking.GetById(int.Parse(BookingId));
                     payment.FlightBooking = flightBook;
                     payment.FlightBookingId = int.Parse(BookingId);
+                    payment.Amount = _flight.GetById(flightBook.FlightId).Result.TotalPrice;
                     return View("NewPayment", payment);
                 }
                 else if (type == "packageBooking")
                 {
                     payment.PackageBooking = await _packageBooking.GetById(int.Parse(BookingId));
                     payment.PackageBookingId = int.Parse(BookingId);
+                    var package = await _travelPAckage.GetById((int)payment.PackageBooking.PackageId);
+                    payment.Amount =(double) package.Price;
                     return View("NewPayment", payment);
                 }
                 else
@@ -216,6 +226,7 @@ namespace TravelGuide.Controllers
         }
 
         // GET: PaymentController/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult> Delete(int id)
         {
 			var payment = await _payment.GetById(id);
@@ -252,6 +263,7 @@ namespace TravelGuide.Controllers
         }
 
         // POST: PaymentController/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Delete(int id, Payment item)
