@@ -14,12 +14,17 @@
                         <h2>Locations</h2>
                         <p>Explore our curated list of travel destinations and plan your next journey.</p>
                         @* Create button for admins *@
-                        <div class="m-auto text-center">
-                            <a asp-action="Create" asp-controller="Location"
-                               style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px;">
-                                Create New Location
-                            </a>
-                        </div>
+                        @{
+                            if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                            {
+                                <div class="m-auto text-center">
+                                    <a asp-action="Create" asp-controller="Location"
+                                       style="display: inline-block; padding: 10px 25px; color: #fff; background-color: #fe5c24; text-transform: capitalize; margin-top: 10px;">
+                                        Create New Location
+                                    </a>
+                                </div>
+                            }
+                        }
                     </div>
                 </div>
             </div>
