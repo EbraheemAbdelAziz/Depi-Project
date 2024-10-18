@@ -6,6 +6,12 @@ The **Travel Guide** website is a comprehensive platform designed to streamline 
 
 Our primary goal is to create a smooth and efficient travel booking experience for users while ensuring that administrators can manage the platform easily.
 
+## Production
+
+You can access the **Travel Guide** website in its live production environment at the following link:  
+[Travel Guide Production Site](https://travelguide-e0bbcdfvcrhbakbv.canadacentral-01.azurewebsites.net/)
+
+
 ## Features
 
 1. **Browse Flights, Hotels, Rooms, and Packages**
