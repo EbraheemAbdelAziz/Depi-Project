@@ -20,10 +20,33 @@ namespace TravelGuide.Controllers
             _uploadFile = uploadFile;
         }
         // GET: RoomsController
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(string search)
         {
-            var hotel = await _hotel.GetAll(null, new[] { "Location" });
-            return View("HotelsList", hotel);
+            IEnumerable<Hotel> hotels;
+            if (search != null)
+            {
+                 hotels = await _hotel.GetAll(h=>h.HotelName.Contains(search) || h.Location.LocationName.Contains(search) , new[] { "Location" });
+                ViewBag.search = search;
+            }
+            else
+            {
+                 hotels = await _hotel.GetAll(null, new[] { "Location" });
+            }
+            return View("HotelsList", hotels);
+        }
+        public async Task<ActionResult> Search(string search)
+        {
+            IEnumerable<Hotel> hotels;
+            if (search != null)
+            {
+                 hotels = await _hotel.GetAll(h=>h.HotelName.ToLower().Contains(search.ToLower()) || h.Location.LocationName.ToLower().Contains(search.ToLower()), new[] { "Location" });
+                ViewBag.search = search;
+            }
+            else
+            {
+                 hotels = await _hotel.GetAll(null, new[] { "Location" });
+            }
+            return PartialView("_HotelsPartial", hotels);
         }
 
         // GET: RoomsController/Details/5

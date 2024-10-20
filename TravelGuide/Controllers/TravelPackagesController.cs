@@ -22,7 +22,8 @@ namespace TravelGuide.Controllers
 
         public async Task <ActionResult> Index()
         {
-            var travelPackage = await _TravelPackages.GetAll();
+
+            var travelPackage = await _TravelPackages.GetAll(null , new[] { "Destination" });
             return View("TravelPackageList",travelPackage);
         }
 
@@ -30,6 +31,7 @@ namespace TravelGuide.Controllers
         public async Task <ActionResult> Details(int id)
         {
             var travelPackage = await _TravelPackages.GetById(id);
+            travelPackage.Destination = await _location.GetById(travelPackage.DestinationId);
             return View("TravelPackageDetails", travelPackage);
         }
 

@@ -1584,3 +1584,5 @@ C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide\obj\Debug\net8.0\refint
 C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide\obj\Debug\net8.0\TravelGuide.pdb
 C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide\obj\Debug\net8.0\TravelGuide.genruntimeconfig.cache
 C:\Users\DELL 5480\Source\Repos\Depi-Project\TravelGuide\obj\Debug\net8.0\ref\TravelGuide.dll
+D:\Dot Net\Depi-Project\TravelGuide\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dot Net\Depi-Project\TravelGuide\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

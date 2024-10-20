@@ -27,53 +27,37 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center mb-3">
+                <label class="control-label">Search By Arival Airport or Airline Name or Location Name or Country</label>
 
+                <input type="text" id="livesearchtags" class="form-control" placeholder="Search in Flights" value="@ViewBag.searchaj" autocomplete="off" />
 
-            <div class="row justify-content-around">
-            @foreach (var item in Model)
-            {
+            </div>
 
-                <div class="col-lg-6 col-md-6 m-auto">
-                    <div class="single_place">
-                        <img src="@item.location.ImageUrl" alt="NoImage" width="100%">
-                        <div class="hover_Text d-flex align-items-end justify-content-between">
-                            <div class="hover_text_iner">
-                                <h3>@item.location.LocationName - @item.TotalPrice $</h3>
-                                <p>@item.location.Country</p>
-                                <p>@item.Airline, @item.ArivalAirport</p>
-                                    <p>Flight Time : @item.DepartureTime.ToShortDateString()</p>
-                                <p>Departure Time : @item.DepartureTime.TimeOfDay</p>
-                                <p>Arrival Time: @item.ArrivalTime.TimeOfDay</p>
-                                <div class="flex-column">
-                                    @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
-                                    {
-                                        <a class="place_btn" asp-action="Create" asp-controller="FlightBooking" asp-route-FlightId="@item.FlightId">Book</a>
-                                        <!-- Direct POST for adding to watchlist -->
-                                        
-                                    }
-                                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
-                                    {
-                                        <a class="place_btn" asp-action="Edit" asp-route-Id="@item.FlightId">Edit</a>
-                                        <a class="place_btn" asp-action="Delete" asp-route-Id="@item.FlightId">Delete</a>
-                                    }
-                                    <form asp-action="Create" asp-controller="WatchlistItem" method="post">
-                                        <input type="hidden" name="ItemID" value="@item.FlightId" />
-                                        <input type="hidden" name="ItemType" value="Flight" />
-                                        <input type="hidden" name="Image" value="@item.location.ImageUrl" />
-                                        <input type="hidden" name="Name" value="@item.location.LocationName" />
-                                        @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
-                                            <button type="submit" class="place_btn" style="border : none">Add to Watchlist</button>
-                                    </form>
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            }
+            <div class="row justify-content-around" id="FlightsCards">
+                <partial name="_FlightsCards" model="Model" />
             </div>
         </div>
     </section>
 
 </body>
+@section scripts {
+    <script>
+        $('#livesearchtags').on('keyup', function () {
+            LiveSearch();
+        })
+
+        function LiveSearch() {
+            let value = $('#livesearchtags').val();
+            $.ajax({
+                type:"Get",
+                url: '@Url.Action("Search", "Flight")',
+                data: { search: value },
+                datatype:"html",
+                success: function (data) {
+                    $('#FlightsCards').html(data);
+                }
+            })
+        }
+    </script>
+}

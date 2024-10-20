@@ -1,13 +1,13 @@
 ﻿@model TravelGuide.Entiteis.Models.RoomBooking
 
 @{
-    ViewData["Title"] = "New Room Booking";
+    ViewData["Title"] = "Confirm Room Booking";
     Layout = "_templateLayout";
 
 }
 <div class="row">
     <div class="col-12">
-        <h2 class="contact-title text-center m-5 text-italic">Confirm Flight Booking</h2>
+        <h2 class="contact-title text-center m-5 text-italic">Confirm Room Booking</h2>
     </div>
     <div class="col-lg-8 m-auto">
         <form class="form-contact contact_form" asp-action="Create" id="contactForm">
@@ -28,16 +28,13 @@
                     </div>
                 </div>
                 <div class="form-group mb-3 text-right">
-                    <button type="submit" value="create" class="button button-contactForm btn_1">Create</button>
+                    <button type="submit" value="create" class="button button-contactForm btn_1">Confirm</button>
                 </div>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

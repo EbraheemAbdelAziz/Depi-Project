@@ -32,18 +32,13 @@
             @foreach (var item in Model)
             {
 
-
-                @* var base64Image = Convert.ToBase64String(item.PackageImage);
-                var imageSrc = $"data:image/jpeg;base64,{base64Image}"; *@
-
-
                 <div class="col-lg-6 col-md-6 m-auto">
                     <div class="single_place">
                         <img src="@item.PackageImage" alt="NoImage" width="100%">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>@item.PackageName - @item.Price $</h3>
-                                <p>@item.Destination</p>
+                                <p>@item.Destination.LocationName</p>
                                 <p>@item.Description</p>
                                 <p>@item.Duration days for @item.MaxGuests Guests</p>
                                     <div class="place_review">

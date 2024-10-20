@@ -5,75 +5,92 @@
     Layout = "_templateLayout";
 }
 
-<h1>TravelPackageDetails</h1>
+<div class="row">
+    <div class="col-12">
+        <h2 class="contact-title text-center m-5 text-italic">Travel Package Details</h2>
+    </div>
+    <div class="col-lg-8 m-auto">
+        <div class="form-contact contact_form">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="HotelName">Package Name</label>
+                        <p class="form-control">@Model.PackageName</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Package Rating</label>
+                        <br />
+                        @for (int i = 0; i < @Model.Rating; i++)
+                        {
+                            <span><i class="fas fa-star" style="color: #fe5c24;"></i></span>
+                        }
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="PhoneNumber">Package Description</label>
+                        <p class="form-control">@Model.Description</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Destination</label>
+                        <p class="form-control">@Model.Destination.LocationName</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label >Package Price</label>
+                        <p class="form-control">@Model.Price</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Package Duration (In Days)</label>
+                        <p class="form-control">@Model.Duration</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Start Date</label>
+                        <p class="form-control">@Model.StartDate</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">End Date</label>
+                        <p class="form-control">@Model.EndDate</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="Rating">Max Guests</label>
+                        <p class="form-control">@Model.MaxGuests</p>
+                    </div>
+                </div>
+                <div class="m-auto">
+                    <div class="form-group mb-3 text-right">
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                        {
+                            <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Create" asp-controller="PackageBooking" asp-route-PackageId="@Model.PackageId">Book Now</a>
+                        }
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;"  asp-action="Edit" asp-route-Id="@Model.PackageId">Edit</a>
+                            <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Delete" asp-route-Id="@Model.PackageId">Delete</a>
+                        }
+                        <a class="btn text-white" style="padding: 10px 15px; background-color: #fe5c24; text-transform: capitalize; margin-top: 5px;" asp-action="Index" asp-controller="WatchlistItem">Cancel</a>
+                    </div>
+                </div>
+            </div>
 
-<div>
-    <h4>TravelPackage</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PackageName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PackageName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Destination)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Destination)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Duration)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Duration)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StartDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.StartDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EndDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EndDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MaxGuests)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MaxGuests)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Rating)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Rating)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PackageImage)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PackageImage)
-        </dd>
-    </dl>
+        </div>
+    </div>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.PackageId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -20,10 +20,30 @@ namespace TravelGuide.Controllers
         }
 
         // GET: FlightController
-        public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index(string search)
         {
-            var flights = await _flight.GetAll(null, new[] { "location" });
+            IEnumerable<Flight> flights;
+            if (search != null)
+            {
+                flights = await _flight.GetAll(h=> h.ArivalAirport.ToLower().Contains(search.ToLower()) || h.location.Country.ToLower().Contains(search.ToLower()) || h.location.LocationName.ToLower().Contains(search.ToLower()) || h.Airline.ToLower().Contains(search.ToLower()), new[] { "location" });
+            }
+            else
+            {
+                flights = await _flight.GetAll(null, new[] { "location" });
+            }
             return View("FlightsList", flights);
+        }public async Task<ActionResult> Search(string search)
+        {
+            IEnumerable<Flight> flights;
+            if (search != null)
+            {
+                flights = await _flight.GetAll(h => h.ArivalAirport.ToLower().Contains(search.ToLower()) || h.location.Country.ToLower().Contains(search.ToLower()) || h.location.LocationName.ToLower().Contains(search.ToLower()), new[] { "location" });
+            }
+            else
+            {
+                flights = await _flight.GetAll(null, new[] { "location" });
+            }
+            return PartialView("_FlightsCards", flights);
         }
 
         // GET: FlightController/Details/5
