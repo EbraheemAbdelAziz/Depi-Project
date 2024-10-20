@@ -1,0 +1,45 @@
+﻿@model IEnumerable<TravelGuide.Entiteis.Models.TravelPackage>
+
+@foreach (var item in Model)
+{
+
+    <div class="col-lg-6 col-md-6 m-auto">
+        <div class="single_place">
+            <img src="@item.PackageImage" alt="NoImage" width="100%">
+            <div class="hover_Text d-flex align-items-end justify-content-between">
+                <div class="hover_text_iner">
+                    <h3>@item.PackageName - @item.Price $</h3>
+                    <p>@item.Destination.LocationName</p>
+                    <p>@item.Description</p>
+                    <p>@item.Duration days for @item.MaxGuests Guests</p>
+                    <div class="place_review">
+                        @for (int i = 0; i < @item.Rating; i++)
+                        {
+                            <a href="#"><i class="fas fa-star"></i></a>
+                        }
+                    </div>
+                    <p>Starting from @item.StartDate.ToShortDateString() to @item.EndDate.ToShortDateString()</p>
+                    <div class="flex-column">
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("User"))
+                        {
+                            <a class="place_btn" asp-action="Create" asp-controller="PackageBooking" asp-route-PackageId="@item.PackageId">Book Now</a>
+                        }
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <a class="place_btn" asp-action="Edit" asp-route-Id="@item.PackageId">Edit</a>
+                            <a class="place_btn" asp-action="Delete" asp-route-Id="@item.PackageId">Delete</a>
+                        }
+                        <form asp-action="Create" asp-controller="WatchlistItem">
+                            <input type="hidden" name="ItemID" value="@item.PackageId" />
+                            <input type="hidden" name="ItemType" value="TravelPackages" />
+                            <input type="hidden" name="Image" value="@item.PackageImage" />
+                            <input type="hidden" name="Name" value="@item.PackageName" />
+                            @Html.AntiForgeryToken() <!-- To prevent CSRF attacks -->
+                            <button type="submit" class="place_btn" style="border : none">Add to Watchlist</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

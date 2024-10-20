@@ -20,11 +20,31 @@ namespace TravelGuide.Controllers
             _location = location;
         }
 
-        public async Task <ActionResult> Index()
+        public async Task <ActionResult> Index(string search)
         {
-
-            var travelPackage = await _TravelPackages.GetAll(null , new[] { "Destination" });
-            return View("TravelPackageList",travelPackage);
+            IEnumerable<TravelPackage> travelPackages;
+            if (search != null)
+            {
+                travelPackages = await _TravelPackages.GetAll(tb => tb.Destination.LocationName.ToLower().Contains(search.ToLower()) || tb.Destination.Country.ToLower().Contains(search.ToLower()) || tb.PackageName.ToLower().Contains(search.ToLower()), new[] { "Destination" });
+            }
+            else
+            {
+                travelPackages = await _TravelPackages.GetAll(null, new[] { "Destination" });
+            }
+            return View("TravelPackageList",travelPackages);
+        }
+        public async Task <ActionResult> Search(string search)
+        {
+            IEnumerable<TravelPackage> travelPackages;
+            if (search != null)
+            {
+                travelPackages = await _TravelPackages.GetAll(tb => tb.Destination.LocationName.ToLower().Contains(search.ToLower()) || tb.Destination.Country.ToLower().Contains(search.ToLower()) || tb.PackageName.ToLower().Contains(search.ToLower()), new[] { "Destination" });
+            }
+            else
+            {
+                travelPackages = await _TravelPackages.GetAll(null, new[] { "Destination" });
+            }
+            return PartialView("_TravelPackageCards", travelPackages);
         }
 
         // GET: TravelPackagesController/Details/5

@@ -36,8 +36,8 @@
                                     }
                                     @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                                     {
-                                        <a class="place_btn" asp-action="Edit" asp-route-Id="@item.PackageId">Edit</a>
-                                        <a class="place_btn" asp-action="Delete" asp-route-Id="@item.PackageId">Delete</a>
+                                        <a class="place_btn" asp-action="Edit" asp-controller="TravelPackages" asp-route-Id="@item.PackageId">Edit</a>
+                                        <a class="place_btn" asp-action="Delete" asp-controller="TravelPackages" asp-route-Id="@item.PackageId">Delete</a>
                                     }
                                     <form asp-action="Create" asp-controller="WatchlistItem">
                                         <input type="hidden" name="ItemID" value="@item.PackageId" />
