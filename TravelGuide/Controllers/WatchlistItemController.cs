@@ -24,13 +24,19 @@ namespace TravelGuide.Controllers
         // GET: WatchlistItemController
         public async Task<ActionResult> Index()
         {
-            var watchList = await _WatchlistItem.GetAll();
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
+            var watchList = await _WatchlistItem.GetAll(wl=>wl.UserId == currentUser.Id );
             return View("WatchlistList", watchList);
         }
 
         // GET: WatchlistItemController/Details/5
         public async Task<ActionResult> Details(int id)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account");
             var watchList = await _WatchlistItem.GetById(id);
             return View("WatchlistDetails", watchList);
         }

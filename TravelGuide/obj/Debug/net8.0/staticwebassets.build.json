@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XCQjywpXNrg9RTRWKhzdmmxCC3eikXl6idknQ2/fQfw=",
+  "Hash": "HPZnlTtzzJDtwa3IZq94sClym0HwJUd1ACN6KAxucwI=",
   "Source": "TravelGuide",
   "BasePath": "_content/TravelGuide",
   "Mode": "Default",
@@ -927,6 +927,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\TravelImage\\a49ce780-17e6-4ff2-af8f-f11945d8da64_ibrahim.jpg"
+    },
+    {
+      "Identity": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\b1b7a7e7-dae2-4a10-b76c-984f5e8a4558_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
+      "SourceId": "TravelGuide",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\",
+      "BasePath": "_content/TravelGuide",
+      "RelativePath": "Images/TravelImage/b1b7a7e7-dae2-4a10-b76c-984f5e8a4558_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\TravelImage\\b1b7a7e7-dae2-4a10-b76c-984f5e8a4558_0a7b6ebd-8b1c-49db-bdcf-8417b33ed5c3_single_place_2.png"
     },
     {
       "Identity": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\Images\\TravelImage\\c84964b5-a360-41ce-88d0-e0990a8ba832_me.png",
@@ -7026,6 +7045,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\template\\img\\ace41234-cf07-4cda-b5a0-0ed394f07e89_single_place_2.png"
+    },
+    {
+      "Identity": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\b4a8f44f-2d12-40e5-bc90-c567ef6572b8_df976fb0-6e5b-426b-9d51-801df0e4bbff_single_place_2.png",
+      "SourceId": "TravelGuide",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\",
+      "BasePath": "_content/TravelGuide",
+      "RelativePath": "template/img/b4a8f44f-2d12-40e5-bc90-c567ef6572b8_df976fb0-6e5b-426b-9d51-801df0e4bbff_single_place_2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\template\\img\\b4a8f44f-2d12-40e5-bc90-c567ef6572b8_df976fb0-6e5b-426b-9d51-801df0e4bbff_single_place_2.png"
     },
     {
       "Identity": "D:\\Dot Net\\Depi-Project\\TravelGuide\\wwwroot\\template\\img\\b694bd51-5be3-47bc-af1e-4e924553709b_single_place_1.png",
